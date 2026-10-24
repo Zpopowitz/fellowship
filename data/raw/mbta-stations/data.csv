@@ -1,0 +1,171 @@
+station,line,route
+Park Street,GREEN/RED,GREEN B C D E / RED A - Ashmont  B - Braintree  C - Alewife
+JFK/UMass,RED,A - Ashmont  B - Braintree  C - Alewife
+State,BLUE/ORANGE,BLUE Bowdoin to Wonderland / ORANGE Forest Hills to Oak Grove
+Roxbury Crossing,ORANGE,Forest Hills to Oak Grove
+Airport Terminal B2,SILVER,SL1
+Design Center,SILVER,SL2
+Lenox St,SILVER,SL4 SL5
+Massachusetts Ave,SILVER,SL4 SL5
+West Newton Street,SILVER,SL4 SL5
+Union Park Street,SILVER,SL4 SL5
+East Berkeley Street,SILVER,SL4 SL5
+Herald Street,SILVER,SL4 SL5
+Worcester Street,SILVER,SL4 SL5
+Melnea Cass Blvd,SILVER,SL4 SL5
+Tufts Medical Center,SILVER,SL4 SL5
+Tide St,SILVER,SL2
+Harbor St,SILVER,SL2
+Airport Terminal B1,SILVER,SL1
+Airport Terminal A,SILVER,SL1
+Airport Terminal C,SILVER,SL1
+Airport Terminal E,SILVER,SL1
+Silver Line Way,SILVER,SL1 SL2 SL3
+World Trade Center,SILVER,SL1 SL2 SL3
+Courthouse,SILVER,SL1 SL2 SL3
+South Station,SILVER,SL1 SL2 SL3
+88 Black Falcon Ave,SILVER,SL2
+23 Dry Dock Ave,SILVER,SL2
+27 Dry Dock Ave,SILVER,SL2
+Tremont St @ Boylston Station,SILVER,SL5
+Temple Pl @ Washington St,SILVER,SL5
+Chinatown Gate,SILVER,SL4
+Nubian,SILVER,SL4 SL5
+Essex St @ Atlantic Ave,SILVER,SL4
+Northern Ave,SILVER,SL2
+Melnea Cass Blvd,SILVER,SL4 SL5
+Lenox St,SILVER,SL4 SL5
+Massachusetts Ave,SILVER,SL4 SL5
+Worcester Street,SILVER,SL4 SL5
+West Newton Street,SILVER,SL4 SL5
+Union Park Street,SILVER,SL4 SL5
+East Berkeley Street,SILVER,SL4 SL5
+Herald Street,SILVER,SL4 SL5
+Hynes Convention Center,GREEN,B C D
+Blandford Street,GREEN,B - Boston College
+Boston University East,GREEN,B - Boston College
+Magoun Square,GREEN,E - Medford/Tufts
+Ball Square,GREEN,E - Medford/Tufts
+Union Square,GREEN,D - Union Square
+East Somerville,GREEN,E - Medford/Tufts
+Medford/Tufts,GREEN,E - Medford/Tufts
+Lechmere,GREEN,D E
+Gilman Square,GREEN,E - Medford/Tufts
+Tufts Medical Center,SILVER,SL4 SL5
+Black Falcon Ave,SILVER,SL2
+Assembly,ORANGE,Forest Hills to Oak Grove
+Ashmont,RED,A - Ashmont  C - Alewife
+Harvard,RED,A - Ashmont  B - Braintree  C - Alewife
+Kendall/MIT,RED,A - Ashmont  B - Braintree  C - Alewife
+Capen Street,RED,Mattapan Trolley
+Tufts Medical Center,ORANGE,Forest Hills to Oak Grove
+Waban,GREEN,D - Riverside
+Kenmore,GREEN,B C D
+Arlington,GREEN,B C D E
+Copley,GREEN,B C D E
+Boylston,GREEN,B C D E
+Chinatown,ORANGE,Forest Hills to Oak Grove
+Haymarket,GREEN/ORANGE,GREEN D E / ORANGE Forest Hills to Oak Grove
+North Station,GREEN/ORANGE,GREEN D E / ORANGE Forest Hills to Oak Grove
+Davis,RED,A - Ashmont  B - Braintree  C - Alewife
+South Station,RED,A - Ashmont  B - Braintree  C - Alewife
+Oak Grove,ORANGE,Forest Hills to Oak Grove
+Malden Center,ORANGE,Forest Hills to Oak Grove
+Wellington,ORANGE,Forest Hills to Oak Grove
+Sullivan Square,ORANGE,Forest Hills to Oak Grove
+Community College,ORANGE,Forest Hills to Oak Grove
+Science Park/West End,GREEN,D E
+Bowdoin,BLUE,Bowdoin to Wonderland
+Government Center,BLUE/GREEN,BLUE Bowdoin to Wonderland / GREEN B C D E
+Aquarium,BLUE,Bowdoin to Wonderland
+Maverick,BLUE,Bowdoin to Wonderland
+Airport,BLUE,Bowdoin to Wonderland
+Wood Island,BLUE,Bowdoin to Wonderland
+Orient Heights,BLUE,Bowdoin to Wonderland
+Suffolk Downs,BLUE,Bowdoin to Wonderland
+Beachmont,BLUE,Bowdoin to Wonderland
+Revere Beach,BLUE,Bowdoin to Wonderland
+Wonderland,BLUE,Bowdoin to Wonderland
+Alewife,RED,A - Ashmont  B - Braintree  C - Alewife
+Porter,RED,A - Ashmont  B - Braintree  C - Alewife
+Central,RED,A - Ashmont  B - Braintree  C - Alewife
+Charles/MGH,RED,A - Ashmont  B - Braintree  C - Alewife
+Broadway,RED,A - Ashmont  B - Braintree  C - Alewife
+Andrew,RED,A - Ashmont  B - Braintree  C - Alewife
+Savin Hill,RED,A - Ashmont  C - Alewife
+Fields Corner,RED,A - Ashmont  C - Alewife
+Shawmut,RED,A - Ashmont  C - Alewife
+Cedar Grove,RED,Mattapan Trolley
+Butler,RED,Mattapan Trolley
+Milton,RED,Mattapan Trolley
+Central Avenue,RED,Mattapan Trolley
+Valley Road,RED,Mattapan Trolley
+Mattapan,RED,Mattapan Trolley
+North Quincy,RED,B - Braintree  C - Alewife
+Wollaston,RED,B - Braintree  C - Alewife
+Quincy Center,RED,B - Braintree  C - Alewife
+Quincy Adams,RED,B - Braintree  C - Alewife
+Braintree,RED,B - Braintree  C - Alewife
+Forest Hills,ORANGE,Forest Hills to Oak Grove
+Green Street,ORANGE,Forest Hills to Oak Grove
+Stony Brook,ORANGE,Forest Hills to Oak Grove
+Jackson Square,ORANGE,Forest Hills to Oak Grove
+Ruggles,ORANGE,Forest Hills to Oak Grove
+Massachusetts Ave,ORANGE,Forest Hills to Oak Grove
+Back Bay,ORANGE,Forest Hills to Oak Grove
+Prudential,GREEN,E - Heath Street
+Symphony,GREEN,E - Heath Street
+Northeastern,GREEN,E - Heath Street
+Museum Of Fine Arts,GREEN,E - Heath Street
+Longwood Medical Area,GREEN,E - Heath Street
+Brigham Circle,GREEN,E - Heath Street
+Eastern Avenue,SILVER,SL3
+Box District,SILVER,SL3
+Bellingham Square,SILVER,SL3
+Chelsea,SILVER,SL3
+Airport,SILVER,SL3
+Fenwood Road,GREEN,E - Heath Street
+Mission Park,GREEN,E - Heath Street
+Riverway,GREEN,E - Heath Street
+Back Of The Hill,GREEN,E - Heath Street
+Heath Street,GREEN,E - Heath Street
+Boston University Central,GREEN,B - Boston College
+Amory Street,GREEN,B - Boston College
+Babcock Street,GREEN,B - Boston College
+Packards Corner,GREEN,B - Boston College
+Harvard Avenue,GREEN,B - Boston College
+Griggs Street,GREEN,B - Boston College
+Allston Street,GREEN,B - Boston College
+Warren Street,GREEN,B - Boston College
+Washington Street,GREEN,B - Boston College
+Sutherland Road,GREEN,B - Boston College
+Chiswick Road,GREEN,B - Boston College
+Chestnut Hill Avenue,GREEN,B - Boston College
+South Street,GREEN,B - Boston College
+Boston College,GREEN,B - Boston College
+Cleveland Circle,GREEN,C - Cleveland Circle
+Englewood Avenue,GREEN,C - Cleveland Circle
+Dean Road,GREEN,C - Cleveland Circle
+Tappan Street,GREEN,C - Cleveland Circle
+Washington Square,GREEN,C - Cleveland Circle
+Fairbanks Street,GREEN,C - Cleveland Circle
+Brandon Hall,GREEN,C - Cleveland Circle
+Summit Avenue,GREEN,C - Cleveland Circle
+Coolidge Corner,GREEN,C - Cleveland Circle
+Saint Paul Street,GREEN,C - Cleveland Circle
+Kent Street,GREEN,C - Cleveland Circle
+Hawes Street,GREEN,C - Cleveland Circle
+Saint Marys Street,GREEN,C - Cleveland Circle
+Fenway,GREEN,D - Riverside
+Longwood,GREEN,D - Riverside
+Brookline Village,GREEN,D - Riverside
+Brookline Hills,GREEN,D - Riverside
+Beaconsfield,GREEN,D - Riverside
+Reservoir,GREEN,D - Riverside
+Chestnut Hill,GREEN,D - Riverside
+Newton Centre,GREEN,D - Riverside
+Newton Highlands,GREEN,D - Riverside
+Eliot,GREEN,D - Riverside
+Woodland,GREEN,D - Riverside
+Riverside,GREEN,D - Riverside
+Downtown Crossing,ORANGE/RED,ORANGE Forest Hills to Oak Grove / RED A - Ashmont  B - Braintree  C - Alewife
