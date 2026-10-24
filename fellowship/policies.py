@@ -30,7 +30,51 @@ MODES: dict[str, np.ndarray] = {
     "balanced": RULE_WEIGHTS,
     # hazard-blind baseline: ignores the 3 hazard features (old behaviour)
     "blind": np.array([1.0, 0.5, 3.0, -0.5, 0.3, -1.0, 0.0, 0.0, 0.0]),
+
+    # ---- situation-specific models (different behaviour per environment) ----
+    # INDOOR (home/office/datacenter/factory): rooms are small and connect by
+    # narrow corridors, radio dies through walls, and a fire fills a room with
+    # one exit fast. So: don't over-spread (low crowding penalty), push HARD
+    # into frontiers to clear room-by-room, very fire-cautious, and penalise
+    # revisits strongly (backtracking in a corridor wastes the episode).
+    "indoor": np.array([1.2, 1.8, 3.2, -0.2, 0.9, -1.2, -7.0, -3.0, 2.5]),
+    # OUTDOOR / street (Boston, SAR): open grid, long sightlines, radio carries
+    # far. So: spread out aggressively (high crowding penalty), chase new area,
+    # fire-cautious but less cornered than indoors.
+    "outdoor": np.array([1.4, 0.6, 3.0, -1.1, 0.3, -1.0, -4.0, -2.5, 2.0]),
+    # FLOOD-dominant: water blocks whole runs of cells; frontier progress and
+    # rerouting matter more than danger-dodging (flood is static, not spreading).
+    "flood": np.array([1.2, 1.0, 3.2, -0.6, 0.4, -1.0, -2.0, -5.0, 2.2]),
 }
+
+# Which model fits which env map kind (used by situation_for / mode='auto').
+SITUATION_BY_KIND: dict[str, str] = {
+    "home": "indoor", "office": "indoor", "datacenter": "indoor", "factory": "indoor",
+    "boston": "outdoor", "sar": "outdoor", "mixed": "balanced",
+}
+
+
+def situation_for(kind: str) -> str:
+    """Name of the decision model that fits a given map kind."""
+    return SITUATION_BY_KIND.get(kind, "balanced")
+
+
+import json as _json
+import os as _os
+
+_WEIGHTS_DIR = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))),
+                             "results")
+
+
+def load_trained(situation: str) -> np.ndarray | None:
+    """Load a CEM-trained per-situation weight vector from
+    results/weights_<situation>.json, or None if it hasn't been trained yet."""
+    path = _os.path.join(_WEIGHTS_DIR, f"weights_{situation}.json")
+    if not _os.path.exists(path):
+        return None
+    data = _json.load(open(path))
+    w = np.asarray(data["weights"], dtype=np.float64)
+    return w
 
 
 def random_policy(features: np.ndarray, mask: np.ndarray, rng: np.random.Generator) -> int:
@@ -67,8 +111,13 @@ def mode_policy(mode: str):
     return linear_policy_factory(MODES[mode])
 
 
-def get_policy(name: str, weights: np.ndarray | None = None):
-    """Factory by name: 'random', 'rule', 'linear' (needs weights), or a mode name."""
+def get_policy(name: str, weights: np.ndarray | None = None, kind: str | None = None):
+    """Factory by name.
+
+    'random', 'rule', 'linear' (needs weights), a mode name (cautious /
+    aggressive / balanced / blind / indoor / outdoor / flood), or 'auto' to
+    pick the situation model that fits ``kind`` (e.g. kind='office' -> indoor).
+    """
     if name == "random":
         return random_policy
     if name == "rule":
@@ -77,6 +126,14 @@ def get_policy(name: str, weights: np.ndarray | None = None):
         if weights is None:
             raise ValueError("linear policy needs weights")
         return linear_policy_factory(weights)
+    if name == "auto":
+        return mode_policy(situation_for(kind or "mixed"))
+    if name == "trained":
+        sit = situation_for(kind or "mixed")
+        w = load_trained(sit)
+        if w is None:
+            return mode_policy(sit)  # fall back to hand-set model
+        return linear_policy_factory(w)
     if name in MODES:
         return mode_policy(name)
     raise ValueError(f"unknown policy: {name!r}")

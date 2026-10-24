@@ -7,15 +7,17 @@ from .env import SwarmEnv, agent_name
 
 
 def run_episode(policy, kind: str, seed: int, comm: int | None = None,
-                collect_frames: bool = False):
+                collect_frames: bool = False, **env_kwargs):
     """Run one episode; return (metrics, frames).
 
-    policy: (features[5,6], mask[5], rng) -> action.
+    policy: (features[5,N], mask[5], rng) -> action.
+    env_kwargs: forwarded to SwarmEnv (hazards, sensing, wind, n_fire_seeds, ...).
     frames: list of dicts for rendering (only if collect_frames).
     """
     kwargs = {"kind": kind, "seed": seed}
     if comm is not None:
         kwargs["comm"] = comm
+    kwargs.update(env_kwargs)
     env = SwarmEnv(**kwargs)
     obs, _ = env.reset(seed=seed)
     rng = np.random.default_rng(seed ^ 0x5DEECE66D & 0xFFFFFFFF)

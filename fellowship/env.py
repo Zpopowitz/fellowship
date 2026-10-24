@@ -326,6 +326,42 @@ class SwarmEnv(ParallelEnv):
             s += (self.t_steps - self.step_count) / self.t_steps
         return float(s)
 
+    def score_firefighter(self, w_rescue: float = 10.0, w_drone_loss: float = 1.0,
+                          w_abandon: float = 4.0, w_explore: float = 1.0) -> float:
+        """Firefighter risk-vs-reward objective: optimise for SAVING PEOPLE,
+        calibrated the way fire-service doctrine is ("risk a lot to save a
+        savable life; risk little for little; risk nothing for the lost").
+
+        reward = w_rescue * survivors_rescued            (saving people dominates)
+               + w_explore * explored_fraction           (find the unseen)
+               - w_drone_loss * drones_lost               (don't throw drones away...
+               - w_abandon * reachable_survivors_left_to_die  ...but losing a drone
+                                                           to reach a SAVABLE person
+                                                           costs far less than letting
+                                                           that person die)
+
+        A survivor "left to die" = not rescued AND their cell is on fire or
+        flooded at episode end (they were in danger and the swarm didn't reach
+        them in time). A survivor simply unreached on a safe cell is a miss, not
+        an abandonment, so it is not double-counted beyond the rescue term.
+        """
+        rescued = int(self.rescued.sum())
+        explored = self.explored_fraction()
+        lost = int(self.disabled.sum()) if self.hazards else 0
+        abandoned = 0
+        if self.hazards:
+            for sid, (sy, sx) in enumerate(self.survivor_cells):
+                if not self.rescued[sid] and (self.fire[sy, sx] or self.flood[sy, sx]):
+                    abandoned += 1
+        s = (w_rescue * rescued
+             + w_explore * explored
+             - w_drone_loss * lost
+             - w_abandon * abandoned)
+        # small time bonus for clearing everyone, like score()
+        if rescued == self.k_survivors:
+            s += (self.t_steps - self.step_count) / self.t_steps
+        return float(s)
+
     def episode_metrics(self) -> dict:
         m = {
             "rescued": int(self.rescued.sum()),
@@ -338,6 +374,12 @@ class SwarmEnv(ParallelEnv):
             m["disabled"] = int(self.disabled.sum())
             m["fire_cells"] = int(self.fire.sum())
             m["flood_cells"] = int(self.flood.sum())
+            abandoned = 0
+            for sid, (sy, sx) in enumerate(self.survivor_cells):
+                if not self.rescued[sid] and (self.fire[sy, sx] or self.flood[sy, sx]):
+                    abandoned += 1
+            m["abandoned"] = abandoned
+            m["firefighter_score"] = self.score_firefighter()
         return m
 
 
