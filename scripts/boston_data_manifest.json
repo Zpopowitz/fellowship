@@ -1,0 +1,142 @@
+[
+  {
+    "folder": "A1_street_segments_sam",
+    "file": "boston_street_segments_sam_system.geojson",
+    "url": "https://data.boston.gov/dataset/b9b8b634-f28a-410f-9727-b53d0d006308/resource/e850cfd2-2c6e-4af6-9ac4-e03019412d1e/download/boston_street_segments_sam_system.geojson",
+    "size": 22442575,
+    "sha256": "006c9a6794f05828332689a6081fb00ead4b9e485382cff3fbf6eed9a54ba617"
+  },
+  {
+    "folder": "A2_sidewalk_centerline",
+    "file": "sidewalk_centerline_geojson.zip",
+    "url": "https://data.boston.gov/dataset/67e1944c-b461-4ea6-8669-43969e8974ca/resource/a1720314-dd92-47ac-8bc4-7eaa4cadb77c/download/sidewalk_centerline_geojson.zip",
+    "size": 15389567,
+    "sha256": "10141ba8f7f06cb164594354c85aee033bb58f56f8d2a2979ec4ef226fe5b238"
+  },
+  {
+    "folder": "A3_pedestrian_ramps",
+    "file": "pedestrian_ramp_inventory.geojson",
+    "url": "https://data.boston.gov/dataset/6f4293b7-0189-4434-9342-fb600352d2ef/resource/e3faf098-1099-4eb2-98e9-ed17ff498476/download/pedestrian_ramp_inventory.geojson",
+    "size": 20156861,
+    "sha256": "bd536d78f31bc0f9e3a2802e7ee16ea8a5b7f9140751049c9cb06b74cf778eb3"
+  },
+  {
+    "folder": "A4_fire_hydrants",
+    "file": "fire_hydrants.geojson",
+    "url": "https://data.boston.gov/dataset/1f43041c-e2ff-4784-b537-3ecb7ceae066/resource/1ce1845b-ab8e-4a82-a297-b8b00083a4ca/download/fire_hydrants.geojson",
+    "size": 10728946,
+    "sha256": "684e26859dad2489f8ba4194e872a079ebe28a8578bab5f110f382b64a2c7a2a"
+  },
+  {
+    "folder": "A5_work_zones",
+    "file": "public_works_active_work_zones.csv",
+    "url": "https://data.boston.gov/dataset/f9f57091-92f3-463a-8f1c-93e46361296d/resource/36fcf981-e414-4891-93ea-f5905cec46fc/download/tmp79j9lhth.csv",
+    "size": 105451,
+    "sha256": "26b456a6b5857c8380b0d439978ba2fdb3eb2402c3b0bafad6331fca41d663e1"
+  },
+  {
+    "folder": "A6_snow_emergency_routes",
+    "file": "snow_emergency_routes.geojson",
+    "url": "https://data.boston.gov/dataset/cd2c0681-e1db-41a3-b7da-25449ec7eecb/resource/1b192b38-10b3-4a9b-bf16-cce8d1ff3baf/download/snow_emergency_routes.geojson",
+    "size": 1031216,
+    "sha256": "b70b3975470c0c923f3445d23a1ca94d8df74616e4576b478f3451062869aff8"
+  },
+  {
+    "folder": "B7_buildings_inventory",
+    "file": "building_inventory_021020.csv",
+    "url": "https://data.boston.gov/dataset/f2a82340-1f9c-49fb-a60b-b5655c9a7931/resource/391a32e6-d4bb-48d3-a990-cb35a5768a40/download/building_inventory_021020.csv",
+    "size": 47663162,
+    "sha256": "2624de61b83bf2b7454039785b77f38bfdb94a5ff65d3670c3ddbe1cf9773250"
+  },
+  {
+    "folder": "B7_buildings_inventory",
+    "file": "fields-definitions.csv",
+    "url": "https://data.boston.gov/dataset/f2a82340-1f9c-49fb-a60b-b5655c9a7931/resource/a57ac742-1175-40f7-9789-a9e68aad7de3/download/fields-definitions.csv",
+    "size": 17176,
+    "sha256": "56144c17c2875ef3d5c0d873bbe3f564959fe82878f48df6bccdd65205a657c8"
+  },
+  {
+    "folder": "C10_property_assessment",
+    "file": "fy2026-property-assessment-data_rev.csv",
+    "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/ee73430d-96c0-423e-ad21-c4cfb54c8961/download/fy2026-property-assessment-data_rev.csv",
+    "size": 80191023,
+    "sha256": "d0b656f516162c56a92782a255c731b967bd551b3e26cf412e080fdf041791fa"
+  },
+  {
+    "folder": "C10_property_assessment",
+    "file": "property-assessment-fy2026-data-key.pdf",
+    "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/440f72b7-bb2c-4c37-971f-c1097d155559/download/property-assessment-fy2026-data-key.pdf",
+    "size": 169774,
+    "sha256": "f62946109db73f54daa2e95272c6572ef93ccd0c04ce5f6e953c2684224f2ed2"
+  },
+  {
+    "folder": "C10_property_assessment",
+    "file": "propertyoccupancycodes.pdf",
+    "url": "https://data.boston.gov/dataset/e02c44d2-3c64-459c-8fe2-e1ce5f38a035/resource/d6c1268c-cd83-4dc3-a914-bba1ed59da6d/download/propertyoccupancycodes.pdf",
+    "size": 55727,
+    "sha256": "7ff079564b0d2f534cdc41d0697f8d87b3f16e0e8bfabefa53dd7c06f1edde9c"
+  },
+  {
+    "folder": "C11_building_permits",
+    "file": "approved_building_permits.csv",
+    "url": "https://data.boston.gov/dataset/cd1ec3ff-6ebf-4a65-af68-8329eceab740/resource/6ddcd912-32a0-43df-9908-63574f8c7e77/download/tmpn5gbpnpu.csv",
+    "size": 240265420,
+    "sha256": "b5052342974522e28b2afb74a35d0a132b6b6cdae78799d2acf540ab1759ee58"
+  },
+  {
+    "folder": "C11_building_permits",
+    "file": "isd_approved_building_permits_data_dictionary.pdf",
+    "url": "https://data.boston.gov/dataset/cd1ec3ff-6ebf-4a65-af68-8329eceab740/resource/65032067-580e-4167-9a5c-94fa8ac2d9a7/download/isd_approved_building_permits_data_dictionary.pdf",
+    "size": 122581,
+    "sha256": "0d97a1a8e6063fa9a9ca80b224a1fc0544a496d2948171951577e00416873502"
+  },
+  {
+    "folder": "C12_building_violations",
+    "file": "building_and_property_violations.csv",
+    "url": "https://data.boston.gov/dataset/705244a6-70a6-4ff8-ab8e-56441aff18e7/resource/800a2663-1d6a-46e7-9356-bedb70f5332c/download/tmpilpychd0.csv",
+    "size": 4105101,
+    "sha256": "efc4c2f92c0a00b8a2a193836c3cf1b219c3c0bad09d96214a14bc901db8ec74"
+  },
+  {
+    "folder": "D13_fire_incidents",
+    "file": "fire_incident_reporting.csv",
+    "url": "https://data.boston.gov/dataset/ac9e373a-1303-4563-b28e-29070229fdfe/resource/91a38b1f-8439-46df-ba47-a30c48845e06/download/tmpd2wnqzrg.csv",
+    "size": 88638650,
+    "sha256": "6939948bb2d57901fa19e8a578535901ef6d55acd981ca24aadc017b2650cd0b"
+  },
+  {
+    "folder": "D14_911_dispatch_counts",
+    "file": "911-daily-dispatch-count-by-agency.csv",
+    "url": "https://data.boston.gov/dataset/17129fad-fff9-4eac-ad74-51fb4bf63c22/resource/2459542e-7026-48e2-9128-ca29dd3bebf8/download/911-daily-dispatch-count-by-agency.csv",
+    "size": 50664,
+    "sha256": "85ba95b5ad83fcb96a5968e26d920601e9ed57ef269335a5cd104f6bf00f6694"
+  },
+  {
+    "folder": "B8_bostonplans_3d",
+    "file": "Bos3d_TileGrid.zip",
+    "url": "https://maps.bostonplans.org/3d/Bos3d_CityWide_Data/Bos3d_TileGrid.zip",
+    "size": 3828416,
+    "sha256": "c8dc7a0b9659ab90f260fcd1e01f19a77ba06653c3fbd3e867bca448abbd0a6c"
+  },
+  {
+    "folder": "B8_bostonplans_3d",
+    "file": "3D_Data_Documentation.pdf",
+    "url": "http://maps.bostonplans.org/3d/3D_Data_Documentation.pdf",
+    "size": 15990008,
+    "sha256": "fe35bcd0e2da5a647f54f23083e60d0e25abf74175009c4eba28ecd511a919f3"
+  },
+  {
+    "folder": "B9_massgis_structures",
+    "file": "structures_poly_35_HYPOTHESIS_boston.zip",
+    "url": "https://s3.us-east-1.amazonaws.com/download.massgis.digital.mass.gov/shapefiles/structures/structures_poly_35.zip",
+    "size": 25252275,
+    "sha256": "f5dea06b06951aeab864bc0e818596d682cd6013ee2c6b02648017398c7397d8"
+  },
+  {
+    "folder": "B9_massgis_structures",
+    "file": "massgis-structures-download-links.xls",
+    "url": "https://www.mass.gov/doc/massgis-structures-download-links/download",
+    "size": 381952,
+    "sha256": "c1a938f5b436edadbd0141e30cd2abf2d37640a4b4ab301f9472413ffe651992"
+  }
+]

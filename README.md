@@ -1,20 +1,156 @@
-# Fellowship
+# Fellowship Gym
 
 ![swarm](results/swarm.gif)
 
-A swarm of rescue robots with no leader, trained on real Boston streets and damaged buildings, learns to split up and find survivors.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Zpopowitz/fellowship/blob/main/demo.ipynb)
 
-## What it is
+**Search-and-rescue training environments built from real Boston streets and damaged buildings, plus a dataset, for training robot swarms without risking real robots.**
 
-Fellowship is a decentralized multi-robot search-and-rescue training environment. Robots start together, then spread out across a 48×48 grid cut from the real Boston street map or a procedurally damaged building (home, office, data center, factory) to find eight survivors before time runs out. There is no global map and no central planner: each robot knows only what it has sensed itself plus what reached it over radio from teammates within range, relayed through chains of robots. The world shifts mid-mission — aftershocks turn open cells into rubble — and every reported number comes from held-out maps the policy never trained on.
+## Why
 
-## The places it trains on
+Real-world robot data is slow to gather, expensive, and impossible to collect safely in a disaster — you cannot set a building on fire to see how a drone swarm behaves. Fellowship Gym is a fast grid-world stand-in: real places, spreading hazards, decentralized robots, and a ready-made dataset, so you can train and benchmark swarm policies on a laptop and only then take them near real hardware. (Hackachusetts Robotics, challenge R2: training environments of real places + data for physical-AI training.)
+
+## Quickstart
+
+```bash
+pip install git+https://github.com/Zpopowitz/fellowship
+```
+
+```python
+import fellowship
+from fellowship.benchmark import evaluate_policy
+
+env = fellowship.make_env(task="rescue", maps="buildings", seed=0)   # a PettingZoo ParallelEnv
+obs, _ = env.reset(seed=0)
+print(evaluate_policy(lambda f, m, rng: int(m.argmax()), task="rescue", maps="buildings", n_maps=10))
+```
+
+See [`examples/train_your_own.py`](examples/train_your_own.py) for a complete custom-policy benchmark in under 40 lines.
+
+## Tasks
+
+`fellowship.list_tasks()` × `fellowship.list_map_families()`:
+
+| Task | Goal | Hazards | Map families |
+|---|---|---|---|
+| `explore` | fraction of the map covered | none | streets_real, streets_grid, buildings |
+| `rescue` | survivors found (of 8) | none | streets_real, streets_grid, buildings |
+| `rescue_fire` | survivors found, drones kept | fire (spreads) | streets_real, streets_grid, buildings |
+| `rescue_flood` | survivors found | flood (blocks routes) | streets_real, streets_grid, buildings |
+
+Map families: **streets_real** = a georeferenced 71 m grid built from City of Boston data (`kind="sar"`); **streets_grid** = the Moving AI `Boston_0_256` grid (`kind="boston"`); **buildings** = procedurally damaged home / office / data-center / factory floorplans.
+
+## The places
 
 ![floorplans](results/floorplans_preview.png)
 
-Boston regions are random 48×48 crops of the Moving AI `Boston_0_256` grid. Buildings are generated procedurally and then damaged (rubble piles), keeping only the largest connected open area so every survivor is reachable.
+![boston hazard density](results/boston_hazard_density.png)
 
-## Results
+The buildings are generated and then damaged (rubble), keeping only the largest connected open area so every survivor is reachable. The Boston grid is a 256×256 street-occupancy map; the warm/cool overlay is **real** fire and flood density (4,281 Boston fire incidents, 26 flood events) geocoded onto it.
+
+## Dataset
+
+Full swarm trajectories for training physical-AI models, recorded on **training seeds only** (0–3999; the benchmark maps at 5000+ are never recorded). Two policies drive it (`rule`, `trained`), across every task × map family.
+
+- `dataset/sample/steps.parquet` — one row per robot per step: position, action, the 9-feature vector, legal-action mask, rescues so far, drone-lost flag.
+- `dataset/sample/episodes.parquet` — one row per episode: rescued, explored, steps, drones lost, survivors left in hazards.
+- `dataset/sample/maps/` — the 240 floorplans, the Boston grid, and the fire/flood density layers.
+
+A 5-episode-per-combination **sample** (120 episodes, ~1.7 MB) is committed. Regenerate the full export with `python scripts/export_dataset.py`. Full card: [`dataset/README.md`](dataset/README.md).
+
+## Baselines
+
+![rescue under fire](results/demo.gif)
+
+*Random / rule / trained swarms on the same office floorplan with fire spreading — the fire disables drones faster than any current baseline adapts.*
+
+<!-- HAZARDS:BEGIN -->
+24 held-out maps per situation (seeds 5000+), the same maps and seeds for every policy. Mean ± std. Rescued of 8, drones lost of 4. 'Abandoned' = survivors left in fire or flood at the end. 'Burned' = fraction of open cells on fire at episode end.
+
+## indoor
+
+| Policy | Rescued /8 | Drones lost /4 | Abandoned | Firefighter score | Burned % |
+|---|---|---|---|---|---|
+| random | 0.6 ± 0.7 | 0.3 ± 0.9 | 1.8 ± 1.2 | -1.0 ± 10.4 | 12 ± 4 |
+| blind | 4.4 ± 1.8 | 2.3 ± 1.2 | 1.2 ± 1.0 | 37.6 ± 18.6 | 11 ± 4 |
+| rule | 4.5 ± 1.8 | 1.9 ± 1.3 | 1.4 ± 1.1 | 37.7 ± 20.2 | 12 ± 4 |
+| hand-set (indoor) | 4.2 ± 1.6 | 2.0 ± 1.4 | 1.2 ± 1.1 | 36.4 ± 17.9 | 11 ± 4 |
+| trained | 4.2 ± 2.0 | 2.0 ± 1.4 | 1.4 ± 1.1 | 34.7 ± 20.8 | 11 ± 4 |
+
+## outdoor
+
+| Policy | Rescued /8 | Drones lost /4 | Abandoned | Firefighter score | Burned % |
+|---|---|---|---|---|---|
+| random | 0.5 ± 0.6 | 1.0 ± 1.4 | 2.0 ± 1.8 | -4.0 ± 9.9 | 21 ± 11 |
+| blind | 6.0 ± 2.1 | 2.6 ± 1.3 | 0.9 ± 1.3 | 54.2 ± 25.6 | 19 ± 11 |
+| rule | 5.2 ± 2.0 | 2.4 ± 1.3 | 1.3 ± 1.5 | 45.6 ± 24.4 | 19 ± 11 |
+| hand-set (outdoor) | 5.5 ± 2.1 | 2.1 ± 1.4 | 1.2 ± 1.6 | 48.4 ± 26.3 | 20 ± 11 |
+| trained | 5.1 ± 2.2 | 2.0 ± 1.4 | 1.2 ± 1.5 | 44.9 ± 26.4 | 20 ± 11 |
+
+## flood
+
+| Policy | Rescued /8 | Drones lost /4 | Abandoned | Firefighter score | Burned % |
+|---|---|---|---|---|---|
+| random | 0.8 ± 1.4 | 0.9 ± 1.2 | 2.2 ± 1.5 | -1.9 ± 14.9 | 20 ± 7 |
+| blind | 5.5 ± 2.3 | 2.2 ± 1.5 | 1.0 ± 1.2 | 49.9 ± 27.2 | 15 ± 8 |
+| rule | 5.2 ± 2.6 | 2.1 ± 1.4 | 1.1 ± 1.1 | 46.6 ± 29.1 | 15 ± 8 |
+| hand-set (flood) | 5.4 ± 2.5 | 2.0 ± 1.6 | 1.1 ± 1.1 | 48.1 ± 28.7 | 15 ± 7 |
+| trained | 5.2 ± 2.4 | 1.9 ± 1.6 | 1.0 ± 1.1 | 46.7 ± 26.9 | 16 ± 8 |
+<!-- HAZARDS:END -->
+
+Full tables per task: [`LEADERBOARD.md`](LEADERBOARD.md) (12 held-out maps per task × map family, seeds 5000+). The headline, all from held-out maps:
+
+- **Coordination is the whole game.** A random swarm rescues ~0.6 of 8; a coordinated swarm (rule or trained) rescues ~6–7 on clear maps. Decentralized map-sharing and spreading out is what gets survivors out.
+- **Training ≈ hand-tuning.** The CEM-trained policy is within noise of the hand-tuned rule (e.g. streets_real rescue 7.4 vs 7.2; buildings 6.2 vs 6.2). The hand weights were already near-optimal; training confirms rather than beats them.
+- **The hazard tasks are unsolved.** Under fire or flood, *every* baseline loses 2–3 of its 4 drones and still leaves ~1–2 survivors in the hazard. Safe rescue under spreading fire is the open challenge this gym exists to measure — the sensors (thermal IR, drifting smoke), known-fire avoidance and fresh-fire re-sensing are all in the environment; what is missing is a policy that uses them well.
+
+## What the swarm learned
+
+![weights](results/weights.png)
+
+The learned weights push **away from crowding** (robots spread out) and **away from fire** once hazards are on. The decision model scores each of 5 moves on 9 features — new area, frontier progress, survivor progress, crowding, revisits, stay, fire danger, flood danger, survivor urgency — under a **firefighter objective**: a rescue is worth 10, a lost drone costs 1, a survivor left in fire costs 4. That trades drones for lives on purpose, the way fire-service doctrine does.
+
+## How to run
+
+```bash
+pip install -r requirements.txt
+python -m demo                      # one 3-panel hazard episode -> results/demo.gif (<60s, no training)
+python -m train                     # cross-entropy training (base rescue policy)
+python -m train_situations          # per-situation models (indoor/outdoor/flood, firefighter objective)
+python -m evaluate                  # held-out basic results -> results/results.md
+python -m evaluate_hazards          # held-out hazard results -> results/hazards.md
+python scripts/run_baselines.py     # LEADERBOARD.md
+python scripts/export_dataset.py    # dataset/ (training seeds)
+python -m render                    # GIFs
+pytest -q                           # 62 tests
+python pipeline/build.py            # rebuild data/processed/ (needs scripts/download_boston_data.py first)
+```
+
+## How Kiro was used
+
+- **Steering** (`.kiro/steering/`): three docs pinning product goals, tech constraints, and file layout — including the rule that every reported number comes from held-out seeds.
+- **Specs** (`.kiro/specs/`): the original build spec plus a second spec for the hazards/SAR/dataset work.
+- **Hooks** (`.kiro/hooks/fellowship-hooks.json`): one v1-format file — tests-on-save, floorplan-preview regen, smoke training, README sync, and an agent steering-check that enforces the held-out-numbers rule.
+- **Property tests** (hypothesis): 62 tests; the bugs they caught (gas-plume direction, stale-fire decisions, disabled-drone relaying, reachability) are logged in [`docs/kiro_log.md`](docs/kiro_log.md).
+- **MCP** ([`.kiro/settings/mcp.json`](.kiro/settings/mcp.json)): `fetch` to check the env against the official PettingZoo ParallelEnv contract; `github` to publish and manage the repo.
+
+## Team
+
+- **Zachary Popowitz** — gym, environment, policies, training, benchmark.
+- **Aaron** — data pipeline.
+- **Decio** — raw Boston SAR data.
+
+(Full names to be confirmed by the team.)
+
+## Limits
+
+- Grid world, not real physics; 71 m cells; survivors placed at random (or biased toward real fire density on `sar` maps).
+- **Rescue status is global**: a robot's "rescued so far" reflects team rescues even for survivors found out of its radio range. Everything else (maps, hazards, sightings) obeys radio range; this one counter does not yet.
+- Fire is geocoded only to ZIP centroid; flood only to county.
+- The Moving AI `streets_grid` is **not** georeferenced — the pipeline found chance-level overlap with the real street network — which is why the georeferenced `streets_real` maps exist.
+- Floorplans are procedural, not scanned buildings.
+
+## Results (basic, non-hazard)
 
 <!-- RESULTS:BEGIN -->
 All numbers are from **held-out maps** (eval seeds ≥ 5000), never used in training. 20 maps per kind, 100 total, same maps and seeds for every policy.
@@ -46,45 +182,9 @@ All numbers are from **held-out maps** (eval seeds ≥ 5000), never used in trai
 | 100 | 6.33 ± 1.48 | 76.4 |
 <!-- RESULTS:END -->
 
-A random swarm rescues almost no one (0.34/8). A coordinated one rescues ~6/8 and explores ~77% of the map. The hand-tuned rule and the trained policy land close together — the cross-entropy method confirms the baseline was already near-optimal for these six features, rather than beating it by a wide margin. That is an honest result, not a tuned-up one.
+## Data credits and license
 
-## What the swarm learned
-
-![weights](results/weights.png)
-
-Training from scratch drove the **crowding** weight sharply negative — more negative than the hand-tuned rule. The robots learn to actively avoid piling onto the same cells, which is how a leaderless swarm covers more ground: spread out, don't bunch up. It also learned a strong negative **stay** weight (keep moving) and a higher **frontier** weight (push toward the edge of the known).
-
-## Communication matters
-
-The ablation re-runs the best policy at radio range COMM = 3, 10 and 100 (`results/comms.png`). Rescues rise with range (5.69 → 5.87 → 6.33 of 8): robots that can relay what they've seen to more teammates find survivors faster.
-
-## How to run
-
-```bash
-pip install -r requirements.txt
-python -m train      # CEM training: scratch + warm-start -> results/weights_*.json
-python -m evaluate   # held-out tables + comms ablation -> results/results.md
-python -m render     # swarm GIFs + weights chart -> results/
-pytest -q            # property tests + PettingZoo API test
-```
-
-One 160-step, 4-robot, 48×48 episode runs in well under a second on a laptop CPU; training uses multiprocessing over candidate weights.
-
-## How Kiro was used
-
-- **Steering docs** (`.kiro/steering/product.md`, `tech.md`, `structure.md`) pinned the goals, the tech constraints (PettingZoo ParallelEnv, numpy BFS, determinism), and the file layout.
-- **Spec** (`.kiro/specs/fellowship/`) — requirements, design, and a task list that drove the build end to end.
-- **Property tests** (`tests/`, hypothesis) encode the environment's invariants; the bugs they caught and their fixes are in [`docs/kiro_log.md`](docs/kiro_log.md).
-- **Agent hooks** (`.kiro/hooks/`) re-run the API + property tests when a module is saved, regenerate the floorplan preview on `floorplans.py` save, smoke-train on `train.py` save, and re-sync this README's results section when `results/results.md` changes.
-- **MCP**: the fetch MCP was used to read the PettingZoo ParallelEnv docs and check the env against them (`parallel_api_test` passes); the GitHub MCP is the path for commits once credentials are configured. See [`docs/kiro_log.md`](docs/kiro_log.md).
-
-## Limits
-
-- **Grid world, not physics.** Robots occupy cells and move in four directions; no dynamics, sensors noise, or collisions beyond "can't enter a wall."
-- **Survivors are placed at random** on open cells, not from any real casualty model.
-- **Floorplans are procedural**, not scans of real buildings. Boston is the real Moving AI grid, but at a coarse 48×48 crop scale — blocks, not rooms.
-- Results are averages over 100 held-out maps with the spread (std) shown; they are not a claim about real robots.
-
-## Data credits
-
-Boston grid: Moving AI `Boston_0_256` benchmark. Sturtevant, "Benchmarks for Grid-Based Pathfinding," *IEEE Transactions on Computational Intelligence and AI in Games*, 2012. Check the source license before republishing the data.
+- **Code & dataset:** MIT — see [`LICENSE`](LICENSE).
+- **City of Boston open data** (streets, fire incidents, hydrants): PDDL — see [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
+- **Moving AI `Boston_0_256` grid:** Sturtevant, "Benchmarks for Grid-Based Pathfinding", IEEE TCIAIG 2012.
+- **MBTA data:** under MBTA licensing terms.

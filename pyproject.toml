@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fellowship-gym"
+version = "0.1.0"
+description = "Search-and-rescue training environments built from real Boston streets and damaged buildings, plus a dataset, for training robot swarms."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Zachary Popowitz"}]
+keywords = ["reinforcement-learning", "multi-agent", "pettingzoo", "search-and-rescue", "robotics", "swarm"]
+dependencies = [
+    "numpy>=1.26,<3",
+    "scipy>=1.11",
+    "pettingzoo>=1.24",
+    "gymnasium>=0.29",
+    "matplotlib>=3.8",
+    "pillow>=10.0",
+    "pandas>=2.0",
+    "pyarrow>=14.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+
+[project.urls]
+Homepage = "https://github.com/Zpopowitz/fellowship"
+
+[tool.setuptools]
+# The importable package is `fellowship`; `pipeline` is a build-time tool, not shipped.
+packages = ["fellowship"]

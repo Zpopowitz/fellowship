@@ -35,19 +35,19 @@ from fellowship.rollout import run_episode
 RESULTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
 
 SITUATION_LAYOUTS = {
-    "indoor": [("home", [0, 1]), ("office", [0, 1]),
-               ("datacenter", [0, 1]), ("factory", [0, 1])],
+    "indoor": [("home", [0, 1, 2]), ("office", [0, 1, 2]),
+               ("datacenter", [0, 1, 2]), ("factory", [0, 1, 2])],
     "outdoor": [("sar", [0, 1, 2, 3, 4, 5])],
     "flood": [("sar", [10, 11, 12, 13, 14, 15])],
 }
 
 SITUATION_ENV = {
     "indoor": dict(hazards=True, sensing="ir_gas", n_fire_seeds=2, flood_frac=0.0,
-                   fire_spread_p=0.08),
+                   fire_spread_p=0.04),
     "outdoor": dict(hazards=True, sensing="ir_gas", n_fire_seeds=3, flood_frac=0.03,
-                    fire_spread_p=0.08),
+                    fire_spread_p=0.04),
     "flood": dict(hazards=True, sensing="ir_gas", n_fire_seeds=1, flood_frac=0.12,
-                  fire_spread_p=0.06),
+                  fire_spread_p=0.04),
 }
 
 WARM_START = {"indoor": "indoor", "outdoor": "outdoor", "flood": "flood"}
@@ -90,7 +90,10 @@ def cem(situation, mean, std, n_iters, log_lines):
             best_s, best_w = it_best, cands[int(np.argmax(scores))].copy()
         line = f"[{situation}] iter {it:2d} best {it_best:.2f} mean {it_mean:.2f}"
         print(line, flush=True); log_lines.append(line)
-    return best_w, best_curve, mean_curve
+    # The CEM MEAN is the model we keep: it is the distribution centre, not the
+    # single luckiest sample (whose score is mostly selection noise over few
+    # episodes). best_w is returned too, only for reference.
+    return mean, best_w, best_curve, mean_curve
 
 
 def learning_curve_png(curves, path):
@@ -116,13 +119,15 @@ def main(n_iters=N_ITERS, situations=None):
         warm = policies.MODES[WARM_START[situation]].copy()
         std = np.full(len(warm), 0.8)
         t = time.time()
-        w, b, m = cem(situation, warm, std, n_iters, log_lines)
+        mean_w, best_w, b, m = cem(situation, warm, std, n_iters, log_lines)
         dt = time.time() - t
-        json.dump({"situation": situation, "weights": w.tolist(),
-                   "objective": "firefighter", "trained_s": round(dt, 1)},
+        json.dump({"situation": situation, "weights": mean_w.tolist(),
+                   "best_sample_weights": best_w.tolist(),
+                   "objective": "firefighter", "saved": "cem_mean",
+                   "trained_s": round(dt, 1)},
                   open(os.path.join(RESULTS, f"weights_{situation}.json"), "w"), indent=2)
-        curves[situation] = (b, m); out[situation] = w
-        print(f"[{situation}] done in {dt:.1f}s  weights={w.round(2).tolist()}", flush=True)
+        curves[situation] = (b, m); out[situation] = mean_w
+        print(f"[{situation}] done in {dt:.1f}s  mean_weights={mean_w.round(2).tolist()}", flush=True)
     learning_curve_png(curves, os.path.join(RESULTS, "situation_curves.png"))
     with open(os.path.join(RESULTS, "train_situations_log.txt"), "w") as f:
         f.write("\n".join(log_lines) + "\n")

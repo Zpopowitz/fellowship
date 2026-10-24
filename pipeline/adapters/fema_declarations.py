@@ -29,7 +29,7 @@ NAME = "fema-declarations"
 KIND = "events"
 
 # This dataset was moved to _excluded/ by the original pipeline; read it there.
-SOURCE = RAW / "_excluded" / "fema" / "data.csv"
+SOURCE = RAW / "fema" / "data.csv"
 
 # incident type -> flood category + severity (1-5). Everything else is dropped.
 WATER_TYPES: dict[str, tuple[str, int]] = {

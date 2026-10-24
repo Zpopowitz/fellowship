@@ -10,10 +10,18 @@ def _cheby(a: tuple[int, int], b: tuple[int, int]) -> int:
     return max(abs(a[0] - b[0]), abs(a[1] - b[1]))
 
 
-def link_components(positions: list[tuple[int, int]], comm: int = COMM) -> list[list[int]]:
-    """Connected components of robots within Chebyshev `comm` (links chain)."""
+def link_components(positions: list[tuple[int, int]], comm: int = COMM,
+                    active: list[bool] | np.ndarray | None = None) -> list[list[int]]:
+    """Connected components of robots within Chebyshev `comm` (links chain).
+
+    ``active`` (optional) marks which robots can relay: a robot with active[i]
+    False (e.g. disabled by fire) links to no one and comes back as its own
+    singleton group, so a dead drone neither relays maps nor adds to crowding.
+    """
     n = len(positions)
     parent = list(range(n))
+    if active is None:
+        active = [True] * n
 
     def find(i):
         while parent[i] != i:
@@ -27,7 +35,11 @@ def link_components(positions: list[tuple[int, int]], comm: int = COMM) -> list[
             parent[ri] = rj
 
     for i in range(n):
+        if not active[i]:
+            continue
         for j in range(i + 1, n):
+            if not active[j]:
+                continue
             if _cheby(positions[i], positions[j]) <= comm:
                 union(i, j)
 

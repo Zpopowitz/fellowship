@@ -51,6 +51,12 @@ def _to_int_usd(s: pd.Series) -> pd.Series:
 
 def run() -> Result:
     res = Result(NAME, KIND, rows_in=0, severity_rule=SEVERITY_RULE)
+    if not SOURCE.exists():
+        raise FileNotFoundError(
+            f"Raw fire data not found at {SOURCE}. The ~575 MB of raw Boston source "
+            "files are not committed to the repo; re-download them first with:\n"
+            "    python scripts/download_boston_data.py --only D13_fire_incidents\n"
+            "(data/processed/ is already committed, so the gym runs without this.)")
     centroids = zip_centroids()
 
     kept_chunks: list[pd.DataFrame] = []

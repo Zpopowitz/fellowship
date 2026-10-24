@@ -37,7 +37,7 @@ class SwarmEnv(ParallelEnv):
     def __init__(self, kind: str = "mixed", seed: int | None = None,
                  n_robots: int = N_ROBOTS, k_survivors: int = K_SURVIVORS,
                  t_steps: int = T_STEPS, comm: int = COMM,
-                 hazards: bool = False, fire_spread_p: float = 0.15,
+                 hazards: bool = False, fire_spread_p: float = 0.04,
                  n_fire_seeds: int = 1, flood_frac: float = 0.05,
                  sensing: str = "local", wind: tuple = (0, 0)):
         self.kind = kind
@@ -155,6 +155,8 @@ class SwarmEnv(ParallelEnv):
 
     # ---------------------------------------------------------------- sensing
     def _sense(self, i: int):
+        if self.hazards and self.disabled[i]:
+            return  # a drone lost to fire no longer senses
         y, x = self.positions[i]
         y0, y1 = max(0, y - VIEW), min(self.H, y + VIEW + 1)
         x0, x1 = max(0, x - VIEW), min(self.W, x + VIEW + 1)
@@ -187,7 +189,7 @@ class SwarmEnv(ParallelEnv):
 
     # ---------------------------------------------------------------- comms
     def _communicate(self):
-        groups = comms.link_components(self.positions, self.comm)
+        groups = comms.link_components(self.positions, self.comm, active=self._active())
         for g in groups:
             if len(g) <= 1:
                 continue
@@ -214,7 +216,7 @@ class SwarmEnv(ParallelEnv):
     def _obs_for(self, i: int):
         teammates = [self.positions[j] for j in range(self.n_robots) if j != i]
         # only teammates currently linked contribute to crowding
-        groups = comms.link_components(self.positions, self.comm)
+        groups = comms.link_components(self.positions, self.comm, active=self._active())
         my_group = next(g for g in groups if i in g)
         linked = [self.positions[j] for j in my_group if j != i]
         fire_danger = flood_danger = None
@@ -227,7 +229,9 @@ class SwarmEnv(ParallelEnv):
         feats, mask = features.compute_features(
             self.known[i], self.positions[i], linked,
             self._survivors_known_for(i), self.visits[i],
-            fire_danger=fire_danger, flood_danger=flood_danger)
+            fire_danger=fire_danger, flood_danger=flood_danger,
+            known_fire=(self.known_fire[i] if self.hazards else None),
+            known_flood=(self.known_flood[i] if self.hazards else None))
         return {"features": feats, "mask": mask.astype(np.int8)}
 
     def _all_obs(self):
@@ -273,6 +277,13 @@ class SwarmEnv(ParallelEnv):
             for i in range(self.n_robots):
                 if not self.disabled[i] and self.fire[self.positions[i]]:
                     self.disabled[i] = True
+            # 3c: fire moved AFTER the first sense this step, so re-sense every
+            # still-active drone and re-share, so the observation the policy sees
+            # includes the cells that just caught fire (otherwise it decides on
+            # stale fire and walks into a freshly-burning cell).
+            for i in range(self.n_robots):
+                self._sense(i)
+            self._communicate()
         if self.step_count % AFTERSHOCK_EVERY == 0:
             self._aftershock()
 
@@ -288,7 +299,15 @@ class SwarmEnv(ParallelEnv):
             self.agents = []
         return obs, rewards, terminations, truncations, infos
 
+    def _active(self):
+        """Per-robot liveness for comms: a disabled drone relays nothing."""
+        if not self.hazards:
+            return [True] * self.n_robots
+        return [not bool(self.disabled[i]) for i in range(self.n_robots)]
+
     def _rescue(self, i: int):
+        if self.hazards and self.disabled[i]:
+            return  # a disabled drone cannot rescue
         pos = self.positions[i]
         for sid, cell in enumerate(self.survivor_cells):
             if not self.rescued[sid] and cell == pos:

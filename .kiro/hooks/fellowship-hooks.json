@@ -1,0 +1,52 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Tests on save",
+      "description": "Run the test suite whenever any fellowship/ module is saved.",
+      "trigger": "PostFileSave",
+      "matcher": "fellowship/.*\\.py$",
+      "action": {"type": "command", "command": "python -m pytest -q"},
+      "timeout": 180,
+      "enabled": true
+    },
+    {
+      "name": "Floorplan preview",
+      "description": "Regenerate the floorplan preview and run the floorplan tests when the generator changes.",
+      "trigger": "PostFileSave",
+      "matcher": "fellowship/floorplans\\.py$",
+      "action": {"type": "command", "command": "python -c \"from fellowship import floorplans; floorplans.floorplans_preview('results/floorplans_preview.png')\" && python -m pytest -q tests/test_floorplans.py"},
+      "timeout": 180,
+      "enabled": true
+    },
+    {
+      "name": "Smoke training",
+      "description": "Run a one-iteration smoke train when a training script changes.",
+      "trigger": "PostFileSave",
+      "matcher": "train(_situations)?\\.py$",
+      "action": {"type": "command", "command": "python -m train --smoke"},
+      "timeout": 300,
+      "enabled": true
+    },
+    {
+      "name": "README sync",
+      "description": "Sync the README results block when a results file changes.",
+      "trigger": "PostFileSave",
+      "matcher": "results/(results|hazards)\\.md$",
+      "action": {"type": "command", "command": "python scripts/sync_readme_results.py"},
+      "timeout": 120,
+      "enabled": true
+    },
+    {
+      "name": "Steering check",
+      "description": "Check a fellowship/ change against the product steering doc: any new reported number must come from held-out seeds (>=5000) and state episode count and std.",
+      "trigger": "PostFileSave",
+      "matcher": "fellowship/.*\\.py$",
+      "action": {
+        "type": "agent",
+        "prompt": "A file under fellowship/ was just saved. Read .kiro/steering/product.md. If this change adds or alters any reported performance number (rescued, explored, drones lost, firefighter score, burned fraction), verify that number was produced from held-out seeds (5000 and up), never training seeds, and that it is reported with the number of episodes and the standard deviation. If a number violates this, flag exactly which one and why. If the change reports no numbers, say so and do nothing else."
+      },
+      "enabled": true
+    }
+  ]
+}
