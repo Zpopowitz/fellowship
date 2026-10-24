@@ -138,7 +138,7 @@ python pipeline/build.py            # rebuild data/processed/ (needs scripts/dow
 
 - **Zachary Popowitz** — gym, environment, policies, training, benchmark.
 - **Aaron** — data pipeline.
-- **Decio** — raw Boston SAR data.
+- **Décio Alves Barreto Neto** — raw Boston SAR data.
 
 (Full names to be confirmed by the team.)
 
