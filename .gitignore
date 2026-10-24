@@ -5,3 +5,4 @@ __pycache__/
 .hypothesis/
 scratch_robotics/
 results/_eval_meta.json
+.kiro/settings/*.lock

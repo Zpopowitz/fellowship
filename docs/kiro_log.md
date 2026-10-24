@@ -11,8 +11,9 @@ How Kiro was used, bugs caught by tests, and how they were fixed.
 Note on hook firing: the hooks run inside the Kiro editor's hook runtime (`PostFileSave`), not from this CLI session, so a fire cannot be observed from here. The JSON is validated and matches the documented v1 format; confirm a live fire by saving a `fellowship/*.py` file in the Kiro editor and watching the test hook run.
 
 ## MCP
-- **Fetch**: read the official PettingZoo Parallel API docs (https://pettingzoo.farama.org/api/parallel/) and checked `env.py` against the documented contract — `reset(seed, options) -> (obs, infos)`, `step(actions) -> (obs, rewards, terminations, truncations, infos)`, per-agent `observation_space`/`action_space`, and the `agents`/`possible_agents` lifecycle. `pettingzoo.test.parallel_api_test` is the automated confirmation and passes.
-- **GitHub**: commits go through the GitHub MCP once repo credentials are configured. (Not auto-pushed during this build; the project lives locally until the user chooses to push.)
+Config: `.kiro/settings/mcp.json` (no secrets in the file; the GitHub token is referenced as the `GITHUB_PERSONAL_ACCESS_TOKEN` environment variable).
+- **fetch** (`mcp-server-fetch`): read the official PettingZoo Parallel API docs (https://pettingzoo.farama.org/api/parallel/) and checked `env.py` against the documented contract — `reset(seed, options) -> (obs, infos)`, `step(actions) -> (obs, rewards, terminations, truncations, infos)`, per-agent `observation_space`/`action_space`, and the `agents`/`possible_agents` lifecycle. `pettingzoo.test.parallel_api_test` is the automated confirmation and passes.
+- **github** (`@modelcontextprotocol/server-github`): used to publish the repo and manage branches/commits for the hazards-and-SAR work. The repo is **public on GitHub** (github.com/Zpopowitz/fellowship); `data/processed/` is committed so the gym runs without the raw data, which is re-downloadable via `scripts/download_boston_data.py`.
 
 ## Data
 - `data/boston_map.csv` is the **real Moving AI Boston_0_256 grid** (65,536 rows = 256x256, y,x,open; 72.9% open). Cite Sturtevant, "Benchmarks for Grid-Based Pathfinding", IEEE TCIAIG 2012. A synthetic city-grid fallback in `maps._synthetic_boston` is used only if the CSV is absent.
