@@ -13,7 +13,8 @@ RESULTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
 
 UNKNOWN, OPEN, BLOCKED = 0, 1, 2
 FEATURE_LABELS = ["new area", "frontier\nprogress", "survivor\nprogress",
-                  "crowding", "revisits", "stay"]
+                  "crowding", "revisits", "stay",
+                  "fire\ndanger", "flood\ndanger", "survivor\nurgency"]
 
 
 def _load(name):
@@ -83,21 +84,21 @@ def swarm_gif(kind: str, seed: int, path: str, best_label="scratch"):
     return path
 
 
-def weights_png(path: str, best_label="scratch"):
+def weights_png(path: str, best_label="outdoor"):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     learned = _load(best_label)
-    rule = policies.RULE_WEIGHTS
+    rule = np.asarray(policies.RULE_WEIGHTS, dtype=float)
     x = np.arange(len(FEATURE_LABELS))
-    fig, ax = plt.subplots(figsize=(8, 4.5))
+    fig, ax = plt.subplots(figsize=(9.5, 4.5))
     ax.bar(x - 0.2, rule, 0.4, label="rule-based", color="#B0B0B0")
     ax.bar(x + 0.2, learned, 0.4, label=f"trained ({best_label})", color="#4C78A8")
     ax.set_xticks(x)
-    ax.set_xticklabels(FEATURE_LABELS, fontsize=9)
+    ax.set_xticklabels(FEATURE_LABELS, fontsize=8)
     ax.axhline(0, color="black", lw=0.8)
     ax.set_ylabel("weight")
-    ax.set_title("Fellowship — what the swarm learned")
+    ax.set_title("Fellowship Gym — what the swarm learned (9 features)")
     ax.legend()
     ax.grid(axis="y", alpha=0.3)
     fig.tight_layout()
@@ -113,7 +114,7 @@ def main():
     if os.path.exists(meta):
         best = json.load(open(meta)).get("best", "scratch")
 
-    weights_png(os.path.join(RESULTS, "weights.png"), best)
+    weights_png(os.path.join(RESULTS, "weights.png"), "outdoor")
     print("weights.png done")
 
     # main hero GIF: a boston region
