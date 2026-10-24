@@ -12,7 +12,7 @@ import gymnasium as gym
 from pettingzoo import ParallelEnv
 from pettingzoo.utils import wrappers
 
-from . import comms, features, maps
+from . import comms, features, maps, hazards as hz
 from .features import DELTAS, N_ACTIONS, N_FEATURES
 
 N_ROBOTS = 4
@@ -36,13 +36,22 @@ class SwarmEnv(ParallelEnv):
 
     def __init__(self, kind: str = "mixed", seed: int | None = None,
                  n_robots: int = N_ROBOTS, k_survivors: int = K_SURVIVORS,
-                 t_steps: int = T_STEPS, comm: int = COMM):
+                 t_steps: int = T_STEPS, comm: int = COMM,
+                 hazards: bool = False, fire_spread_p: float = 0.15,
+                 n_fire_seeds: int = 1, flood_frac: float = 0.05,
+                 sensing: str = "local", wind: tuple = (0, 0)):
         self.kind = kind
         self._init_seed = seed
         self.n_robots = n_robots
         self.k_survivors = k_survivors
         self.t_steps = t_steps
         self.comm = comm
+        self.hazards = hazards
+        self.fire_spread_p = fire_spread_p
+        self.n_fire_seeds = n_fire_seeds
+        self.flood_frac = flood_frac
+        self.sensing = sensing      # 'local' (5x5) or 'ir_gas' (thermal + smoke)
+        self.wind = wind            # (dy, dx) smoke drift direction
         self.possible_agents = [agent_name(i) for i in range(n_robots)]
         self.agents = list(self.possible_agents)
         self.size = maps.REGION
@@ -77,10 +86,21 @@ class SwarmEnv(ParallelEnv):
         self.survivor_cells = self._place_survivors()
         self.rescued = np.zeros(self.k_survivors, dtype=bool)
 
+        # hazards: fire (spreads) and flood (static). Off unless enabled.
+        self.fire = np.zeros((H, W), dtype=bool)
+        self.flood = np.zeros((H, W), dtype=bool)
+        if self.hazards:
+            self._place_hazards()
+
         # per-robot knowledge and sightings
         self.known = np.zeros((self.n_robots, H, W), dtype=np.uint8)
         self.sightings = [set() for _ in range(self.n_robots)]
         self.visits = np.zeros((self.n_robots, H, W), dtype=np.int64)
+        # per-robot sensed hazard danger fields (0 until sensed)
+        self.known_fire = np.zeros((self.n_robots, H, W), dtype=bool)
+        self.known_flood = np.zeros((self.n_robots, H, W), dtype=bool)
+        self.known_gas = np.zeros((self.n_robots, H, W), dtype=np.float64)  # smoke reading
+        self.disabled = np.zeros(self.n_robots, dtype=bool)  # a drone lost to fire
 
         self.step_count = 0
         self.agents = list(self.possible_agents)
@@ -109,6 +129,30 @@ class SwarmEnv(ParallelEnv):
                               replace=False)
         return [cells[int(i)] for i in idx]
 
+    def _place_hazards(self) -> None:
+        """Fill self.fire / self.flood. Real SAR-data seeds for kind='sar',
+        procedural seeds otherwise. Never ignite the staging cell."""
+        if self.kind == "sar":
+            from . import sar_dataset
+            sc = sar_dataset.sample_scenario(self.seed, n_survivors=self.k_survivors)
+            for (y, x) in sc.fire_cells:
+                if (y, x) != self.staging and self.open_grid[y, x]:
+                    self.fire[y, x] = True
+            for (y, x) in sc.flood_cells:
+                if (y, x) != self.staging and self.open_grid[y, x]:
+                    self.flood[y, x] = True
+            # SAR crops may have no in-region hazard; fall back to one seed so a
+            # hazard episode always has a hazard.
+            if not self.fire.any() and not self.flood.any():
+                self.fire, self.flood = hz.place_procedural_hazards(
+                    self.open_grid, self.rng, self.n_fire_seeds, self.flood_frac)
+        else:
+            self.fire, self.flood = hz.place_procedural_hazards(
+                self.open_grid, self.rng, self.n_fire_seeds, self.flood_frac)
+        # keep staging safe
+        self.fire[self.staging] = False
+        self.flood[self.staging] = False
+
     # ---------------------------------------------------------------- sensing
     def _sense(self, i: int):
         y, x = self.positions[i]
@@ -119,6 +163,21 @@ class SwarmEnv(ParallelEnv):
         kv[sub] = np.maximum(kv[sub], OPEN)
         kv[~sub] = BLOCKED
         self.known[i, y0:y1, x0:x1] = kv
+        # hazards in the window
+        if self.hazards:
+            if self.sensing == "ir_gas":
+                # thermal IR: sees fire by heat, line-of-sight, through smoke/dark
+                blocked = ~self.open_grid  # walls block IR
+                ir = hz.thermal_ir_view(self.fire, blocked, self.positions[i])
+                self.known_fire[i] |= ir
+                # gas/particulate: smoke plume drifting downwind, early warning
+                plume = hz.gas_plume(self.fire, self.positions[i], wind=self.wind)
+                self.known_gas[i] = np.maximum(self.known_gas[i] * 0.8, plume)
+                # flood still sensed locally (water has no heat/smoke signature)
+                self.known_flood[i, y0:y1, x0:x1] |= self.flood[y0:y1, x0:x1]
+            else:
+                self.known_fire[i, y0:y1, x0:x1] |= self.fire[y0:y1, x0:x1]
+                self.known_flood[i, y0:y1, x0:x1] |= self.flood[y0:y1, x0:x1]
         # survivors in window
         for sid, (sy, sx) in enumerate(self.survivor_cells):
             if self.rescued[sid]:
@@ -137,6 +196,15 @@ class SwarmEnv(ParallelEnv):
             for i in g:
                 self.known[i] = merged.copy()
                 self.sightings[i] = set(merged_s)
+            if self.hazards:
+                mf = np.any(self.known_fire[g], axis=0)
+                mfl = np.any(self.known_flood[g], axis=0)
+                mg = np.max(self.known_gas[g], axis=0) if self.sensing == "ir_gas" else None
+                for i in g:
+                    self.known_fire[i] = mf.copy()
+                    self.known_flood[i] = mfl.copy()
+                    if mg is not None:
+                        self.known_gas[i] = mg.copy()
 
     # ---------------------------------------------------------------- obs
     def _survivors_known_for(self, i: int) -> list[tuple[int, int]]:
@@ -149,9 +217,17 @@ class SwarmEnv(ParallelEnv):
         groups = comms.link_components(self.positions, self.comm)
         my_group = next(g for g in groups if i in g)
         linked = [self.positions[j] for j in my_group if j != i]
+        fire_danger = flood_danger = None
+        if self.hazards:
+            fire_danger = hz.danger_field(self.known_fire[i])
+            if self.sensing == "ir_gas":
+                # smoke the drone smells adds to perceived fire danger (early warning)
+                fire_danger = np.maximum(fire_danger, self.known_gas[i])
+            flood_danger = hz.danger_field(self.known_flood[i])
         feats, mask = features.compute_features(
             self.known[i], self.positions[i], linked,
-            self._survivors_known_for(i), self.visits[i])
+            self._survivors_known_for(i), self.visits[i],
+            fire_danger=fire_danger, flood_danger=flood_danger)
         return {"features": feats, "mask": mask.astype(np.int8)}
 
     def _all_obs(self):
@@ -162,29 +238,47 @@ class SwarmEnv(ParallelEnv):
         self._communicate()  # share at the start of the step
 
         for i in range(self.n_robots):
+            if self.hazards and self.disabled[i]:
+                continue  # a drone lost to fire takes no action
             a = int(actions[agent_name(i)])
             y, x = self.positions[i]
             dy, dx = DELTAS[a]
             ty, tx = y + dy, x + dx
             if a == 0:
                 pass
-            elif 0 <= ty < self.H and 0 <= tx < self.W and self.open_grid[ty, tx]:
+            elif (0 <= ty < self.H and 0 <= tx < self.W and self.open_grid[ty, tx]
+                  and not (self.hazards and self.flood[ty, tx])):
                 self.positions[i] = (ty, tx)
             else:
                 # blocked move: stay + mark blocked in own map
                 if 0 <= ty < self.H and 0 <= tx < self.W:
                     self.known[i, ty, tx] = BLOCKED
+                    if self.hazards and self.flood[ty, tx]:
+                        self.known_flood[i, ty, tx] = True
             self.visits[i][self.positions[i]] += 1
+            # stepping onto / sitting in fire disables the drone
+            if self.hazards and self.fire[self.positions[i]]:
+                self.disabled[i] = True
+                self.known_fire[i, self.positions[i]] = True
 
         for i in range(self.n_robots):
             self._sense(i)
             self._rescue(i)
 
         self.step_count += 1
+        if self.hazards and self.fire.any():
+            self.fire = hz.spread_fire(self.fire, self.open_grid, self.rng,
+                                       p=self.fire_spread_p)
+            # a drone caught by newly-spread fire is disabled
+            for i in range(self.n_robots):
+                if not self.disabled[i] and self.fire[self.positions[i]]:
+                    self.disabled[i] = True
         if self.step_count % AFTERSHOCK_EVERY == 0:
             self._aftershock()
 
         done = bool(self.rescued.all()) or self.step_count >= self.t_steps
+        if self.hazards and self.disabled.all():
+            done = True  # whole swarm lost
         obs = self._all_obs()
         rewards = {a: 0.0 for a in self.agents}
         terminations = {a: done for a in self.agents}
@@ -233,13 +327,18 @@ class SwarmEnv(ParallelEnv):
         return float(s)
 
     def episode_metrics(self) -> dict:
-        return {
+        m = {
             "rescued": int(self.rescued.sum()),
             "explored": self.explored_fraction(),
             "steps": self.step_count,
             "kind": self.kind,
             "score": self.score(),
         }
+        if self.hazards:
+            m["disabled"] = int(self.disabled.sum())
+            m["fire_cells"] = int(self.fire.sum())
+            m["flood_cells"] = int(self.flood.sum())
+        return m
 
 
 def raw_env(**kwargs):
