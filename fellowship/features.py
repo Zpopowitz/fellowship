@@ -8,7 +8,7 @@ import numpy as np
 # action id -> (dy, dx): 0 stay, 1 N, 2 S, 3 E, 4 W
 DELTAS = np.array([[0, 0], [-1, 0], [1, 0], [0, 1], [0, -1]], dtype=int)
 N_ACTIONS = 5
-N_FEATURES = 6
+N_FEATURES = 9
 DIST_CAP = 40
 
 
@@ -74,12 +74,24 @@ def legal_mask(known: np.ndarray, pos: tuple[int, int]) -> np.ndarray:
 def compute_features(known: np.ndarray, pos: tuple[int, int],
                      teammate_pos: list[tuple[int, int]],
                      survivors_known: list[tuple[int, int]],
-                     visits: np.ndarray):
-    """Return (features[5,6], mask[5]) for a robot.
+                     visits: np.ndarray,
+                     fire_danger: np.ndarray | None = None,
+                     flood_danger: np.ndarray | None = None):
+    """Return (features[5,9], mask[5]) for a robot.
 
     known: uint8 [H,W] robot's merged knowledge map.
     survivors_known: known, unrescued survivor cells.
     visits: int [H,W] visit counts for THIS robot.
+    fire_danger / flood_danger: float [H,W] in [0,1], the robot's own knowledge
+        of fire/flood danger per cell (0 everywhere when no hazards are sensed).
+        When both are None the last three features are 0, so a 6-feature policy
+        reads the same as before.
+
+    Features (per action):
+        f0 new area, f1 frontier progress, f2 survivor progress, f3 crowding,
+        f4 revisits, f5 stay, f6 fire danger at target, f7 flood danger at
+        target, f8 survivor urgency (progress toward a survivor weighted by how
+        much danger that survivor sits in).
     """
     H, W = known.shape
     y, x = pos
@@ -87,6 +99,10 @@ def compute_features(known: np.ndarray, pos: tuple[int, int],
     feats = np.zeros((N_ACTIONS, N_FEATURES), dtype=np.float64)
 
     passable = _passable_for_planning(known)
+    if fire_danger is None:
+        fire_danger = np.zeros((H, W), dtype=np.float64)
+    if flood_danger is None:
+        flood_danger = np.zeros((H, W), dtype=np.float64)
 
     # frontier distance field from all frontiers
     fmask = frontier_mask(known)
@@ -98,8 +114,21 @@ def compute_features(known: np.ndarray, pos: tuple[int, int],
         for (sy, sx) in survivors_known:
             smask[sy, sx] = True
         sdist = bfs_distance(passable, smask)
+        # urgency distance: survivors sitting in danger pull harder. Weight each
+        # survivor source by (1 + danger there); approximated by a danger-biased
+        # second field that only lights up near dangerous survivors.
+        danger_here = fire_danger + flood_danger
+        urgent = [(sy, sx) for (sy, sx) in survivors_known if danger_here[sy, sx] > 0.0]
+        if urgent:
+            umask = np.zeros((H, W), dtype=bool)
+            for (sy, sx) in urgent:
+                umask[sy, sx] = True
+            udist = bfs_distance(passable, umask)
+        else:
+            udist = None
     else:
         sdist = None
+        udist = None
 
     def dist_at(field, cy, cx):
         if field is None:
@@ -108,6 +137,7 @@ def compute_features(known: np.ndarray, pos: tuple[int, int],
 
     cur_fd = dist_at(fdist, y, x)
     cur_sd = dist_at(sdist, y, x)
+    cur_ud = dist_at(udist, y, x)
 
     for a in range(N_ACTIONS):
         ty, tx = y + DELTAS[a, 0], x + DELTAS[a, 1]
@@ -137,5 +167,14 @@ def compute_features(known: np.ndarray, pos: tuple[int, int],
 
         # f5 stay
         feats[a, 5] = 1.0 if a == 0 else 0.0
+
+        # f6 fire danger at target cell (0 when no fire sensed)
+        feats[a, 6] = float(fire_danger[ty, tx])
+
+        # f7 flood danger at target cell
+        feats[a, 7] = float(flood_danger[ty, tx])
+
+        # f8 survivor urgency: progress toward a survivor that sits in danger
+        feats[a, 8] = (cur_ud - dist_at(udist, ty, tx)) if udist is not None else 0.0
 
     return feats, mask

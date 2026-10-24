@@ -133,6 +133,11 @@ def sample_map(kind: str, seed: int) -> np.ndarray:
         return sample_map(pick, seed)
     if kind == "boston":
         return crop_region(load_boston(), seed)
+    if kind == "sar":
+        # Real Boston street-grid region from the SAR dataset (same grid the
+        # fire/flood hazards are geocoded onto).
+        from . import sar_dataset
+        return sar_dataset.sample_scenario(seed).open_grid
     if kind in ("home", "office", "datacenter", "factory"):
         return floorplans.generate_floorplan(kind, seed)
     raise ValueError(f"unknown map kind: {kind!r}")

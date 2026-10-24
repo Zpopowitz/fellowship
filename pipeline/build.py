@@ -31,6 +31,8 @@ from pipeline.adapters import (  # noqa: E402
     cambridge_crashes,
     colleges,
     eco_totem,
+    fema_declarations,
+    fire_incidents,
     hospitals,
     mbta_alerts,
     mbta_routes,
@@ -44,7 +46,8 @@ from pipeline.event_types import EVENT_TYPES, detail_fields  # noqa: E402
 
 ADAPTERS = [
     boston_streets, colleges, hospitals, bridges, mbta_stations, mbta_routes,
-    vision_zero, cambridge_crashes, boston_311, mbta_alerts, tides,
+    vision_zero, cambridge_crashes, boston_311, mbta_alerts, tides, fire_incidents,
+    fema_declarations,
     numina, eco_totem,
 ]
 
@@ -80,7 +83,6 @@ EXCLUDED = {
     "emolt": "Offshore ocean temperature.",
     "ej": "Block-group demographics without geometry.",
     "neighborhoods": "Neighborhood demographics without geometry.",
-    "fema": "County-level disaster declarations.",
     "fish": "Fish monitoring stations without coordinates.",
     "landfills": "Landfill solar projects without coordinates.",
     "utilities": "Electric utility per town.",

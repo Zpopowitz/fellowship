@@ -1,6 +1,6 @@
 # Processed data report
 
-Built 2026-10-24 16:40 UTC by `python pipeline/build.py`.
+Built 2026-10-24 18:08 UTC by `python pipeline/build.py`.
 
 ## Grid
 
@@ -25,6 +25,8 @@ Built 2026-10-24 16:40 UTC by `python pipeline/build.py`.
 | boston-311 | events | 5000 | 4273 | service type not street-level: 714; ZIP missing or not a Boston ZIP polygon: 13 |
 | mbta-alerts | events | 130 | 1121 | no affected stop inside the grid: 41; effect not a disruption: PARKING_ISSUE: 5; effect not a disruption: EXTRA_SERVICE: 1; effect not a disruption: SCHEDULE_CHANGE: 3; effect not a disruption: NOTICE: 6; effect not a disruption: TRACK_CHANGE: 1 |
 | tides | events | 744 | 1 | hourly reading below flood threshold: 743 |
+| fire-incidents | events | 601721 | 4281 | category not a rescue incident: 597371; ZIP missing or not a Boston ZIP polygon: 68; outside grid: 1 |
+| fema-declarations | events | 415 | 25 | incident type not water-related: 157; designated area does not cover Boston (Suffolk): 233 |
 | numina | density | 245555 | 245555 | none |
 | eco-totem | density | 17123 | 17120 | duplicate measurement: 3 |
 
@@ -38,6 +40,8 @@ Duplicates are removed by source record. A few 311 events look identical in the 
 |---|---|---|
 | boston-311 (events) | 2026-10-08T07:34:35Z | 2026-10-18T10:15:27Z |
 | cambridge-crashes (events) | 2015-01-01T09:14:00Z | 2026-09-30T15:30:00Z |
+| fema-declarations (events) | 1954-09-02T00:00:00Z | 2023-09-15T00:00:00Z |
+| fire-incidents (events) | 2026-03-10T10:46:05Z | 2026-10-18T01:00:16Z |
 | mbta-alerts (events) | 2026-07-22T00:46:13Z | 2026-10-18T20:14:02Z |
 | tides (events) | 2024-08-20T04:00:00Z | 2024-08-20T04:00:00Z |
 | vision-zero (events) | 2015-01-01T05:24:27Z | 2026-09-01T00:03:10Z |
@@ -73,6 +77,8 @@ Duplicates are removed by source record. A few 311 events look identical in the 
 | transit.accessibility | 17 | mbta-alerts |
 | transit.service_change | 9 | mbta-alerts |
 | water.flood_risk | 1 | tides |
+| hazard.fire | 4281 | fire-incidents |
+| hazard.flood | 25 | fema-declarations |
 
 ## Density by metric
 
@@ -91,6 +97,8 @@ Duplicates are removed by source record. A few 311 events look identical in the 
 - **boston-311**: Fixed severity per 311 service type (see SERVICE_MAP in pipeline/adapters/boston_311.py): e.g. litter 1, illegal parking 2, pothole 3, blocked sidewalk / fallen tree / signal knockdown 4, missing manhole cover / general emergency 5.
 - **mbta-alerts**: MBTA publishes severity 0-10; mapped as ceil(mbta / 2), clamped to 1-5.
 - **tides**: Peak level: NOAA minor flood = 3, moderate = 4, major = 5.
+- **fire-incidents**: Fire category = 5, Rescue = 5, Hazardous Situation = 4. Other categories (Public Service, No Emergency, Law Enforcement Support, blank) are not rescue incidents and are dropped.
+- **fema-declarations**: FEMA declaration: Flood / Hurricane / Tsunami = 5, Coastal Storm / Severe Storm = 4. County-level only; non-water incident types dropped.
 
 Confidence: official / police / sensor feeds 0.9-0.95; 311 citizen reports 0.6. Location quality is separate: see `details.location_method` and `details.location_precision_m`.
 
@@ -103,6 +111,8 @@ Confidence: official / police / sensor feeds 0.9-0.95; 311 citizen reports 0.6. 
 - **vision-zero**: cross_street_2 (second cross street; kept only in source)
 - **cambridge-crashes**: day (derivable from start_time)
 - **boston-311**: case_topic (identical to service_name), city_council_district, ward (administrative areas)
+- **fire-incidents**: incident_number, exposure_number (ids; folded into event_id), incident_type, incident_description, incident_detail (NFIRS code text), address, district, city_section (street address not geocoded; ZIP used), location_subtype, property_description (free text)
+- **fema-declarations**: declarationTitle (free text, kept only in source), declarationType (DR/EM/FM declaration class)
 - **numina**: metric (always 'count')
 - **eco-totem**: entries, exits (sum to total; the city does not say which direction each is), day (derivable)
 
@@ -121,6 +131,10 @@ Confidence: official / police / sensor feeds 0.9-0.95; 311 citizen reports 0.6. 
 - **boston-311**: No case id or close date in the slice: event_id is a row hash and end_time is null.
 - **mbta-alerts**: start_time is the alert's last-updated time; the snapshot has no active period, so end_time is null.
 - **tides**: Thresholds (m above MLLW): minor 3.757, moderate 4.025, major 4.425. The gauge sits on the harbor; flood risk applies to the waterfront, not just its one grid cell.
+- **fire-incidents**: Placed at ZIP centroid (no coordinates in the feed), same method as boston-311. Fire density per ZIP is real; exact street location is not available, so the SAR builder treats this as a per-ZIP fire rate.
+- **fire-incidents**: Duplicate incident rows (same incident reported on several NFIRS lines) collapse to one event by (incident_number, exposure_number, alarm_date).
+- **fema-declarations**: COUNTY-LEVEL ONLY: declarations carry no coordinates, so every flood event sits at the grid centre with location_method='county_declaration'. Used as a regional flood baseline, never an exact flood cell.
+- **fema-declarations**: Kept water incident types: Flood, Hurricane, Coastal Storm, Severe Storm, Tsunami; areas covering Boston (Suffolk) or statewide.
 - **numina**: Sensor sites: Jackson Sq (Centre St / Lamartine St), Northern Ave (Seaport), Tremont St / Boylston St. Coverage 2020-07 to 2021-04.
 - **eco-totem**: Location approximate (+/-150 m): Approximate: Broadway between Ames St and Galileo Galilei Way.
 
@@ -150,7 +164,6 @@ Confidence: official / police / sensor feeds 0.9-0.95; 311 citizen reports 0.6. 
 - **emolt**: Offshore ocean temperature.
 - **ej**: Block-group demographics without geometry.
 - **neighborhoods**: Neighborhood demographics without geometry.
-- **fema**: County-level disaster declarations.
 - **fish**: Fish monitoring stations without coordinates.
 - **landfills**: Landfill solar projects without coordinates.
 - **utilities**: Electric utility per town.

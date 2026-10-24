@@ -25,6 +25,9 @@ GROUP_FIELDS: dict[str, list[str]] = {
     "transit": ["alert_id", "effect", "mbta_severity", "routes", "stop_id", "stop_name"],
     "water": ["station_id", "peak_water_level_m", "threshold_m", "flood_category",
               "datum", "hours_above"],
+    # SAR hazards: a dangerous incident a rescue swarm would be dispatched to.
+    "hazard": ["hazard_kind", "category", "property_use", "neighborhood", "zip_code",
+               "estimated_loss_usd"],
 }
 
 EVENT_TYPES: dict[str, dict[str, str]] = {
@@ -57,6 +60,9 @@ EVENT_TYPES: dict[str, dict[str, str]] = {
     "transit.service_change": {"group": "transit", "desc": "Planned service change"},
     # water
     "water.flood_risk": {"group": "water", "desc": "Coastal water level at or above NOAA flood threshold"},
+    # SAR hazards (search-and-rescue incidents the swarm trains on)
+    "hazard.fire": {"group": "hazard", "desc": "Fire incident reported to Boston Fire Department"},
+    "hazard.flood": {"group": "hazard", "desc": "Flooding incident (coastal, storm or burst main)"},
 }
 
 
