@@ -1,0 +1,108 @@
+Category,Field Name,Source,Description,Notes
+General information,id                                                                                             ,Added in PostGIS,Unique ID,
+General information,pid_long                                                                                       ,Parcel layer,Parcel ID,
+General information,cm_id                                                                                          ,Tax assessor data,Condo Main ID,"When present, used for joining datasets instead of pid_long (Parcel ID)"
+General information,st_num                                                                                         ,Tax assessor data,Street number,
+General information,st_name                                                                                        ,Tax assessor data,Street name,
+General information,st_name_suf                                                                                    ,Tax assessor data,Street name suffix,
+General information,unit_num                                                                                       ,Tax assessor data,Address unit number,
+General information,zipcode                                                                                        ,Tax assessor data,Zip code,
+Uses,ptype                                                                                          ,Tax assessor data,Property type code,"Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Uses,ptype_list                                                                          ,Tax assessor data,List of property type codes (where data was aggregated to parcel level),
+Uses,lu                                                                                             ,Tax assessor data,Land use code,"Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Uses,lu_list,Tax assessor data,List of land use codes (where data was aggregated to parcel level),
+Uses,own_occ                                                                                        ,Tax assessor data,Whether the property receives a tax exemption for being owner-occupied,"Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Uses,own_occ_list,Tax assessor data,List of owner occupany types (where data was aggregated to parcel level),
+General information,owner_list,Tax assessor data,List of property owners,Multiple owners are a result of aggregating condo records
+Other,land_sf,Tax assessor data,Land area of parcel (square feet),"Aggregated to the parcel level for condos, calculated using sum"
+Building age,yr_built                                                                                       ,Tax assessor data,Year built,"Aggregated to the parcel level for condos, calculated using maximum; zeroes were treated as indicating no data"
+Building size,gross_area,Tax assessor data,Building area for commercial parcels (square feet),"Aggregated to the parcel level for condos, calculated using sum"
+Building size,living_area                                                                                    ,Tax assessor data,Building living area for residential parcels (square feet),"Aggregated to the parcel level for condos, calculated using sum"
+Building size,sqft,Tax assessor data,Building area (square feet),"living_area if parcel is Residential, otherwise gross_area; zeroes were treated as indicating no data"
+Height,num_floors                                                                                     ,Tax assessor data,Number of floors,"Aggregated to the parcel level for condos, calculated using maximum; zeroes were treated as indicating no data"
+Other,structure_class                                                                                ,Tax assessor data,"Commercial building structure class (e.g. metal, brick/concrete)","Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Other,structure_class_list,Tax assessor data,List of building stucture classes (where data was aggregated to parcel level),
+Other,bldg_styl                                                                                      ,Tax assessor data,"Building style (decker, row middle, row end, etc.)","Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Other,bldg_styl_list                                      ,Tax assessor data,List of building styles (where data was aggregated to parcel level),
+Other,r_roof_typ                                                                                     ,Tax assessor data,"Roof type for residential parcels (e.g. flat, gable)","Provided by the condo main record, in the case of condos; assumes multi-family properties >= 4 stores tall have flat roofs"
+Other,ext_fin                                                                                        ,Tax assessor data,"Exterior finish (e.g. brick/stone, stucco)","Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Other,ext_fin_list,Tax assessor data,List of exterior finishes (where data was aggregated to parcel level),
+Other,heat_typ                                                                                       ,"Tax assessor data, Eversource Multi-Family Electric Resistance Heating",Heating system type,"Aggregated to the parcel level for condos, calculated using most common value (mode); filled in with 'E' for electric where missing for properties in residential heating accounts spreadsheet"
+Other,heat_typ_list,Tax assessor data,List of heating system types (where data was aggregated to parcel level),
+Other,ac                                                                                             ,Tax assessor data,Air conditioning system type,"Aggregated to the parcel level for condos, calculated using most common value (mode)"
+Other,ac_list,Tax assessor data,List of air conditioning system types (where data was aggregated to parcel level),
+Other,ext_cond_list,Tax assessor data,List of exterior conditions,Multiple grades are a result of aggregating condo records
+Number of buildings,num_bldgs                                                                               ,Tax assessor data,Number of buildings,Only filled out for condos
+Number of units,units_res                                                                                     ,"Tax assessor data, Boston Apt Unit counts 2019.xlsx",Number of residential units,"Based on tax assessor data for condos, use codes clearly indicating 1, 2, or 3 units for small residential units, and unit counts spreadsheet for >= 4 unit multi-family properties"
+Number of units,units_com                                                                                     ,"Tax assessor data, Boston Apt Unit counts 2019.xlsx",Number of commercial units,Based on tax assessor data for condos and unit counts spreadsheet for >= 4 unit multi-family properties
+Number of units,units_mixed                                                                                   ,"Tax assessor data, Boston Apt Unit counts 2019.xlsx",Number of mixed-use units,Based on tax assessor data for condos and unit counts spreadsheet for >= 4 unit multi-family properties
+Uses,assessor_category                                                                              ,Tax assessor use code mapping,Property type category associated with ptype,
+Uses,assessor_description                                                                           ,Tax assessor use code mapping,Property type description associated with ptype,
+Zoning,historic_district                                                                              ,Historic district layer,Whether the property is in a historic district,
+Zoning,landmark                                                                                       ,Landmarks layer,Whether the property is in a landmark district,
+Other,has_pv                                                                                         ,Permit data,Whether the property has solar panels,
+Other,last_major_renovation_date                                                                     ,Permit data,The last major renovation date of the property,Determined by the most recent of the Historic/Landmark LongForms permit issue date or general permits issue date for permits indicating a major renovation
+Other,heating_system_fuel,MLS data,Heating system and heating fuel information,
+Other,ac_system_type,MLS data,AC system information,
+Other,hot_water_system_fuel,MLS data,Hot water system and hot water fuel information,
+Other,insulation_type,MLS data,Description of insulation,
+Other,foundation_type,MLS data,Description of foundation,
+Other,electric_panel_info,MLS data,Electric panel information,
+Other,existing_ashp,MassCEC data,Whether this property already has an air-source heat pump installed,
+Other,existing_gshp,MassCEC data,Whether this property already has a ground-source heat pump installed,
+Other,existing_shw,MassCEC data,Whether this property already has a solar hot water system installed,
+Other,total_site_energy_kbtu,BERDO data,Total annual energy use in kBTU,
+Other,perc_electricity,BERDO data,Percentage of total annual energy use from electricity,
+Other,perc_gas numeric,BERDO data,Percentage of total annual energy use from gas,
+Other,perc_steam,BERDO data,Percentage of total annual energy use from steam,
+Other,onsite_renewable_kwh,BERDO data,Total annual on-site renewable energy production in kWh,
+Socioeconomic,census_tract_number,Social Vulnerability Indicators dataset,Census Tract number,
+Socioeconomic,ct_pop_disability,Social Vulnerability Indicators dataset,Population in Census Tract of people with disabilities,"Includes hearing difficulty, vision difficulty, cognitive difficulty, ambulatory difficulty, self-care difficulty, independent living difficulty"
+Socioeconomic,ct_pop_children_under_5,Social Vulnerability Indicators dataset,Population in Census Tract under 5 years old,
+Socioeconomic,ct_pop_over_65,Social Vulnerability Indicators dataset,Population in Census Tract over 65 years old,
+Socioeconomic,ct_pop_low_to_no_income,Social Vulnerability Indicators dataset,Population in Census Tract with income 100% below poverty level or 100-149% of poverty level,
+Socioeconomic,ct_pop_limited_english_proficiency,Social Vulnerability Indicators dataset,Population in Census Tract with limited English proficiency,
+Socioeconomic,ct_pop_poc,Social Vulnerability Indicators dataset,Population in Census Tract of people of color,"Includes Black, Native American, Asian, Pacific Islander, Other, Multi-Racial, Non-White Hispanic"
+Socioeconomic,ct_pop_med_illness,Social Vulnerability Indicators dataset,Population in Census Tract of people with medical illnesses,"Includes asthma, heart disease, emphysema, bronchitis, cancer, diabetes, kidney disease, liver disease"
+Socioeconomic,ct_perc_disability,Social Vulnerability Indicators dataset,Percentage of population in Census Tract of people with disabilities,"Includes hearing difficulty, vision difficulty, cognitive difficulty, ambulatory difficulty, self-care difficulty, independent living difficulty"
+Socioeconomic,ct_perc_children_under_5,Social Vulnerability Indicators dataset,Percentage of population in Census Tract under 5 years old,
+Socioeconomic,ct_perc_over_65,Social Vulnerability Indicators dataset,Percentage of population in Census Tract over 65 years old,
+Socioeconomic,ct_perc_low_to_no_income,Social Vulnerability Indicators dataset,Percentage of population in Census Tract with income 100% below poverty level or 100-149% of poverty level,
+Socioeconomic,ct_perc_limited_english_proficiency,Social Vulnerability Indicators dataset,Percentage of population in Census Tract with limited English proficiency,
+Socioeconomic,ct_perc_poc,Social Vulnerability Indicators dataset,Percentage of population in Census Tract of people of color,"Includes Black, Native American, Asian, Pacific Islander, Other, Multi-Racial, Non-White Hispanic"
+Socioeconomic,ct_perc_med_illness,Social Vulnerability Indicators dataset,Percentage of population in Census Tract of people with medical illnesses,"Includes asthma, heart disease, emphysema, bronchitis, cancer, diabetes, kidney disease, liver disease"
+Socioeconomic,ct_hh_income_200000_or_more,American Community Survey,"Number of households in Census Tract with income of $200,000 or over",
+Socioeconomic,ct_perc_income_200000_or_more,American Community Survey,"Percentage of households in Census Tract with income of $200,000 or over",
+Environmental,flood,1% Annual Flood Geography,"Whether the property falls within the 1% annual flood zone, assuming 36 inches of sea level rise",
+Environmental,stormwater,Stormwater Geography,Whether the property falls within the stormwater flood zone,
+Uses,use_class                                                                                      ,Classification,General use classification,Determined based on assessor_category and assessor_description
+Building size,sqft_class,Classification,Square footage classification based on sqft field,
+Building age,year_built_class,Classification,Building age classification,
+Uses,building_typology,Classification,General building typology classification,
+Uses,building_subtypology,Classification,Building typology classification including subtypology based on building age,
+Heat Pump Strategy,cashp_only,Classification,Whether ducted (central) air source heat pump replacement or displacement is recommended without electrical upgrade,
+Heat Pump Strategy,cashp_and_elec_upgrade,Classification,Whether ducted (central) air source heat pump replacement or displacement is recommended with electrical upgrade,
+Heat Pump Strategy,cashp_outdoor,Classification,Whether ducted (central) air source heat pump replacement or displacement is recommended and may be placed outside the building,
+Heat Pump Strategy,dashp_only,Classification,Whether ductless air source heat pump replacement or displacement is recommended without electrical upgrade,
+Heat Pump Strategy,dashp_and_elec_upgrade,Classification,Whether ductless air source heat pump replacement or displacement is recommended with electrical upgrade,
+Heat Pump Strategy,dashp_outdoor,Classification,Whether ductless air source heat pump replacement or displacement is recommended and may be placed outside the building,
+Heat Pump Strategy,gshp_only,Classification,Whether ground source heat pump replacement or displacement is recommended without electrical upgrade,Assumes borehole depth of 300 feet
+Heat Pump Strategy,gshp_and_elec_upgrade,Classification,Whether ground source heat pump replacement or displacement is recommended with electrical upgrade,Assumes borehole depth of 300 feet
+Heat Pump Strategy,vrf_only,Classification,Whether variable refrigerant flow replacement or displacement is recommended without electrical upgrade,
+Heat Pump Strategy,vrf_and_elec_upgrade,Classification,Whether variable refrigerant flow replacement or displacement is recommended with electrical upgrade,
+Heat Pump Strategy,awhp_only,Classification,Whether air-to-water heat pump replacement or displacement is recommended without electrical upgrade,
+Heat Pump Strategy,awhp_and_elec_upgrade,Classification,Whether air-to-water heat pump replacement or displacement is recommended with electrical upgrade,
+Heat Pump Strategy,hp_recommendation_count,Classification,The number of heat pump retrofit strategies recommended for this property,
+Envelope Strategy,insulate_attic,Classification,Whether attic insulation is recommended,
+Envelope Strategy,insulate_attic_converted,Classification,Whether insulation is recommended in a converted attic,
+Envelope Strategy,ext_roof_insulation,Classification,Whether exterior roof insulation is recommended,
+Envelope Strategy,insulate_exposed_ducts,Classification,Whether insulating exposed ducts is recommended,
+Envelope Strategy,insulate_exposed_pipes,Classification,Whether insulating exposed pipes is recommended,
+Envelope Strategy,interior_wall_insulation_blow_in,Classification,Whether blow-in interior wall insulation is recommended,
+Envelope Strategy,exterior_wall_insulation_at_replacement,Classification,Whether exterior wall insulation is recommended at time of replacement,
+Envelope Strategy,exterior_wall_insulation,Classification,Whether exterior wall insulation is recommended,
+Envelope Strategy,interior_wall_insulation_board,Classification,Whether board interior wall insulation is recommended,
+Envelope Strategy,insulate_spandrel,Classification,Whether insulating spandrels is recommanded,
+Envelope Strategy,asbestos,Classification,Whether the property's exterior finish is composed of asbestos,
+Envelope Strategy,seal_elevator_vent_shafts,Classification,Whether sealing elevator vent shafts is recommended,
+Envelope Strategy,env_recommendation_count,Classification,The number of envelope retrofit strategies recommended for this property,

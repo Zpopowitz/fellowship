@@ -1,0 +1,1 @@
+`approved_building_permits.csv` (240,265,420 bytes, 667,231 rows) exceeded GitHub's 100 MB per-file limit, so it was split into three parts, each with the same header row. Row counts of the parts sum to 667,231 (checked). To rebuild: keep the header of part1 and append the data rows of parts 2 and 3. Original sha256 is in ../MANIFEST.md.
