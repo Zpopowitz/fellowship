@@ -1,0 +1,13 @@
+{
+  "name": "Test on fellowship module save",
+  "description": "When any fellowship/*.py is saved, run the PettingZoo API test and pytest, then summarize failures.",
+  "trigger": {
+    "type": "fileSaved",
+    "patterns": ["fellowship/*.py"]
+  },
+  "action": {
+    "type": "shell",
+    "command": ".venv/Scripts/python -m pytest tests/test_api.py tests/test_env.py -q",
+    "then": "Summarize any failing property tests or API-conformance errors and propose a fix."
+  }
+}

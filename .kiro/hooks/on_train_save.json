@@ -1,0 +1,13 @@
+{
+  "name": "Smoke-train on train.py save",
+  "description": "When train.py is saved, run a 1-iteration smoke training (1 map per kind) and report score and runtime.",
+  "trigger": {
+    "type": "fileSaved",
+    "patterns": ["train.py"]
+  },
+  "action": {
+    "type": "shell",
+    "command": ".venv/Scripts/python -m train --smoke",
+    "then": "Report the smoke training best score and wall-clock runtime; flag if it errors or runs slower than ~15s."
+  }
+}
