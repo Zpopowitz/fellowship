@@ -71,7 +71,7 @@ def cem(mean, std, label, log_lines):
         print(line, flush=True)
         log_lines.append(line)
 
-    return best_w, best_curve, mean_curve
+    return mean, best_w, best_curve, mean_curve
 
 
 def learning_curve_png(curves: dict, path: str):
@@ -99,14 +99,16 @@ def main():
     curves = {}
 
     # scratch
-    w_scratch, b1, m1 = cem(np.zeros(6), np.full(6, 1.5), "scratch", log_lines)
-    json.dump({"weights": w_scratch.tolist()},
+    mean_scratch, best_scratch, b1, m1 = cem(np.zeros(6), np.full(6, 1.5), "scratch", log_lines)
+    json.dump({"weights": mean_scratch.tolist(),
+               "best_sample_weights": best_scratch.tolist(), "saved": "cem_mean"},
               open(os.path.join(RESULTS, "weights_scratch.json"), "w"), indent=2)
     curves["scratch"] = (b1, m1)
 
     # warm-start from rule weights
-    w_warm, b2, m2 = cem(policies.RULE_WEIGHTS.copy(), np.full(6, 0.6), "warm", log_lines)
-    json.dump({"weights": w_warm.tolist()},
+    mean_warm, best_warm, b2, m2 = cem(policies.RULE_WEIGHTS.copy(), np.full(6, 0.6), "warm", log_lines)
+    json.dump({"weights": mean_warm.tolist(),
+               "best_sample_weights": best_warm.tolist(), "saved": "cem_mean"},
               open(os.path.join(RESULTS, "weights_warm.json"), "w"), indent=2)
     curves["warm"] = (b2, m2)
 
@@ -114,8 +116,8 @@ def main():
     with open(os.path.join(RESULTS, "train_log.txt"), "w") as f:
         f.write("\n".join(log_lines) + "\n")
 
-    print("\nscratch weights:", w_scratch.round(3).tolist())
-    print("warm    weights:", w_warm.round(3).tolist())
+    print("\nscratch mean weights:", mean_scratch.round(3).tolist())
+    print("warm    mean weights:", mean_warm.round(3).tolist())
     print("rule    weights:", policies.RULE_WEIGHTS.tolist())
 
 
@@ -126,7 +128,7 @@ def smoke(n_iter=1):
     N_ITERS, MAPS_PER_KIND = n_iter, 1
     t = time.time()
     log = []
-    w, b, m = cem(np.zeros(6), np.full(6, 1.5), "smoke", log)
+    _mean, _best, b, m = cem(np.zeros(6), np.full(6, 1.5), "smoke", log)
     print(f"smoke best score {b[-1]:.3f} in {time.time()-t:.2f}s")
 
 

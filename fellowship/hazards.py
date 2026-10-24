@@ -198,24 +198,25 @@ def gas_plume(fire: np.ndarray, pos, wind=(0, 0), gas_range: int = GAS_RANGE,
         return out
     y, x = pos
     wy, wx = wind
-    # evaluate only cells the drone could sense: within gas_range of the drone
+
+    # Window the drone can sense: within gas_range (Chebyshev) of the drone.
     y0, y1 = max(0, y - gas_range), min(H, y + gas_range + 1)
     x0, x1 = max(0, x - gas_range), min(W, x + gas_range + 1)
-    for cy in range(y0, y1):
-        for cx in range(x0, x1):
-            if max(abs(cy - y), abs(cx - x)) > gas_range:
-                continue
-            best = 0.0
-            for fy, fx in fires:
-                fy, fx = int(fy), int(fx)
-                # wind-shifted distance from THIS cell to the fire: smoke drifts
-                # downwind, so subtract the wind vector from the cell->fire offset.
-                ddy = (fy - cy) - wy
-                ddx = (fx - cx) - wx
-                eff = (abs(ddy) + abs(ddx)) / 2.0
-                val = 1.0 - eff / (gas_range + 1)
-                if val > best:
-                    best = val
-            if best > 0.0:
-                out[cy, cx] = min(1.0, best)
+    rows = np.arange(y0, y1)[:, None]      # (R,1)
+    cols = np.arange(x0, x1)[None, :]      # (1,C)
+
+    fy = fires[:, 0][:, None, None]        # (F,1,1)
+    fx = fires[:, 1][:, None, None]
+    # wind-shifted Manhattan distance from each window cell to each fire:
+    # smoke drifts downwind, so subtract the wind vector from the cell->fire offset.
+    ddy = np.abs((fy - rows[None]) - wy)   # (F,R,1) broadcast
+    ddx = np.abs((fx - cols[None]) - wx)   # (F,1,C) broadcast
+    eff = (ddy + ddx) / 2.0                # (F,R,C)
+    val = 1.0 - eff / (gas_range + 1)      # higher nearer the fire
+    best = val.max(axis=0)                 # (R,C) nearest-fire reading per cell
+    best = np.clip(best, 0.0, 1.0)
+    # only keep cells within the Chebyshev sensing window
+    cheb = np.maximum(np.abs(rows - y), np.abs(cols - x))
+    best = np.where(cheb <= gas_range, best, 0.0)
+    out[y0:y1, x0:x1] = best
     return out
