@@ -1,0 +1,9 @@
+id,name,mode,fare_class
+Red,Red Line,Heavy rail,Rapid Transit
+Mattapan,Mattapan Line,Light rail,Rapid Transit
+Orange,Orange Line,Heavy rail,Rapid Transit
+Green-B,Green Line B,Light rail,Rapid Transit
+Green-C,Green Line C,Light rail,Rapid Transit
+Green-D,Green Line D,Light rail,Rapid Transit
+Green-E,Green Line E,Light rail,Rapid Transit
+Blue,Blue Line,Heavy rail,Rapid Transit

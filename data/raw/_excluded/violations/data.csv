@@ -1,0 +1,2019 @@
+case_no,status_date,status,code,value,description,city,zip,ward
+V944507,2026-10-16,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V944497,2026-10-16,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V944494,2026-10-16,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V944143,2026-10-14,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V944013,2026-10-14,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V944009,2026-10-14,Open,102.8,N/A,Maintenance,Mattapan,02136,18
+V944007,2026-10-14,Open,116,N/A,Unsafe Structures,Dorchester,02121,14
+V944005,2026-10-14,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V943902,2026-10-13,Open,107.4,N/A,Failed to comply w permit term,Hyde Park,02136,18
+V943897,2026-10-13,Open,116,N/A,Unsafe Structures,Roxbury,02119,12
+V943814,2026-10-13,Open,248 CMR,N/A,Mass State Plumbing Code,Brighton,02135,22
+V942394,2026-10-09,Open,102.8,N/A,Maintenance,Allston,02134,21
+V942379,2026-10-09,Open,102.8,N/A,Maintenance,Boston,02116,04
+V942378,2026-10-09,Open,102.8,N/A,Maintenance,Dorchester,02122,16
+V942359,2026-10-09,Open,107.4,N/A,Failed to comply w permit term,Mattapan,02136,18
+V942399,2026-10-09,Open,102.8,N/A,Maintenance,Dorchester,02122,15
+V942385,2026-10-09,Open,102.8,N/A,Maintenance,Mattapan,02126,14
+V943428,2026-10-09,Open,116,N/A,Unsafe Structures,Dorchester,02124,17
+V903676,2026-10-08,Open,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V909586,2026-10-08,Open,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V875138,2026-10-08,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V926571,2026-10-08,Open,107.4,N/A,Failed to comply w permit term,West Roxbury,02132,20
+V923929,2026-10-08,Open,1001.3.2,N/A,Testing & Certification,Roxbury,02119,08
+V925430,2026-10-08,Open,102.8,N/A,Maintenance,Roxbury,02118,08
+V932029,2026-10-08,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V939167,2026-10-08,Open,116,N/A,Unsafe Structures,East Boston,02128,01
+V943003,2026-10-07,Open,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V942994,2026-10-07,Open,102.8,N/A,Maintenance,Boston,02109,03
+V942466,2026-10-05,Open,116,N/A,Unsafe Structures,Boston,02109,03
+V942460,2026-10-05,Open,102.8,N/A,Maintenance,Allston,02134,22
+V942424,2026-10-05,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V942421,2026-10-05,Open,102.8,N/A,Maintenance,Mattapan,02126,17
+V942404,2026-10-05,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V942389,2026-10-05,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V942374,2026-10-05,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V942364,2026-10-05,Open,102.8,N/A,Maintenance,Brighton,02135,22
+V942355,2026-10-05,Open,3307.1,N/A,Protection of Adj. Property,Boston,02116,05
+V942344,2026-10-05,Open,1001.3.3,N/A,,Allston,02134,22
+V942340,2026-10-05,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V941531,2026-09-30,Open,102.8,N/A,Maintenance,Roxbury,02118,03
+V941522,2026-09-30,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V941520,2026-09-30,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V941512,2026-09-30,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V941157,2026-09-28,Open,107.4,N/A,Failed to comply w permit term,Brighton,02135,22
+V939817,2026-09-25,Open,102.8,N/A,Maintenance,Dorchester,02122,16
+V940834,2026-09-25,Open,102.8,N/A,Maintenance,Dorchester,02124,14
+V940827,2026-09-25,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V940795,2026-09-25,Open,705.8,N/A,Fire Separation,East Boston,02128,01
+V940786,2026-09-25,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V940390,2026-09-23,Open,705.8,N/A,Fire Separation,Roxbury,02118,08
+V940102,2026-09-22,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V940093,2026-09-22,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V939350,2026-09-17,Open,102.8,N/A,Maintenance,South Boston,02127,07
+V939032,2026-09-16,Open,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V837304,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V897218,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,11
+V901259,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,03
+V900688,2026-09-14,Open,105,N/A,Permits,Dorchester,02124,14
+V903227,2026-09-14,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V897206,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V898658,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,03
+V928189,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V907501,2026-09-14,Open,105,N/A,Permits,Dorchester,02121,14
+V898828,2026-09-14,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,03
+V938218,2026-09-11,Open,116,N/A,Unsafe Structures,Dorchester,02124,17
+V938217,2026-09-11,Open,116,N/A,Unsafe Structures,Roslindale,02131,18
+V938215,2026-09-11,Open,102.8,N/A,Maintenance,Roxbury,02118,08
+V938181,2026-09-11,Open,102.8,N/A,Maintenance,Roxbury,02118,08
+V938172,2026-09-11,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V938167,2026-09-11,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V938161,2026-09-11,Open,102.8,N/A,Maintenance,Roxbury,02119,08
+V938149,2026-09-11,Open,102.8,N/A,Maintenance,Brighton,02135,22
+V938147,2026-09-11,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V938136,2026-09-11,Open,105.1,N/A,Failure to Obtain Permit,Boston,02114,03
+V937919,2026-09-10,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V937825,2026-09-09,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V937679,2026-09-09,Open,102.8,N/A,Maintenance,Dorchester,02121,13
+V937669,2026-09-09,Open,102.8,N/A,Maintenance,Dorchester,02124,14
+V937632,2026-09-09,Open,102.8,N/A,Maintenance,Dorchester,02124,17
+V936446,2026-09-04,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V936210,2026-09-03,Open,102.8,N/A,Maintenance,Dorchester,02122,15
+V936086,2026-09-03,Open,102.8,N/A,Maintenance,Dorchester,02125,13
+V901895,2026-09-02,Open,102.8,N/A,Maintenance,Allston,02134,21
+V892789,2026-09-02,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V861397,2026-09-02,Open,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V926505,2026-09-02,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V926509,2026-09-02,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V927925,2026-09-02,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V910256,2026-09-02,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V907310,2026-09-02,Open,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V908178,2026-09-02,Closed,116,N/A,Unsafe Structures,West Roxbury,02132,20
+V925282,2026-09-02,Open,116,N/A,Unsafe Structures,Boston,02116,05
+V916616,2026-09-01,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V935142,2026-09-01,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V934996,2026-09-01,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V934960,2026-09-01,Open,102.8,N/A,Maintenance,Brighton,02135,22
+V934371,2026-08-31,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V932693,2026-08-27,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V932593,2026-08-27,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V895374,2026-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02215,05
+V895290,2026-08-26,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V929824,2026-08-25,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V931915,2026-08-25,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V931862,2026-08-25,Closed,116,N/A,Unsafe Structures,Dorchester,02124,14
+V931847,2026-08-25,Open,1001.3.2,N/A,Testing & Certification,Boston,02215,05
+V930176,2026-08-21,Open,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V930170,2026-08-21,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V929828,2026-08-19,Open,907.8,N/A,Fire Protection Systems,West Roxbury,02132,20
+V929638,2026-08-18,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V928938,2026-08-14,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V928925,2026-08-14,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V928926,2026-08-14,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V928917,2026-08-14,Closed,102.8,N/A,Maintenance,Roxbury,02118,03
+V928912,2026-08-14,Open,102.8,N/A,Maintenance,Dorchester,02125,13
+V928706,2026-08-13,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V928579,2026-08-12,Open,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V921538,2026-08-12,Open,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V927530,2026-08-10,Open,F101.3,N/A,Foundation & Exterior Wall Sealing,Boston,02114,03
+V927530,2026-08-10,Open,F101.6.1.2,N/A,Grade Floors,Boston,02114,03
+V927543,2026-08-07,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V924396,2026-08-07,Open,102.8,N/A,Maintenance,Dorchester,02122,15
+V910931,2026-08-07,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V915120,2026-08-07,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,07
+V915185,2026-08-07,Closed,102.8,N/A,Maintenance,Dorchester,02125,07
+V911326,2026-08-07,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V927335,2026-08-06,Open,102.8,N/A,Maintenance,Dorchester,02122,16
+V916509,2026-08-04,Open,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V915881,2026-08-04,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V926793,2026-08-04,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V926786,2026-08-04,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V926612,2026-08-03,Open,107.4,N/A,Failed to comply w permit term,Roslindale,02131,18
+V916429,2026-07-31,Open,102.8,N/A,Maintenance,Dorchester,02124,17
+V899890,2026-07-31,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V905770,2026-07-31,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V910102,2026-07-31,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V889966,2026-07-31,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V899891,2026-07-31,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V869694,2026-07-31,Open,116,N/A,Unsafe Structures,Dorchester,02125,13
+V925901,2026-07-30,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V916499,2026-07-29,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V925664,2026-07-29,Open,102.8,N/A,Maintenance,Dorchester,02125,15
+V925639,2026-07-29,Open,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V925517,2026-07-28,Open,116,N/A,Unsafe Structures,BOSTON,02109,03
+V925418,2026-07-28,Closed,107.4,N/A,Failed to comply w permit term,West Roxbury,02132,20
+V925400,2026-07-28,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V925389,2026-07-28,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V925232,2026-07-27,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V925179,2026-07-27,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V924798,2026-07-24,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,11
+V924380,2026-07-22,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V924374,2026-07-22,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V916173,2026-07-21,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V886510,2026-07-21,Open,107.4,N/A,Failed to comply w permit term,Dorchester,02121,14
+V886517,2026-07-21,Open,111.1,N/A,Certificate of Occupancy,Dorchester,02121,14
+V924090,2026-07-21,Closed,107.4,N/A,Failed to comply w permit term,Roslindale,02131,18
+V923933,2026-07-20,Open,102.8,N/A,Maintenance,Roxbury,02119,08
+V923928,2026-07-20,Open,110.5,N/A,Inspections,Dorchester,02121,12
+V923924,2026-07-20,Open,107.4,N/A,Failed to comply w permit term,Dorchester,02121,12
+V923917,2026-07-20,Open,1001.3.2,N/A,Testing & Certification,Hyde Park,02136,18
+V923799,2026-07-20,Closed,90.4,N/A,Enforcement,Dorchester,02125,07
+V923796,2026-07-20,Closed,312.5 (C),N/A,Securing of Wiring Entering Enclosures,Dorchester,02125,07
+V923789,2026-07-20,Closed,210.8 (A)(8),N/A,Ground-Fault Circuit-Interrupter (GFCI) Protection,Dorchester,02125,07
+V923586,2026-07-17,Closed,210.52 (A)(2),N/A,Wall Space Receptacles,Dorchester,02125,07
+V923584,2026-07-17,Closed,210.52 (C) (1),N/A,Receptacle Outlets for Countertops and Work Surfaces,Dorchester,02125,07
+V923559,2026-07-17,Closed,430.102 (B),N/A,Motor/Air Handler Disconnecting Means,Dorchester,02125,07
+V923540,2026-07-17,Open,116,N/A,Unsafe Structures,Dorchester,02121,14
+V860951,2026-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V874313,2026-07-16,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V923161,2026-07-15,Open,1604.3,N/A,Serviceability,Roxbury,02118,09
+V909899,2026-07-14,Open,116,N/A,Unsafe Structures,Dorchester,02121,14
+V895616,2026-07-14,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,19
+V899206,2026-07-13,Open,102.8,N/A,Maintenance,Boston,02114,05
+V907842,2026-07-13,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,09
+V910905,2026-07-13,Open,102.8,N/A,Maintenance,Roxbury,02119,08
+V922513,2026-07-13,Open,116.1,N/A,Unsafe and Dangerous,South Boston,02127,06
+V922492,2026-07-13,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V922485,2026-07-13,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V922476,2026-07-13,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V922474,2026-07-13,Open,102.8,N/A,Maintenance,Mattapan,02126,14
+V921290,2026-07-06,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V921287,2026-07-06,Closed,116,N/A,Unsafe Structures,Dorchester,02121,12
+V920395,2026-06-29,Open,105.6,N/A,Suspension or Revocation,Mattapan,02126,14
+V920369,2026-06-29,Open,107.4,N/A,Failed to comply w permit term,Boston,02116,05
+V920368,2026-06-29,Open,107.4,N/A,Failed to comply w permit term,Boston,02116,05
+V920365,2026-06-29,Open,107.4,N/A,Failed to comply w permit term,Boston,02116,05
+V919118,2026-06-29,Open,107.4,N/A,Failed to comply w permit term,Boston,02116,05
+V919117,2026-06-26,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V915182,2026-06-25,Open,116,N/A,Unsafe Structures,West Roxbury,02132,20
+V905776,2026-06-25,Closed,102.8,N/A,Maintenance,Roxbury,02118,08
+V918852,2026-06-25,Open,105.1,N/A,Failure to Obtain Permit,Charlestown,02129,02
+V918746,2026-06-25,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V918799,2026-06-25,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V918744,2026-06-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V918735,2026-06-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V918646,2026-06-24,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V918629,2026-06-24,Open,116,N/A,Unsafe Structures,Dorchester,02125,07
+V918473,2026-06-23,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V917607,2026-06-17,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V917387,2026-06-16,Open,1006.1,N/A,Number of Exits or Exit Access,Mattapan,02136,18
+V884951,2026-06-16,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V917289,2026-06-16,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V916618,2026-06-12,Closed,116,N/A,Unsafe Structures,Boston,02113,03
+V877445,2026-06-12,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V891977,2026-06-12,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V891351,2026-06-12,Open,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V896198,2026-06-12,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V905767,2026-06-12,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V866230,2026-06-12,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V869820,2026-06-12,Open,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V916541,2026-06-11,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V916540,2026-06-11,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V916283,2026-06-10,Open,3307.1,N/A,Protection of Adj. Property,Charlestown,02129,02
+V916243,2026-06-10,Open,116,N/A,Unsafe Structures,Mattapan,02136,18
+V916225,2026-06-10,Closed,116.1,N/A,Unsafe and Dangerous,Mattapan,02126,14
+V916224,2026-06-10,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V916220,2026-06-10,Closed,116.1,N/A,Unsafe and Dangerous,Dorchester,02124,17
+V915028,2026-06-10,Open,102.8,N/A,Maintenance,Boston,02111,03
+V896419,2026-06-09,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V852365,2026-06-09,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V837310,2026-06-09,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V895312,2026-06-09,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V909237,2026-06-09,Open,102.8,N/A,Maintenance,Hyde Park,02136,18
+V907488,2026-06-09,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V906881,2026-06-09,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V900658,2026-06-09,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V903006,2026-06-09,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V873623,2026-06-08,Open,102.8,N/A,Maintenance,Dorchester,02121,15
+V905344,2026-06-08,Open,102.8,N/A,Maintenance,Dorchester,02125,15
+V892085,2026-06-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,03
+V915277,2026-06-05,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V915211,2026-06-05,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V915218,2026-06-05,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V915212,2026-06-05,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V915186,2026-06-05,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V915107,2026-06-04,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V914830,2026-06-03,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V914817,2026-06-03,Open,102.8,N/A,Maintenance,Jamaica Plain,02130,10
+V914523,2026-06-02,Open,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V914520,2026-06-02,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V910815,2026-06-01,Closed,102.2.2,N/A,Municipal Bylaws or Ordinances,Boston,02115,04
+V913162,2026-05-29,Open,102.8,N/A,Maintenance,Dorchester,02124,16
+V912992,2026-05-28,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V912844,2026-05-27,Open,5103,N/A,Maintenance,Boston,02115,05
+V912819,2026-05-27,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,13
+V912812,2026-05-27,Closed,116,N/A,Unsafe Structures,Boston,02113,03
+V912722,2026-05-27,Closed,102.8,N/A,Maintenance,Roslindale,02131,18
+V911486,2026-05-26,Closed,105,N/A,Permits,Brighton,02135,22
+V911480,2026-05-26,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V911396,2026-05-26,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V911386,2026-05-26,Open,105,N/A,Permits,East Boston,02128,01
+V911372,2026-05-26,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V911362,2026-05-26,Closed,102.8,N/A,Maintenance,Dorchester,02124,16
+V911356,2026-05-26,Closed,116,N/A,Unsafe Structures,Mattapan,02136,18
+V911351,2026-05-26,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V911358,2026-05-26,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V911353,2026-05-26,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V911349,2026-05-26,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V911340,2026-05-26,Open,102.8,N/A,Maintenance,Mattapan,02126,18
+V911338,2026-05-26,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V911328,2026-05-26,Open,116.1,N/A,Unsafe and Dangerous,Boston,02111,03
+V911332,2026-05-26,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V910967,2026-05-26,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V910441,2026-05-20,Closed,107.4,N/A,Failed to comply w permit term,West Roxbury,02132,20
+V910411,2026-05-20,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V910395,2026-05-20,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V910118,2026-05-19,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,03
+V909902,2026-05-18,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V877870,2026-05-15,Closed,116.1,N/A,Unsafe and Dangerous,Brighton,02135,22
+V891267,2026-05-15,Open,116,N/A,Unsafe Structures,Brighton,02135,21
+V846708,2026-05-15,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V909533,2026-05-14,Closed,116,N/A,Unsafe Structures,Dorchester,02124,16
+V909364,2026-05-14,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V867860,2026-05-13,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V908861,2026-05-12,Closed,102.8,N/A,Maintenance,Boston,02115,04
+V908552,2026-05-11,Closed,116,N/A,Unsafe Structures,Dorchester,02124,16
+V894875,2026-05-08,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V903365,2026-05-08,Open,116,N/A,Unsafe Structures,Mattapan,02126,14
+V907881,2026-05-06,Open,107.4,N/A,Failed to comply w permit term,Roslindale,02131,18
+V907800,2026-05-06,Closed,105,N/A,Permits,Roxbury,02119,12
+V905775,2026-05-05,Closed,3307.1,N/A,Protection of Adj. Property,Roxbury,02118,08
+V907494,2026-05-05,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V847726,2026-04-30,Closed,116,N/A,Unsafe Structures,South Boston,02127,07
+V847731,2026-04-30,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,South Boston,02127,07
+V906501,2026-04-29,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02125,13
+V906224,2026-04-28,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V845928,2026-04-28,Closed,116,N/A,Unsafe Structures,Roslindale,02131,18
+V845642,2026-04-28,Closed,116,N/A,Unsafe Structures,Roslindale,02131,18
+V831659,2026-04-28,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V889187,2026-04-28,Closed,102.8,N/A,Maintenance,Boston,02110,03
+V882061,2026-04-28,Open,116,N/A,Unsafe Structures,Charlestown,02129,02
+V900600,2026-04-28,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V875193,2026-04-28,Open,116,N/A,Unsafe Structures,Roxbury,02119,08
+V874567,2026-04-28,Open,116,N/A,Unsafe Structures,Roxbury,02119,08
+V905760,2026-04-27,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V873583,2026-04-24,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V889067,2026-04-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V852436,2026-04-24,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,15
+V852432,2026-04-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V813671,2026-04-24,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,15
+V892294,2026-04-24,Open,102.8,N/A,Maintenance,Dorchester,02122,15
+V887998,2026-04-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V900632,2026-04-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V905340,2026-04-24,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V889075,2026-04-23,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,15
+V890443,2026-04-23,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V890480,2026-04-23,Open,102.8,N/A,Maintenance,Dorchester,02125,15
+V890492,2026-04-23,Open,102.8,N/A,Maintenance,Dorchester,02125,15
+V890500,2026-04-23,Open,102.8,N/A,Maintenance,Dorchester,02125,15
+V892411,2026-04-23,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,15
+V905019,2026-04-22,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V895305,2026-04-22,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,19
+V889099,2026-04-22,Open,102.8,N/A,Maintenance,Dorchester,02124,17
+V890988,2026-04-22,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V846111,2026-04-22,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,19
+V884944,2026-04-22,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,09
+V892387,2026-04-22,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,13
+V883071,2026-04-22,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V892391,2026-04-22,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02119,13
+V903743,2026-04-21,Open,102.8,N/A,Maintenance,South Boston,02127,06
+V903738,2026-04-21,Open,102.8,N/A,Maintenance,South Boston,02127,06
+V903709,2026-04-21,Open,102.8,N/A,Maintenance,South Boston,02127,06
+V903367,2026-04-17,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,08
+V903358,2026-04-17,Open,105,N/A,Permits,Dorchester,02124,14
+V903354,2026-04-17,Closed,105,N/A,Permits,Hyde Park,02136,18
+V903351,2026-04-17,Closed,105,N/A,Permits,BOSTON/,02118,08
+V883776,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V882319,2026-04-16,Open,102.8,N/A,Maintenance,Roxbury,02119,12
+V855113,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V860828,2026-04-16,Open,107.4,N/A,Failed to comply w permit term,Hyde Park,02136,18
+V897435,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V847738,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V888613,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V875558,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V863492,2026-04-16,Open,107.4,N/A,Failed to comply w permit term,Hyde Park,02136,18
+V888177,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V895310,2026-04-16,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V876048,2026-04-16,Closed,116,N/A,Unsafe Structures,Mattapan,02136,18
+V849004,2026-04-16,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V903194,2026-04-16,Open,102.8,N/A,Maintenance,Brighton,02135,21
+V903073,2026-04-15,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,19
+V903066,2026-04-15,Closed,107.4,N/A,Failed to comply w permit term,Charlestown,02129,02
+V903038,2026-04-15,Open,102.8,N/A,Maintenance,Charlestown,02129,02
+V903032,2026-04-15,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,08
+V903014,2026-04-15,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V902986,2026-04-15,Open,110.7,N/A,Periodic Inspections,Brighton,02135,21
+V902920,2026-04-15,Closed,107.4,N/A,Failed to comply w permit term,Brighton,02135,22
+V902815,2026-04-14,Closed,102.8,N/A,Maintenance,Roxbury,02119,11
+V902810,2026-04-14,Closed,107.4,N/A,Failed to comply w permit term,Brighton,02135,22
+V901016,2026-04-14,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V902110,2026-04-10,Open,105,N/A,Permits,Brighton,02135,22
+V902105,2026-04-10,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V876133,2026-04-09,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V902005,2026-04-09,Open,105,N/A,Permits,Jamaica Plain,02130,10
+V901852,2026-04-09,Open,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V901521,2026-04-08,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,09
+V892837,2026-04-07,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V901280,2026-04-07,Open,105.1,N/A,Failure to Obtain Permit,Boston,02114,03
+V850682,2026-04-06,Open,102.8,N/A,Maintenance,Mission Hill,02120,10
+V901007,2026-04-06,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,09
+V901001,2026-04-06,Closed,102.8,N/A,Maintenance,Mission Hill,02120,09
+V900988,2026-04-06,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,20
+V900975,2026-04-06,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V900689,2026-04-06,Open,105,N/A,Permits,West Roxbury,02132,20
+V887980,2026-04-03,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V887014,2026-04-03,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V852503,2026-04-03,Open,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V860854,2026-04-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V869256,2026-04-03,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V860437,2026-04-03,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Roxbury,02119,12
+V900673,2026-04-03,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V900663,2026-04-03,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V900649,2026-04-03,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V900646,2026-04-03,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V900640,2026-04-03,Closed,116,N/A,Unsafe Structures,Dorchester,02121,14
+V900265,2026-04-01,Open,Art. 2 Sect. 2-1,N/A,City of Boston Zoning Code,Brighton,02135,22
+V900215,2026-04-01,Open,1028.8,N/A,Maintenance,Dorchester,02124,16
+V900019,2026-04-01,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V899925,2026-03-31,Closed,3307.1,N/A,Protection of Adj. Property,Jamaica Plain,02130,19
+V899902,2026-03-31,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V899609,2026-03-30,Closed,102.8,N/A,Maintenance,Boston,02108,03
+V899232,2026-03-27,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V898855,2026-03-25,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,03
+V898578,2026-03-24,Closed,Art. 2 Sect. 2-1,N/A,City of Boston Zoning Code,Roxbury,02118,08
+V898540,2026-03-24,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V898521,2026-03-24,Closed,116,N/A,Unsafe Structures,South Boston,02127,07
+V898394,2026-03-23,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V898385,2026-03-23,Closed,10.02 (18),N/A,Proper Maintenance,Roxbury,02118,08
+V898361,2026-03-23,Closed,116,N/A,Unsafe Structures,South Boston,02127,07
+V898297,2026-03-23,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V898285,2026-03-23,Open,116,N/A,Unsafe Structures,Boston,02215,05
+V897990,2026-03-20,Open,107.4,N/A,Failed to comply w permit term,Dorchester,02125,07
+V897956,2026-03-20,Closed,102.8,N/A,Maintenance,Dorchester,02121,13
+V897950,2026-03-20,Open,102.8,N/A,Maintenance,Roxbury,02119,09
+V897919,2026-03-20,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V844949,2026-03-19,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V885761,2026-03-19,Closed,102.8,N/A,Maintenance,West Roxbury,02467,20
+V887959,2026-03-19,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V869260,2026-03-19,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V885374,2026-03-19,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V897589,2026-03-18,Open,102.8,N/A,Maintenance,Boston,02116,05
+V897582,2026-03-18,Open,102.8,N/A,Maintenance,Jamaica Plain,02130,19
+V897548,2026-03-18,Closed,102.8,N/A,Maintenance,Boston,02111,03
+V897432,2026-03-18,Open,102.8,N/A,Maintenance,Dorchester,02124,17
+V897293,2026-03-17,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V897285,2026-03-17,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V897191,2026-03-17,Open,104.6,N/A,Right of Entry,Allston,02134,22
+V896460,2026-03-12,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V896442,2026-03-12,Open,116,N/A,Unsafe Structures,Dorchester,02125,07
+V895644,2026-03-11,Open,102.8,N/A,Maintenance,Boston,02108,03
+V896146,2026-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V896140,2026-03-11,Closed,104.6,N/A,Right of Entry,Dorchester,02121,12
+V896137,2026-03-11,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V858117,2026-03-10,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02121,14
+V858113,2026-03-10,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V895639,2026-03-09,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V895636,2026-03-09,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V895307,2026-03-06,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V895174,2026-03-05,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V895117,2026-03-05,Closed,110.26,N/A,Working Space,Dorchester,02125,07
+V895017,2026-03-04,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,09
+V894673,2026-03-03,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V894441,2026-03-02,Closed,116,N/A,Unsafe Structures,South Boston,02127,07
+V894435,2026-03-02,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V893737,2026-02-27,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,13
+V893643,2026-02-26,Closed,104.6,N/A,Right of Entry,Dorchester,02125,13
+V893492,2026-02-26,Closed,102.8,N/A,Maintenance,Dorchester,02126,14
+V893135,2026-02-25,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,08
+V865057,2026-02-25,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V892801,2026-02-24,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V892799,2026-02-24,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V892394,2026-02-20,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,13
+V892385,2026-02-20,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V892303,2026-02-19,Open,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V891811,2026-02-17,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V891347,2026-02-13,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V861454,2026-02-13,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V850841,2026-02-13,Closed,111.1,N/A,Certificate of Occupancy,Dorchester,02121,12
+V863175,2026-02-13,Open,102.8,N/A,Maintenance,Dorchester,02125,07
+V891303,2026-02-13,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02136,18
+V891280,2026-02-13,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02124,17
+V891257,2026-02-13,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V891244,2026-02-13,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V891000,2026-02-12,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,20
+V890839,2026-02-11,Closed,105.7,N/A,Placement of Permit,Dorchester,02121,12
+V830551,2026-02-11,Open,102.8,N/A,Maintenance,Jamaica Plain,02119,11
+V830558,2026-02-11,Closed,102.8,N/A,Maintenance,Jamaica Plain,02119,11
+V877069,2026-02-11,Closed,1001.3.2,N/A,Testing & Certification,Jamaica Plain,02130,19
+V830564,2026-02-11,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,11
+V858126,2026-02-11,Closed,4-3,N/A,Building or Use of Premise req,Dorchester,02125,13
+V868685,2026-02-11,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02124,14
+V860449,2026-02-11,Open,102.8,N/A,Maintenance,Mattapan,02126,14
+V867872,2026-02-11,Open,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V867869,2026-02-11,Open,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V863756,2026-02-11,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V836659,2026-02-11,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,16
+V890439,2026-02-10,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V890431,2026-02-10,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V890424,2026-02-10,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V890403,2026-02-10,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,15
+V890318,2026-02-10,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V890303,2026-02-10,Closed,102.8,N/A,Maintenance,Mission Hill,02119,09
+V889987,2026-02-09,Open,102.8,N/A,Maintenance,Roslindale,02131,19
+V889982,2026-02-09,Closed,3307,N/A,Protection of Adj. Property,East Boston,02128,01
+V889442,2026-02-06,Closed,116,N/A,Unsafe Structures,Dorchester,02121,14
+V889377,2026-02-06,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V889179,2026-02-05,Open,102.8,N/A,Maintenance,Dorchester,02124,16
+V889094,2026-02-05,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V889007,2026-02-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V887827,2026-02-02,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V886888,2026-01-30,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V886633,2026-01-29,Open,111.1,N/A,Certificate of Occupancy,Mattapan,02126,18
+V886573,2026-01-29,Open,116,N/A,Unsafe Structures,Roxbury,02118,09
+V886251,2026-01-28,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V886234,2026-01-28,Closed,105,N/A,Permits,Roxbury,02118,04
+V873699,2026-01-28,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V870813,2026-01-28,Closed,102.8,N/A,Maintenance,Mission Hill,02120,09
+V886011,2026-01-28,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V885983,2026-01-28,Closed,104.6,N/A,Right of Entry,Dorchester,02121,12
+V872301,2026-01-22,Open,107.4,N/A,Failed to comply w permit term,Brighton,02135,22
+V884978,2026-01-21,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V884760,2026-01-21,Closed,116,N/A,Unsafe Structures,Roxbury,02118,09
+V863160,2026-01-16,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V883889,2026-01-16,Closed,116,N/A,Unsafe Structures,Jamaica Plain,02130,10
+V883858,2026-01-16,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,10
+V883833,2026-01-15,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V883828,2026-01-15,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V869897,2026-01-15,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V869900,2026-01-15,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V883696,2026-01-15,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V883675,2026-01-15,Closed,107.4,N/A,Failed to comply w permit term,South Boston,02127,06
+V860684,2026-01-14,Open,104.6,N/A,Right of Entry,Brighton,02135,22
+V883392,2026-01-14,Open,3310.2,N/A,Maintenance of Means of Egress,Brighton,02135,21
+V883166,2026-01-13,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V882317,2026-01-12,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V882630,2026-01-09,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V877925,2026-01-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V882469,2026-01-08,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V882463,2026-01-08,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V881103,2025-12-31,Closed,1001.3.2,N/A,Testing & Certification,East Boston,02128,01
+V881084,2025-12-31,Closed,102.8,N/A,Maintenance,Roxbury,02118,08
+V880890,2025-12-30,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02124,17
+V880739,2025-12-29,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V880733,2025-12-29,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V880727,2025-12-29,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V880722,2025-12-29,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V880689,2025-12-29,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Mattapan,02126,18
+V880680,2025-12-29,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Mattapan,02126,18
+V874034,2025-12-29,Closed,102.8,N/A,Maintenance,Mattapan,02126,17
+V879353,2025-12-22,Closed,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V878909,2025-12-19,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V845936,2025-12-18,Closed,116,N/A,Unsafe Structures,Roslindale,02131,18
+V845939,2025-12-18,Closed,116,N/A,Unsafe Structures,Roslindale,02131,18
+V877934,2025-12-15,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V877927,2025-12-15,Open,102.8,N/A,Maintenance,Boston,02116,05
+V852354,2025-12-15,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V861792,2025-12-15,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V868335,2025-12-15,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V852370,2025-12-15,Closed,1029.1,N/A,Emergency Escape & Rescue,Mission Hill,02115,10
+V859069,2025-12-15,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V852362,2025-12-15,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V853634,2025-12-15,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V853629,2025-12-15,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V877520,2025-12-12,Closed,102.8,N/A,Maintenance,Roslindale,02131,20
+V877516,2025-12-12,Open,102.8,N/A,Maintenance,Jamaica Plain,02130,10
+V877486,2025-12-12,Open,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V877461,2025-12-12,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V859055,2025-12-11,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V858145,2025-12-11,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02119,13
+V876932,2025-12-09,Open,107.4,N/A,Failed to comply w permit term,Boston,02116,05
+V876554,2025-12-08,Open,3306.5,N/A,Barriers,Dorchester,02121,13
+V876520,2025-12-08,Closed,116,N/A,Unsafe Structures,Boston,02113,03
+V876136,2025-12-05,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V876128,2025-12-05,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V876122,2025-12-05,Closed,102.8,N/A,Maintenance,Boston,02215,05
+V876105,2025-12-05,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V852424,2025-12-05,Closed,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V868182,2025-12-05,Open,102.8,N/A,Maintenance,East Boston,02128,01
+V876069,2025-12-04,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V876068,2025-12-04,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V876066,2025-12-04,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V870588,2025-12-04,Closed,110.5,N/A,Inspections,Dorchester,02121,12
+V851932,2025-12-04,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V867903,2025-12-04,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V875660,2025-12-03,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V875533,2025-12-02,Open,116,N/A,Unsafe Structures,Dorchester,02124,17
+V875419,2025-12-02,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V875406,2025-12-02,Closed,116,N/A,Unsafe Structures,Boston,02113,03
+V875408,2025-12-02,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V875402,2025-12-02,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V875261,2025-12-01,Open,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V875144,2025-12-01,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V875140,2025-12-01,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V875127,2025-12-01,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V874517,2025-11-26,Closed,110.5,N/A,Inspections,Roslindale,02131,18
+V874537,2025-11-26,Closed,102.8,N/A,Maintenance,Boston,02108,05
+V874508,2025-11-26,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02124,14
+V874317,2025-11-25,Closed,116,N/A,Unsafe Structures,Boston,02111,03
+V874314,2025-11-25,Closed,116,N/A,Unsafe Structures,Brighton,02135,21
+V873719,2025-11-21,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V843961,2025-11-21,Open,102.8,N/A,Maintenance,Dorchester,02122,15
+V865685,2025-11-21,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V865681,2025-11-21,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V843962,2025-11-21,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V844948,2025-11-21,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V834323,2025-11-21,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V854995,2025-11-21,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V873642,2025-11-20,Closed,102.8,N/A,Maintenance,Brighton,02135,21
+V873639,2025-11-20,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V873617,2025-11-20,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V873609,2025-11-20,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V873588,2025-11-20,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,13
+V873528,2025-11-20,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V873532,2025-11-20,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V873330,2025-11-19,Closed,116.1,N/A,Unsafe and Dangerous,Boston,02116,05
+V873305,2025-11-19,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V861312,2025-11-18,Closed,1006.3.1,N/A,Minimum Number of Exits,Roxbury,02118,09
+V872284,2025-11-13,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V864509,2025-11-12,Open,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V863991,2025-11-10,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V829566,2025-11-10,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V865954,2025-11-10,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V860064,2025-11-10,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V871697,2025-11-10,Closed,107.4,N/A,Failed to comply w permit term,Brighton,02135,22
+V871399,2025-11-07,Closed,1008.3.2,N/A,Building,Roxbury,02119,12
+V871365,2025-11-06,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V848590,2025-11-05,Open,116,N/A,Unsafe Structures,Dorchester,02124,17
+V830987,2025-11-05,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V822516,2025-11-05,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V866203,2025-11-05,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V870937,2025-11-05,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V870867,2025-11-04,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V870847,2025-11-04,Closed,116,N/A,Unsafe Structures,Roxbury,02118,09
+V825002,2025-11-03,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V870600,2025-11-03,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V419228,2025-11-03,Closed,907.8,N/A,Fire Protection Systems,Roxbury,02119,12
+V870092,2025-10-31,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V870089,2025-10-31,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V869972,2025-10-30,Closed,102.8,N/A,Maintenance,Charlestown,02129,02
+V859065,2025-10-30,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V869707,2025-10-29,Closed,780 CMR 110.7,N/A,Periodic Inspections,Dorchester,02125,13
+V869668,2025-10-29,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V869529,2025-10-28,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V869477,2025-10-28,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V829102,2025-10-27,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V804383,2025-10-27,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V847060,2025-10-27,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V844093,2025-10-27,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V791518,2025-10-27,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V854991,2025-10-27,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V869295,2025-10-27,Open,110.26,N/A,Working Space,Hyde Park,02136,18
+V868700,2025-10-23,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V868677,2025-10-23,Closed,116,N/A,Unsafe Structures,Dorchester,02124,14
+V868675,2025-10-23,Closed,102.8,N/A,Maintenance,Boston,02116,05
+V859082,2025-10-22,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V848485,2025-10-22,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V809694,2025-10-22,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V812334,2025-10-22,Open,105.6,N/A,Suspension or Revocation,Hyde Park,02136,18
+V868349,2025-10-22,Closed,107.4,N/A,Failed to comply w permit term,East Boston,02128,01
+V868086,2025-10-21,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V868078,2025-10-21,Closed,111.1,N/A,Certificate of Occupancy,Dorchester,02124,17
+V867973,2025-10-20,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V867895,2025-10-20,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V867851,2025-10-20,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V867841,2025-10-20,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V867506,2025-10-17,Open,110.11,N/A,Deteriorating Agents,Dorchester,02125,07
+V866800,2025-10-14,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V866799,2025-10-14,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V866773,2025-10-14,Closed,116,N/A,Unsafe Structures,Dorchester,02124,16
+V866768,2025-10-14,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V865977,2025-10-08,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02113,03
+V865969,2025-10-08,Closed,107.4,N/A,Failed to comply w permit term,Boston,02114,03
+V831252,2025-10-06,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V838875,2025-10-06,Closed,107.4,N/A,Failed to comply w permit term,Jamaica Plain,02130,19
+V835216,2025-10-06,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Jamaica Plain,02130,11
+V864753,2025-10-02,Closed,116,N/A,Unsafe Structures,Boston,02215,05
+V864499,2025-10-01,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V844406,2025-09-30,Open,104.6,N/A,Right of Entry,Hyde Park,02136,18
+V851134,2025-09-30,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V863752,2025-09-26,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V849444,2025-09-26,Open,102.8,N/A,Maintenance,Boston,02114,05
+V849435,2025-09-26,Open,102.8,N/A,Maintenance,Boston,02114,05
+V849446,2025-09-26,Open,102.8,N/A,Maintenance,Boston,02114,05
+V843370,2025-09-26,Open,3307,N/A,Protection of Adj. Property,South Boston,02127,06
+V777054,2025-09-26,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V845185,2025-09-26,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02121,14
+V848656,2025-09-23,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V851937,2025-09-23,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V851925,2025-09-23,Open,116,N/A,Unsafe Structures,Mattapan,02126,18
+V863179,2025-09-23,Closed,116,N/A,Unsafe Structures,Boston,02114,03
+V860441,2025-09-23,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V839438,2025-09-23,Closed,102.8,N/A,Maintenance,Roxbury,02118,08
+V844595,2025-09-23,Open,116,N/A,Unsafe Structures,Mattapan,02126,14
+V863069,2025-09-23,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V863064,2025-09-23,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V861203,2025-09-23,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V861781,2025-09-22,Closed,3310.2,N/A,Maintenance of Means of Egress,Charlestown,02129,02
+V855610,2025-09-22,Closed,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V861758,2025-09-22,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,West Roxbury,02132,20
+V861432,2025-09-19,Closed,116,N/A,Unsafe Structures,Dorchester,02121,15
+V861427,2025-09-19,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02215,21
+V860457,2025-09-18,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02215,21
+V861200,2025-09-18,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02126,14
+V831434,2025-09-17,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V835810,2025-09-17,Closed,105,N/A,Permits,Brighton,02135,22
+V773156,2025-09-17,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V860855,2025-09-16,Open,248 CMR,N/A,Mass State Plumbing Code,Roslindale,02131,19
+V860834,2025-09-16,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,19
+V860748,2025-09-16,Closed,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V860485,2025-09-15,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Mission Hill,02120,10
+V860454,2025-09-15,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V860442,2025-09-15,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V860068,2025-09-12,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V860060,2025-09-12,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V837969,2025-09-09,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V848089,2025-09-09,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V848102,2025-09-09,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V859075,2025-09-08,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V859067,2025-09-08,Closed,102.8,N/A,Maintenance,Boston,02111,03
+V859057,2025-09-08,Closed,102.8,N/A,Maintenance,Brighton,02135,21
+V751652,2025-09-05,Open,116.1,N/A,Unsafe and Dangerous,South Boston,02127,07
+V751639,2025-09-05,Open,116.1,N/A,Unsafe and Dangerous,South Boston,02127,07
+V752250,2025-09-05,Open,116.1,N/A,Unsafe and Dangerous,South Boston,02127,07
+V837281,2025-09-05,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V832129,2025-09-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V736609,2025-09-05,Open,102.8,N/A,Maintenance,Dorchester,02125,13
+V819591,2025-09-05,Closed,116,N/A,Unsafe Structures,Jamaica Plain,02130,11
+V837408,2025-09-05,Closed,116,N/A,Unsafe Structures,Jamaica Plain,02119,11
+V858146,2025-09-04,Closed,4-3,N/A,Building or Use of Premise req,Dorchester,02119,13
+V858140,2025-09-04,Closed,4-3,N/A,Building or Use of Premise req,Dorchester,02125,13
+V858134,2025-09-04,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02119,13
+V857362,2025-09-02,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V857360,2025-09-02,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V857266,2025-09-02,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V857258,2025-09-02,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V855606,2025-08-28,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V855008,2025-08-27,Open,116,N/A,Unsafe Structures,Charlestown,02129,02
+V778722,2025-08-26,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,10
+V821889,2025-08-26,Closed,102.8,N/A,Maintenance,Mission Hill,02115,10
+V833973,2025-08-26,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V855020,2025-08-26,Closed,104.6,N/A,Right of Entry,Brighton,02135,22
+V855001,2025-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V854717,2025-08-25,Closed,102.8,N/A,Maintenance,Mattapan,02126,14
+V854706,2025-08-25,Closed,102.8,N/A,Maintenance,Mattapan,02126,14
+V853648,2025-08-21,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V853641,2025-08-21,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V853639,2025-08-21,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V853637,2025-08-21,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V853591,2025-08-21,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V853331,2025-08-20,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V811611,2025-08-19,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V853078,2025-08-19,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V853073,2025-08-19,Closed,116,N/A,Unsafe Structures,Roslindale,02136,18
+V852922,2025-08-18,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V823219,2025-08-15,Closed,102.8,N/A,Maintenance,Charlestown,02129,02
+V837415,2025-08-15,Open,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V809952,2025-08-15,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V837902,2025-08-15,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V836412,2025-08-15,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V836423,2025-08-15,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V837926,2025-08-15,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V834719,2025-08-15,Open,111.1,N/A,Certificate of Occupancy,Mattapan,02126,18
+V844087,2025-08-15,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V844130,2025-08-15,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V847437,2025-08-15,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V852340,2025-08-14,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V797588,2025-08-13,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V851751,2025-08-12,Closed,102.8,N/A,Maintenance,Boston,02114,03
+V851224,2025-08-08,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02122,15
+V851071,2025-08-07,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V850959,2025-08-07,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V851066,2025-08-07,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02124,15
+V850171,2025-08-05,Closed,1009.1,N/A,Accessible Means of Egress,Mission Hill,02120,09
+V850449,2025-08-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V850183,2025-08-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V850174,2025-08-04,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V777835,2025-07-31,Closed,1012.2,N/A,Slope,Boston,02215,05
+V849767,2025-07-31,Open,102.8,N/A,Maintenance,Mission Hill,02120,10
+V849760,2025-07-31,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V849730,2025-07-31,Closed,116,N/A,Unsafe Structures,Roslindale,02131,20
+V849182,2025-07-29,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V848648,2025-07-25,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V848552,2025-07-24,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V847759,2025-07-23,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02126,14
+V848194,2025-07-23,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V847753,2025-07-21,Open,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V847747,2025-07-21,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V847447,2025-07-18,Closed,102.8,N/A,Maintenance,Boston,02108,05
+V847441,2025-07-18,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V847440,2025-07-18,Closed,116,N/A,Unsafe Structures,Roslindale,02131,18
+V847439,2025-07-18,Closed,116,N/A,Unsafe Structures,South Boston,02127,07
+V847438,2025-07-18,Closed,107.4,N/A,Failed to comply w permit term,South Boston,02127,06
+V847436,2025-07-18,Closed,107.4,N/A,Failed to comply w permit term,South Boston,02127,06
+V847270,2025-07-17,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V847269,2025-07-17,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V847166,2025-07-17,Open,1001.3.2,N/A,Testing & Certification,East Boston,02128,01
+V847096,2025-07-16,Closed,1001.3.2,N/A,Testing & Certification,East Boston,02128,01
+V847081,2025-07-16,Open,1001.3.2,N/A,Testing & Certification,East Boston,02128,01
+V749943,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V758102,2025-07-16,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V770756,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,09
+V831669,2025-07-16,Open,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02121,12
+V822817,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V764923,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V817324,2025-07-16,Closed,110.27,N/A,Guarding of Live parts,Mattapan,02136,18
+V817324,2025-07-16,Closed,300.11,N/A,Securing and Supporting,Mattapan,02136,18
+V830988,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V837207,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V834884,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V833352,2025-07-16,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V812329,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V822814,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V805002,2025-07-16,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V834552,2025-07-16,Closed,104.6,N/A,Right of Entry,Mattapan,02126,18
+V832113,2025-07-16,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V834747,2025-07-16,Closed,111.1,N/A,Certificate of Occupancy,Mattapan,02126,18
+V834735,2025-07-16,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V846948,2025-07-16,Open,248 CMR,N/A,Mass State Plumbing Code,Dorchester,02121,14
+V846714,2025-07-15,Open,102.8,N/A,Maintenance,Brighton,02135,22
+V846128,2025-07-14,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V846565,2025-07-14,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V846496,2025-07-14,Closed,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V846131,2025-07-11,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V845913,2025-07-10,Closed,116,N/A,Unsafe Structures,West Roxbury,02132,20
+V794240,2025-07-09,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V845180,2025-07-09,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Hyde Park,02136,18
+V845648,2025-07-09,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,19
+V845182,2025-07-07,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02124,14
+V778213,2025-07-03,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V802710,2025-07-03,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V844951,2025-07-03,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V844946,2025-07-03,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V844866,2025-07-03,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V832521,2025-07-02,Closed,105,N/A,Permits,Brighton,02135,22
+V822801,2025-07-02,Closed,105,N/A,Permits,Brighton,02135,22
+V844493,2025-07-01,Closed,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V844364,2025-07-01,Closed,104.6,N/A,Right of Entry,Hyde Park,02136,18
+V844348,2025-07-01,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V844292,2025-07-01,Closed,116,N/A,Unsafe Structures,Boston,02111,03
+V844295,2025-07-01,Closed,116,N/A,Unsafe Structures,Dorchester,02124,14
+V844281,2025-07-01,Closed,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V844267,2025-07-01,Closed,1008.1.9.3,N/A,Locks and Latches,Hyde Park,02136,18
+V844259,2025-07-01,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V843720,2025-06-27,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V822372,2025-06-27,Closed,230.2,N/A,Number of Services,Hyde Park,02136,18
+V832843,2025-06-27,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V843452,2025-06-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,15
+V843451,2025-06-26,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V843399,2025-06-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V843393,2025-06-26,Closed,102.8,N/A,Maintenance,Mission Hill,02130,10
+V842906,2025-06-24,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V842600,2025-06-23,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V842596,2025-06-23,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V842588,2025-06-23,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V699745,2025-06-20,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V840290,2025-06-20,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V832163,2025-06-18,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V839928,2025-06-18,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V839916,2025-06-18,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V839891,2025-06-18,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V795135,2025-06-17,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V834753,2025-06-17,Open,102.8,N/A,Maintenance,Boston,02114,03
+V839587,2025-06-17,Closed,104.6,N/A,Right of Entry,East Boston,02128,01
+V839437,2025-06-16,Closed,102.8,N/A,Maintenance,Roxbury,02118,08
+V839397,2025-06-16,Closed,107.4,N/A,Failed to comply w permit term,East Boston,02128,01
+V839301,2025-06-16,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V839264,2025-06-16,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V834242,2025-06-13,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V838874,2025-06-13,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V809939,2025-06-12,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V809926,2025-06-12,Open,903.5,N/A,Fire Protection Systems,Boston,02111,03
+V809741,2025-06-12,Open,110.7,N/A,Periodic Inspections,Boston,02111,03
+V838034,2025-06-10,Open,102.8,N/A,Maintenance,Dorchester,02121,12
+V838028,2025-06-10,Open,104.6,N/A,Right of Entry,Dorchester,02124,14
+V837966,2025-06-10,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V837668,2025-06-09,Open,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V837657,2025-06-09,Open,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V833989,2025-06-09,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V837650,2025-06-09,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V837302,2025-06-05,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V837291,2025-06-05,Closed,107.4,N/A,Failed to comply w permit term,South Boston,02127,06
+V837218,2025-06-05,Closed,101.4.4,N/A,Maintenance,Dorchester,02125,07
+V837213,2025-06-05,Closed,3307.1,N/A,Protection of Adj. Property,Roxbury,02118,09
+V837173,2025-06-05,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V836990,2025-06-04,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V836980,2025-06-04,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V836655,2025-06-03,Open,111.1,N/A,Certificate of Occupancy,Dorchester,02122,16
+V836650,2025-06-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V836421,2025-06-02,Closed,116,N/A,Unsafe Structures,Dorchester,02121,13
+V835559,2025-05-29,Closed,102.8,N/A,Maintenance,Boston,02114,03
+V835126,2025-05-27,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02114,05
+V834742,2025-05-22,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V834725,2025-05-22,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V834722,2025-05-22,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V807444,2025-05-21,Closed,107.4,N/A,Failed to comply w permit term,Boston,02111,03
+V798638,2025-05-21,Closed,110.7,N/A,Periodic Inspections,Boston,02111,03
+V798610,2025-05-21,Closed,111.1,N/A,Certificate of Occupancy,Boston,02111,03
+V798623,2025-05-21,Closed,111.1,N/A,Certificate of Occupancy,Boston,02111,03
+V798627,2025-05-21,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V798650,2025-05-21,Closed,105.4,N/A,Validity of Permit,Boston,02111,03
+V798667,2025-05-21,Open,3310.2,N/A,Maintenance of Means of Egress,Boston,02111,03
+V834581,2025-05-21,Open,104.6,N/A,Right of Entry,Dorchester,02125,07
+V834356,2025-05-20,Closed,102.8,N/A,Maintenance,Roslindale,02131,19
+V834328,2025-05-20,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V834270,2025-05-20,Open,104.6,N/A,Right of Entry,Dorchester,02121,14
+V834094,2025-05-19,Closed,102.8,N/A,Maintenance,Boston,02111,03
+V834010,2025-05-19,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V833720,2025-05-16,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,07
+V745098,2025-05-15,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V756474,2025-05-15,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V756449,2025-05-15,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V756437,2025-05-15,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V833557,2025-05-15,Closed,116,N/A,Unsafe Structures,Dorchester,02125,07
+V833442,2025-05-15,Closed,116,N/A,Unsafe Structures,Dorchester,02125,07
+V833455,2025-05-15,Closed,116,N/A,Unsafe Structures,Dorchester,02125,07
+V821143,2025-05-13,Open,107.4,N/A,Failed to comply w permit term,Boston,02114,03
+V823379,2025-05-13,Open,102.8,N/A,Maintenance,Boston,02114,03
+V829267,2025-05-13,Open,102.2.2,N/A,Municipal Bylaws or Ordinances,Boston,02114,03
+V832941,2025-05-13,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V832152,2025-05-12,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V832744,2025-05-12,Closed,1001.3,N/A,Egress Maintenance,Dorchester,02121,14
+V831947,2025-05-12,Open,116,N/A,Unsafe Structures,Dorchester,02121,14
+V832523,2025-05-09,Closed,105,N/A,Permits,Brighton,02135,22
+V832126,2025-05-08,Closed,102.8,N/A,Maintenance,Boston,02110,03
+V832432,2025-05-08,Closed,111.1,N/A,Certificate of Occupancy,Roxbury,02119,12
+V792743,2025-05-08,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V745507,2025-05-08,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V755516,2025-05-08,Closed,116.1,N/A,Unsafe and Dangerous,Hyde Park,02136,18
+V815295,2025-05-08,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V814146,2025-05-08,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V816908,2025-05-08,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V824231,2025-05-08,Closed,1006.1,N/A,Number of Exits or Exit Access,Mattapan,02126,18
+V610290,2025-05-08,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V795089,2025-05-08,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V759853,2025-05-08,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V832120,2025-05-07,Closed,102.8,N/A,Maintenance,Charlestown,02129,02
+V832171,2025-05-07,Closed,102.8,N/A,Maintenance,Boston,02116,05
+V832160,2025-05-07,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V832155,2025-05-07,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V832144,2025-05-07,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V832139,2025-05-07,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,13
+V832134,2025-05-07,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V832009,2025-05-06,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V831996,2025-05-06,Closed,104.6,N/A,Right of Entry,Roxbury,02118,08
+V831983,2025-05-06,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V831962,2025-05-06,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,04
+V831965,2025-05-06,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V831963,2025-05-06,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V831959,2025-05-06,Open,5110.1,N/A,Failure to secure permit,Dorchester,02121,12
+V831953,2025-05-06,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V831954,2025-05-06,Closed,116,N/A,Unsafe Structures,Dorchester,02121,14
+V831931,2025-05-06,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V831696,2025-05-05,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V831690,2025-05-05,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V831687,2025-05-05,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V831680,2025-05-05,Closed,116,N/A,Unsafe Structures,South Boston,02127,06
+V820042,2025-05-02,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V816475,2025-05-02,Open,903.5,N/A,Fire Protection Systems,Roxbury,02118,09
+V817082,2025-05-02,Open,901.2,N/A,Fire Protection Systems,Roxbury,02118,09
+V815674,2025-05-02,Open,110.7,N/A,Periodic Inspections,Roxbury,02118,09
+V816476,2025-05-02,Open,111.1,N/A,Certificate of Occupancy,Roxbury,02118,09
+V831452,2025-05-02,Closed,104.6,N/A,Right of Entry,Roxbury,02118,08
+V831284,2025-05-01,Closed,1001.3,N/A,Egress Maintenance,Dorchester,02124,16
+V798729,2025-05-01,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V794596,2025-05-01,Open,116,N/A,Unsafe Structures,Dorchester,02125,07
+V831240,2025-05-01,Closed,111.1,N/A,Certificate of Occupancy,Boston,02111,03
+V831122,2025-04-30,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V813133,2025-04-30,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02124,14
+V811609,2025-04-30,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V830995,2025-04-30,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V830983,2025-04-30,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V830850,2025-04-29,Closed,107.4,N/A,Failed to comply w permit term,Boston,02113,03
+V830849,2025-04-29,Closed,907.8,N/A,Fire Protection Systems,Boston,02116,05
+V830848,2025-04-29,Open,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V829252,2025-04-29,Closed,107.4,N/A,Failed to comply w permit term,Boston,02113,03
+V830745,2025-04-29,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V830733,2025-04-29,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V830092,2025-04-24,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02122,16
+V830088,2025-04-24,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02122,16
+V830084,2025-04-24,Closed,5110.1,N/A,Failure to secure permit,Dorchester,02121,14
+V830081,2025-04-24,Closed,107.4,N/A,Failed to comply w permit term,Boston,02115,04
+V830058,2025-04-24,Closed,116,N/A,Unsafe Structures,Roxbury,02118,04
+V830047,2025-04-24,Closed,5103.1,N/A,Maintenance,Dorchester,02122,15
+V830042,2025-04-24,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V830024,2025-04-24,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V829555,2025-04-22,Closed,102.8,N/A,Maintenance,Roxbury,02118,03
+V751957,2025-04-22,Closed,R104.6,N/A,Right of Entry,Charlestown,02129,02
+V829246,2025-04-18,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V829247,2025-04-18,Closed,102.8,N/A,Maintenance,Allston,02134,22
+V829218,2025-04-18,Closed,105.6,N/A,Suspension or Revocation,East Boston,02128,01
+V829113,2025-04-17,Open,105.1,N/A,Failure to Obtain Permit,Charlestown,02129,02
+V829041,2025-04-17,Open,110.14,N/A,Electrical Connections,Roxbury,02119,12
+V817736,2025-04-15,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V817583,2025-04-15,Open,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V817599,2025-04-15,Open,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V817578,2025-04-15,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,04
+V827875,2025-04-14,Closed,102.8,N/A,Maintenance,Roxbury,02118,03
+V827876,2025-04-11,Closed,102.8,N/A,Maintenance,Roxbury,02118,04
+V827832,2025-04-11,Closed,116,N/A,Unsafe Structures,Allston,02134,21
+V827799,2025-04-11,Closed,116,N/A,Unsafe Structures,West Roxbury,02132,20
+V810626,2025-04-09,Open,102.8,N/A,Maintenance,Dorchester,02125,13
+V813279,2025-04-09,Closed,102.8,N/A,Maintenance,Boston,02108,05
+V759704,2025-04-09,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V827241,2025-04-09,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V826492,2025-04-04,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V826207,2025-04-03,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V825956,2025-04-02,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V825922,2025-04-02,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V825344,2025-03-31,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V825314,2025-03-31,Closed,116,N/A,Unsafe Structures,Mattapan,02126,17
+V790092,2025-03-28,Closed,1001.3.3,N/A,,Charlestown,02129,02
+V825069,2025-03-28,Open,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V824908,2025-03-27,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V817070,2025-03-27,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V822810,2025-03-27,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V822411,2025-03-27,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V824070,2025-03-24,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V824010,2025-03-24,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V823731,2025-03-21,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V823727,2025-03-21,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V823721,2025-03-21,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V823715,2025-03-21,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V812528,2025-03-20,Closed,107.4,N/A,Failed to comply w permit term,Jamaica Plain,02130,10
+V823486,2025-03-20,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V816927,2025-03-19,Closed,116,N/A,Unsafe Structures,Mattapan,02136,18
+V803117,2025-03-19,Closed,116,N/A,Unsafe Structures,Dorchester,02125,07
+V726453,2025-03-17,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V726462,2025-03-17,Closed,1001.3.2,N/A,Testing & Certification,Roslindale,02131,18
+V822815,2025-03-17,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V714300,2025-03-14,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V779249,2025-03-14,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V755211,2025-03-14,Open,104.6,N/A,Right of Entry,Hyde Park,02136,18
+V822519,2025-03-13,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V822515,2025-03-13,Closed,102.8,N/A,Maintenance,Boston,02111,03
+V817746,2025-03-13,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V822392,2025-03-13,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,07
+V822221,2025-03-12,Closed,116,N/A,Unsafe Structures,Roxbury,02119,12
+V822198,2025-03-12,Closed,111.1,N/A,Certificate of Occupancy,Boston,02113,03
+V769383,2025-03-12,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V766175,2025-03-12,Closed,102.8,N/A,Maintenance,Mattapan,02126,14
+V811021,2025-03-12,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V822131,2025-03-12,Closed,116,N/A,Unsafe Structures,Roxbury,02118,03
+V821906,2025-03-11,Closed,102.8,N/A,Maintenance,Roslindale,02131,20
+V811630,2025-03-11,Closed,116,N/A,Unsafe Structures,Roslindale,02131,20
+V811628,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,20
+V811625,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,19
+V821917,2025-03-11,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V756499,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V793503,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,07
+V799390,2025-03-11,Closed,Art. 17 Section 2.04 (3),N/A,Permits,Dorchester,02124,17
+V799413,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V803014,2025-03-11,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V783049,2025-03-11,Open,116,N/A,Unsafe Structures,Allston,02134,22
+V795122,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V821911,2025-03-11,Closed,102.8,N/A,Maintenance,Brighton,02135,21
+V773153,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V773244,2025-03-11,Closed,1001.3.2,N/A,Testing & Certification,Hyde Park,02136,18
+V821903,2025-03-11,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V781295,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V795844,2025-03-11,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V764469,2025-03-11,Closed,105,N/A,Permits,Roslindale,02131,18
+V798094,2025-03-11,Closed,3307.1,N/A,Protection of Adj. Property,Hyde Park,02136,18
+V807553,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V799049,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V773119,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,20
+V788760,2025-03-11,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V821895,2025-03-11,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V803506,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V762890,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V803039,2025-03-11,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V805717,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V787770,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V813135,2025-03-11,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V809642,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V808663,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V809234,2025-03-11,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V821881,2025-03-11,Closed,105,N/A,Permits,Brighton,02135,22
+V821761,2025-03-11,Closed,107.4,N/A,Failed to comply w permit term,Roxbury,02119,12
+V821726,2025-03-10,Closed,230.6,N/A,Conductors Considered Outside the Building. Conductors shall be considered outside of a building or other structure under any of the following conditions: Sections 1-5.,Allston,02134,22
+V821505,2025-03-07,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V821504,2025-03-07,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V821451,2025-03-07,Closed,116,N/A,Unsafe Structures,Jamaica Plain,02130,19
+V821299,2025-03-06,Closed,107.4,N/A,Failed to comply w permit term,Roxbury,02119,12
+V821282,2025-03-06,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V821273,2025-03-06,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,16
+V820833,2025-03-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V820823,2025-03-04,Open,116,N/A,Unsafe Structures,Jamaica Plain,02130,11
+V820811,2025-03-04,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,16
+V820794,2025-03-04,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V820770,2025-03-04,Closed,907.8,N/A,Fire Protection Systems,Boston,02111,03
+V820765,2025-03-04,Closed,116,N/A,Unsafe Structures,Mattapan,02126,17
+V820755,2025-03-04,Closed,104.6,N/A,Right of Entry,East Boston,02128,01
+V820747,2025-03-04,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V820553,2025-03-03,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V820219,2025-02-28,Closed,107.4,N/A,Failed to comply w permit term,Brighton,02135,22
+V819834,2025-02-26,Closed,105.6,N/A,Suspension or Revocation,Brighton,02135,21
+V819607,2025-02-25,Closed,116,N/A,Unsafe Structures,South Boston,02127,06
+V818461,2025-02-24,Closed,102.8,N/A,Maintenance,Allston,02134,22
+V818415,2025-02-24,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V818410,2025-02-24,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V818406,2025-02-24,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V818402,2025-02-24,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02114,03
+V818397,2025-02-24,Closed,104.6,N/A,Right of Entry,Allston,02134,21
+V817727,2025-02-21,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V817686,2025-02-21,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V817572,2025-02-20,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V817567,2025-02-20,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V817545,2025-02-20,Closed,111.1,N/A,Certificate of Occupancy,Boston,02113,03
+V817064,2025-02-19,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V817062,2025-02-19,Closed,102.8,N/A,Maintenance,Boston,02108,05
+V816959,2025-02-19,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02134,21
+V816953,2025-02-19,Closed,102.8,N/A,Maintenance,Brighton,02134,21
+V816942,2025-02-19,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V816939,2025-02-19,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V816919,2025-02-19,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V816907,2025-02-19,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V816457,2025-02-18,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V815694,2025-02-14,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V815679,2025-02-14,Closed,104.6,N/A,Right of Entry,Brighton,02135,22
+V815642,2025-02-13,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V795851,2025-02-13,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V800906,2025-02-13,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V815283,2025-02-12,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V755522,2025-02-11,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,07
+V815076,2025-02-11,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V814118,2025-02-07,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V814112,2025-02-07,Closed,107.4,N/A,Failed to comply w permit term,East Boston,02128,01
+V814101,2025-02-07,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V814097,2025-02-07,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V773712,2025-02-05,Open,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V773698,2025-02-05,Open,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V764487,2025-02-04,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V794612,2025-02-04,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V813454,2025-02-04,Closed,3307.1,N/A,Protection of Adj. Property,Roxbury,02118,08
+V813421,2025-02-04,Closed,115.3,N/A,Unlawful Continuance,Boston,02115,04
+V813417,2025-02-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V813413,2025-02-04,Closed,107.4,N/A,Failed to comply w permit term,Boston,02115,04
+V813143,2025-02-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V813203,2025-02-03,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V813151,2025-02-03,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02125,15
+V813145,2025-02-03,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,04
+V813140,2025-02-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V812306,2025-02-03,Closed,102.8,N/A,Maintenance,Boston,02115,10
+V800219,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800233,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800225,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800211,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800206,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800203,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800198,2025-01-31,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V812787,2025-01-30,Closed,1006.1,N/A,Number of Exits or Exit Access,Roslindale,02131,20
+V812784,2025-01-30,Closed,102.8,N/A,Maintenance,Roslindale,02131,20
+V812263,2025-01-29,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V812363,2025-01-28,Closed,102.8,N/A,Maintenance,Brighton,02135,21
+V812353,2025-01-28,Closed,102.8,N/A,Maintenance,Allston,02134,22
+V812312,2025-01-28,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V812302,2025-01-28,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V812296,2025-01-28,Closed,102.8,N/A,Maintenance,Boston,02215,05
+V744446,2025-01-28,Closed,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V776463,2025-01-27,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V803025,2025-01-27,Closed,706.1.1,N/A,Party Walls,Boston,02108,05
+V810786,2025-01-21,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V778255,2025-01-21,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V810766,2025-01-21,Closed,102.8,N/A,Maintenance,Dorchester,02125,07
+V795871,2025-01-21,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V749446,2025-01-21,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V808697,2025-01-21,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,17
+V810619,2025-01-21,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V755209,2025-01-21,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V768275,2025-01-21,Closed,111.1,N/A,Certificate of Occupancy,South Boston,02127,06
+V810600,2025-01-21,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V810590,2025-01-21,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,19
+V810581,2025-01-21,Open,116,N/A,Unsafe Structures,East Boston,02128,01
+V810570,2025-01-21,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V810560,2025-01-21,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V810033,2025-01-17,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V810027,2025-01-17,Open,111.1,N/A,Certificate of Occupancy,East Boston,02128,01
+V809954,2025-01-16,Closed,907.8,N/A,Fire Protection Systems,Boston,02215,05
+V809956,2025-01-16,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V809946,2025-01-16,Open,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V809944,2025-01-16,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V755660,2025-01-15,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,07
+V809406,2025-01-15,Open,1006.1,N/A,Number of Exits or Exit Access,Mattapan,02126,18
+V795813,2025-01-15,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V625899,2025-01-15,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V779251,2025-01-15,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V616080,2025-01-15,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V758299,2025-01-15,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02122,15
+V799405,2025-01-15,Closed,105,N/A,Permits,Mattapan,02126,18
+V749732,2025-01-15,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V809622,2025-01-15,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V803511,2025-01-14,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V751038,2025-01-14,Closed,1006.1,N/A,Number of Exits or Exit Access,Mattapan,02126,18
+V809072,2025-01-13,Closed,116,N/A,Unsafe Structures,South Boston,02127,07
+V808632,2025-01-10,Closed,314.28,N/A,Pull & Junction Boxes,Roxbury,02119,12
+V808632,2025-01-10,Closed,230.85,N/A,Emergency Disconnects,Roxbury,02119,12
+V808503,2025-01-09,Closed,107.4,N/A,Failed to comply w permit term,West Roxbury,02132,20
+V808500,2025-01-09,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V808497,2025-01-09,Closed,907.8,N/A,Fire Protection Systems,Boston,02113,03
+V808315,2025-01-08,Closed,102.8,N/A,Maintenance,Boston,02111,03
+V808310,2025-01-08,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V808302,2025-01-08,Closed,102.8,N/A,Maintenance,Roslindale,02131,18
+V808292,2025-01-08,Closed,102.8,N/A,Maintenance,Boston,02111,03
+V808280,2025-01-08,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V808135,2025-01-07,Closed,10.14(b),N/A,Water Supply & the Water Distribution System,East Boston,02128,01
+V808135,2025-01-07,Closed,10.11,N/A,Hangers & Supports,East Boston,02128,01
+V807581,2025-01-03,Closed,102.8,N/A,Maintenance,Roxbury,02118,03
+V753528,2025-01-03,Closed,1001.3.3,N/A,,Charlestown,02129,02
+V753529,2025-01-03,Closed,1001.3.3,N/A,,Charlestown,02129,02
+V737906,2025-01-03,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,08
+V807507,2025-01-02,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V762114,2024-12-31,Closed,102.8,N/A,Maintenance,Roslindale,02131,18
+V760019,2024-12-31,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V807184,2024-12-30,Closed,102.8,N/A,Maintenance,Roxbury,02119,11
+V806319,2024-12-26,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,17
+V805052,2024-12-20,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V805020,2024-12-20,Closed,105.4,N/A,Validity of Permit,Mattapan,02126,17
+V805017,2024-12-20,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V805010,2024-12-20,Closed,102.8,N/A,Maintenance,Mattapan,02126,14
+V805006,2024-12-20,Closed,3307,N/A,Protection of Adj. Property,Dorchester,02122,16
+V804382,2024-12-18,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V799466,2024-12-18,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V799428,2024-12-18,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V792329,2024-12-18,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V803801,2024-12-13,Closed,110.5,N/A,Inspections,Roxbury,02118,09
+V660178,2024-12-13,Closed,110.5,N/A,Inspections,Mattapan,02126,18
+V803878,2024-12-13,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V803805,2024-12-12,Closed,107.4,N/A,Failed to comply w permit term,South Boston,02127,06
+V778791,2024-12-11,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V803483,2024-12-11,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V760026,2024-12-10,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V803061,2024-12-09,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V802994,2024-12-09,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V802734,2024-12-06,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,09
+V802733,2024-12-06,Closed,3310.2,N/A,Maintenance of Means of Egress,Mission Hill,02120,09
+V802728,2024-12-06,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,09
+V802714,2024-12-06,Closed,3310.2,N/A,Maintenance of Means of Egress,Mission Hill,02120,09
+V802720,2024-12-06,Closed,3310.2,N/A,Maintenance of Means of Egress,Mission Hill,02120,09
+V802449,2024-12-04,Closed,Art. 17 Section 2.04 (3),N/A,Permits,Brighton,02135,21
+V802374,2024-12-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V802372,2024-12-04,Closed,116,N/A,Unsafe Structures,Roxbury,02119,08
+V802297,2024-12-04,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V802280,2024-12-04,Closed,110.5,N/A,Inspections,Dorchester,02121,12
+V802282,2024-12-04,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V801876,2024-12-02,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V800971,2024-12-02,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V801486,2024-11-29,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V801481,2024-11-29,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V801477,2024-11-29,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V801138,2024-11-26,Closed,3310.2,N/A,Maintenance of Means of Egress,Boston,02111,03
+V800917,2024-11-25,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V790947,2024-11-25,Closed,116,N/A,Unsafe Structures,Roxbury,02119,09
+V790377,2024-11-25,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V788721,2024-11-25,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V788724,2024-11-25,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V788728,2024-11-25,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V770759,2024-11-25,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V770735,2024-11-25,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V760035,2024-11-25,Closed,107.4,N/A,Failed to comply w permit term,Roxbury,02119,09
+V794601,2024-11-25,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800911,2024-11-25,Closed,1009.1,N/A,Accessible Means of Egress,Mission Hill,02120,09
+V800910,2024-11-25,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V800901,2024-11-25,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V800892,2024-11-25,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V800885,2024-11-25,Closed,1009.1,N/A,Accessible Means of Egress,Roxbury,02118,09
+V800563,2024-11-22,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V800523,2024-11-21,Closed,116,N/A,Unsafe Structures,Dorchester,02121,12
+V800452,2024-11-21,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800433,2024-11-21,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V800240,2024-11-20,Closed,105.1,N/A,Failure to Obtain Permit,Charlestown,02129,02
+V800222,2024-11-20,Closed,1001.3.2,N/A,Testing & Certification,Jamaica Plain,02130,10
+V800208,2024-11-20,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,10
+V800196,2024-11-20,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800194,2024-11-20,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800192,2024-11-20,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V800031,2024-11-19,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V800021,2024-11-19,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V792005,2024-11-18,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V799465,2024-11-15,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V773974,2024-11-15,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V781312,2024-11-15,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V785057,2024-11-15,Closed,Article 89 Sec 9,N/A,Accessory keeping of hens,West Roxbury,02132,20
+V781303,2024-11-15,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V779234,2024-11-15,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V799399,2024-11-15,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,16
+V799391,2024-11-15,Closed,116,N/A,Unsafe Structures,Dorchester,02124,16
+V550795,2024-11-14,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V799324,2024-11-14,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V798970,2024-11-13,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V798958,2024-11-13,Closed,116,N/A,Unsafe Structures,Boston,02114,05
+V798795,2024-11-12,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V798626,2024-11-12,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V798350,2024-11-08,Closed,116.1,N/A,Unsafe and Dangerous,Boston,02114,03
+V777827,2024-11-07,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V777796,2024-11-07,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V699527,2024-11-07,Closed,110.7,N/A,Periodic Inspections,Boston,02108,05
+V777816,2024-11-07,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V780261,2024-11-07,Closed,105.6,N/A,Suspension or Revocation,Boston,02116,05
+V797364,2024-11-05,Closed,10.14(b),N/A,Water Supply & the Water Distribution System,East Boston,02128,01
+V797364,2024-11-05,Closed,10.11,N/A,Hangers & Supports,East Boston,02128,01
+V797648,2024-11-05,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V797646,2024-11-05,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V797642,2024-11-05,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V797628,2024-11-05,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V797620,2024-11-05,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V797613,2024-11-05,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V797609,2024-11-05,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V797581,2024-11-05,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V792621,2024-11-04,Closed,110.27,N/A,Guarding of Live parts,Dorchester,02121,12
+V797185,2024-11-04,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V797161,2024-11-04,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V796911,2024-11-01,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V785885,2024-11-01,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V796845,2024-11-01,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V796644,2024-10-31,Closed,248CMR 3.05b,N/A,Requirements,South Boston,02127,06
+V796644,2024-10-31,Closed,10.02 (6),N/A,Required Plumbing Fixtures,South Boston,02127,06
+V796634,2024-10-31,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V796111,2024-10-29,Closed,104.6,N/A,Right of Entry,Brighton,02135,21
+V777867,2024-10-28,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V777032,2024-10-28,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V790409,2024-10-28,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V751213,2024-10-28,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V795837,2024-10-28,Closed,4-3,N/A,Building or Use of Premise req,Mattapan,02126,18
+V795838,2024-10-28,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V795833,2024-10-28,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V795820,2024-10-28,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,21
+V795815,2024-10-28,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02215,21
+V795363,2024-10-24,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V795365,2024-10-24,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V795170,2024-10-23,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V795132,2024-10-23,Closed,102.8,N/A,Maintenance,Dorchester,02125,07
+V795112,2024-10-23,Open,104.6,N/A,Right of Entry,Dorchester,02125,07
+V795090,2024-10-23,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V794966,2024-10-22,Closed,102.8,N/A,Maintenance,Roxbury,02118,08
+V794852,2024-10-22,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V785923,2024-10-22,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V787028,2024-10-22,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V785355,2024-10-22,Closed,116.1,N/A,Unsafe and Dangerous,Hyde Park,02136,18
+V782245,2024-10-22,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V782729,2024-10-22,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V779242,2024-10-21,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V744196,2024-10-21,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V777820,2024-10-21,Closed,1012.2,N/A,Slope,Boston,02215,05
+V794600,2024-10-21,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,09
+V794280,2024-10-18,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V794272,2024-10-18,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V794237,2024-10-18,Closed,3307.1,N/A,Protection of Adj. Property,Dorchester,02121,12
+V793775,2024-10-16,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V793772,2024-10-16,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V793623,2024-10-15,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V770012,2024-10-11,Closed,111.1,N/A,Certificate of Occupancy,Roxbury,02118,09
+V759827,2024-10-11,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V773720,2024-10-11,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V759843,2024-10-11,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V778781,2024-10-11,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V793149,2024-10-11,Open,116,N/A,Unsafe Structures,Brighton,02135,22
+V793081,2024-10-10,Closed,4-3,N/A,Building or Use of Premise req,Roxbury,02119,11
+V792859,2024-10-09,Closed,102.8,N/A,Maintenance,Boston,02116,03
+V792617,2024-10-08,Open,903.5,N/A,Fire Protection Systems,Boston,02114,03
+V792566,2024-10-08,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V792008,2024-10-08,Closed,3307.1,N/A,Protection of Adj. Property,South Boston,02127,06
+V792499,2024-10-08,Closed,230.6,N/A,Conductors Considered Outside the Building. Conductors shall be considered outside of a building or other structure under any of the following conditions: Sections 1-5.,South Boston,02127,07
+V792006,2024-10-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V792004,2024-10-04,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V792003,2024-10-04,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V792002,2024-10-04,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V791979,2024-10-04,Open,102.8,N/A,Maintenance,South Boston,02127,06
+V791976,2024-10-04,Closed,102.8,N/A,Maintenance,Boston,02108,05
+V791547,2024-10-02,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V791539,2024-10-02,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V296634,2024-10-01,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V791141,2024-10-01,Closed,1001.3.3,N/A,,Roxbury,02118,04
+V790992,2024-09-30,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,19
+V790986,2024-09-30,Closed,104.6,N/A,Right of Entry,East Boston,02128,01
+V790981,2024-09-30,Closed,110.7,N/A,Periodic Inspections,Dorchester,02122,16
+V790978,2024-09-30,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V790970,2024-09-30,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Boston,02111,03
+V790949,2024-09-30,Closed,105.1,N/A,Failure to Obtain Permit,BOSTON,,20
+V790946,2024-09-30,Closed,116,N/A,Unsafe Structures,Roxbury,02118,04
+V790464,2024-09-26,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V790460,2024-09-26,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V790428,2024-09-26,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V790412,2024-09-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V790083,2024-09-25,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,15
+V790080,2024-09-25,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02125,15
+V790064,2024-09-25,Closed,102.8,N/A,Maintenance,Boston,02116,05
+V790048,2024-09-25,Closed,102.8,N/A,Maintenance,Roslindale,02131,20
+V789609,2024-09-23,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V788973,2024-09-19,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V788954,2024-09-19,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V788948,2024-09-19,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,16
+V788754,2024-09-18,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V788751,2024-09-18,Closed,102.8,N/A,Maintenance,Mission Hill,02115,10
+V788749,2024-09-18,Closed,116.2,N/A,Unsafe and Dangerous,Charlestown,02129,02
+V788733,2024-09-18,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V749689,2024-09-17,Closed,1006.3.1,N/A,Minimum Number of Exits,Boston,02114,05
+V788482,2024-09-17,Closed,102.8,N/A,Maintenance,Boston,02114,03
+V788446,2024-09-17,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V788194,2024-09-16,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V787838,2024-09-13,Closed,116,N/A,Unsafe Structures,Roxbury,02118,04
+V787836,2024-09-13,Closed,1001.3.3,N/A,,Boston,02108,05
+V787786,2024-09-13,Closed,104.6,N/A,Right of Entry,Dorchester,02122,15
+V787779,2024-09-13,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V787756,2024-09-13,Closed,116,N/A,Unsafe Structures,Roxbury,02119,09
+V787002,2024-09-10,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02125,13
+V786997,2024-09-10,Open,105,N/A,Permits,Brighton,02135,22
+V782288,2024-09-10,Closed,Ch.16-26.4,N/A,Reg. of Construction Hour,Boston,02116,05
+V762137,2024-09-09,Open,107.4,N/A,Failed to comply w permit term,Hyde Park,02136,18
+V613186,2024-09-09,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02115,10
+V681154,2024-09-09,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V756902,2024-09-09,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V745688,2024-09-09,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V754055,2024-09-09,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V677768,2024-09-09,Closed,107.4,N/A,Failed to comply w permit term,Mission Hill,02120,10
+V773239,2024-09-09,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V636427,2024-09-09,Open,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V751192,2024-09-09,Closed,105,N/A,Permits,Brighton,02135,22
+V585642,2024-09-09,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V745434,2024-09-09,Closed,105,N/A,Permits,Brighton,02135,22
+V761139,2024-09-09,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V556135,2024-09-09,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V773256,2024-09-09,Closed,1001.3.2,N/A,Testing & Certification,Brighton,02135,22
+V754058,2024-09-09,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V786243,2024-09-06,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V786241,2024-09-06,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V786240,2024-09-06,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V785919,2024-09-05,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V785908,2024-09-05,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V785894,2024-09-05,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,05
+V785497,2024-09-04,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V785484,2024-09-04,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V785478,2024-09-04,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V785465,2024-09-04,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V785453,2024-09-04,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V785444,2024-09-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V785434,2024-09-04,Closed,116.1,N/A,Unsafe and Dangerous,South Boston,02127,06
+V785420,2024-09-04,Closed,116.1,N/A,Unsafe and Dangerous,Hyde Park,02136,18
+V785385,2024-09-04,Closed,116.1,N/A,Unsafe and Dangerous,Boston,02215,21
+V785367,2024-09-04,Closed,116.2,N/A,Unsafe and Dangerous,Allston,02134,21
+V785325,2024-09-04,Closed,116,N/A,Unsafe Structures,Charlestown,02129,02
+V784886,2024-09-03,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V784850,2024-09-03,Open,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V783166,2024-09-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,15
+V782116,2024-08-30,Closed,9.12,N/A,Inspection of exterior walls.,Boston,02108,03
+V783136,2024-08-30,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,15
+V783114,2024-08-30,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V783093,2024-08-30,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V783081,2024-08-30,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V782999,2024-08-30,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V782808,2024-08-29,Closed,102.8,N/A,Maintenance,Allston,02135,21
+V782791,2024-08-29,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V782268,2024-08-28,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V782258,2024-08-28,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V781730,2024-08-27,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V781714,2024-08-27,Open,1001.3.2,N/A,Testing & Certification,Boston,02114,03
+V781695,2024-08-27,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V781678,2024-08-27,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V781665,2024-08-27,Closed,102.8,N/A,Maintenance,Allston,02134,22
+V781648,2024-08-27,Closed,110.1,N/A,Inspections,Dorchester,02122,15
+V781631,2024-08-27,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,05
+V781440,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V781417,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V781413,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V781388,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V781358,2024-08-26,Closed,105,N/A,Permits,Brighton,02135,22
+V781344,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V781321,2024-08-26,Closed,102.8,N/A,Maintenance,Boston,02116,05
+V781308,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,22
+V781292,2024-08-26,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V781278,2024-08-26,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V780270,2024-08-21,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V780258,2024-08-21,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V780253,2024-08-21,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Mattapan,02126,18
+V780250,2024-08-21,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Mattapan,02126,18
+V779689,2024-08-19,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,10
+V779669,2024-08-19,Closed,107.4,N/A,Failed to comply w permit term,South Boston,02127,06
+V779264,2024-08-16,Open,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V779232,2024-08-16,Closed,Chapter 143 Sec L,N/A,Working Without a Permit,Roxbury,02119,11
+V779142,2024-08-16,Closed,248 CMR Sec 10.02,N/A,Principle #18,Mattapan,02126,14
+V778806,2024-08-14,Closed,116.1,N/A,Unsafe and Dangerous,Boston,02113,03
+V778803,2024-08-14,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V778799,2024-08-14,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,09
+V778786,2024-08-14,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V778763,2024-08-14,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,07
+V778758,2024-08-14,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V778752,2024-08-14,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V778743,2024-08-14,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V778727,2024-08-14,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V778272,2024-08-12,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02108,03
+V778268,2024-08-12,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V778265,2024-08-12,Open,105.1,N/A,Failure to Obtain Permit,Boston,02109,03
+V777868,2024-08-09,Closed,107.4,N/A,Failed to comply w permit term,Boston,02114,05
+V777836,2024-08-09,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V777668,2024-08-08,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V777488,2024-08-07,Closed,110.7,N/A,Periodic Inspections,Dorchester,02125,13
+V777484,2024-08-07,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,15
+V777472,2024-08-07,Closed,102.8,N/A,Maintenance,Dorchester,02124,14
+V777419,2024-08-07,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V777414,2024-08-07,Closed,102.8,N/A,Maintenance,Boston,02109,03
+V777399,2024-08-07,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V777385,2024-08-07,Open,102.8,N/A,Maintenance,Boston,02116,05
+V776781,2024-08-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V776778,2024-08-05,Closed,Article 89 Sec 9,N/A,Accessory keeping of hens,Dorchester,02124,17
+V776775,2024-08-05,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,14
+V776772,2024-08-05,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V776462,2024-08-02,Closed,102.8,N/A,Maintenance,Boston,02114,03
+V776461,2024-08-02,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V776460,2024-08-02,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V776457,2024-08-02,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V776016,2024-07-31,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V775932,2024-07-31,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V775926,2024-07-31,Closed,116,N/A,Unsafe Structures,South Boston,02127,06
+V774577,2024-07-30,Closed,116,N/A,Unsafe Structures,South Boston,02127,06
+V774569,2024-07-30,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V774560,2024-07-30,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V774326,2024-07-29,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V757195,2024-07-29,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02121,14
+V774319,2024-07-29,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,15
+V774313,2024-07-29,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,15
+V774310,2024-07-29,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V765141,2024-07-29,Open,107.4,N/A,Failed to comply w permit term,Dorchester,02121,12
+V764993,2024-07-29,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V773564,2024-07-24,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V773246,2024-07-23,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V773212,2024-07-23,Closed,107.4,N/A,Failed to comply w permit term,Roxbury,02118,03
+V773197,2024-07-23,Closed,107.4,N/A,Failed to comply w permit term,Mission Hill,02120,10
+V773186,2024-07-23,Closed,107.4,N/A,Failed to comply w permit term,East Boston,02128,01
+V773180,2024-07-23,Closed,105,N/A,Permits,Allston,02134,22
+V773174,2024-07-23,Closed,110.5,N/A,Inspections,East Boston,02128,01
+V773168,2024-07-23,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V773155,2024-07-23,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V773149,2024-07-23,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02136,18
+V773134,2024-07-23,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,04
+V773110,2024-07-23,Open,102.8,N/A,Maintenance,South Boston,02127,07
+V773105,2024-07-23,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V772956,2024-07-22,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V772947,2024-07-22,Closed,116,N/A,Unsafe Structures,Dorchester,02124,16
+V772939,2024-07-22,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V771016,2024-07-16,Closed,102.8,N/A,Maintenance,Boston,02114,03
+V757176,2024-07-16,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V754525,2024-07-16,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V756490,2024-07-16,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V770821,2024-07-15,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V770750,2024-07-15,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V770741,2024-07-15,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V770048,2024-07-10,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02118,03
+V770045,2024-07-10,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V770042,2024-07-10,Closed,4-3,N/A,Building or Use of Premise req,Brighton,02135,21
+V770039,2024-07-10,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V770038,2024-07-10,Closed,4-3,N/A,Building or Use of Premise req,Brighton,02135,21
+V769962,2024-07-10,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,19
+V769707,2024-07-09,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V769703,2024-07-09,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V769700,2024-07-09,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V769668,2024-07-09,Closed,3307.1,N/A,Protection of Adj. Property,Boston,02111,03
+V769410,2024-07-08,Open,1001.3.2,N/A,Testing & Certification,Roxbury,02119,11
+V769407,2024-07-08,Open,1001.3.2,N/A,Testing & Certification,Roxbury,02119,11
+V769402,2024-07-08,Open,1001.3.2,N/A,Testing & Certification,Roxbury,02119,11
+V769398,2024-07-08,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V769391,2024-07-08,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V769025,2024-07-05,Closed,102.8,N/A,Maintenance,Charlestown,02129,02
+V769024,2024-07-05,Closed,102.8,N/A,Maintenance,Boston,02116,04
+V769015,2024-07-05,Open,1006.1,N/A,Number of Exits or Exit Access,South Boston,02127,06
+V769008,2024-07-05,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V769001,2024-07-05,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V768911,2024-07-03,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V768906,2024-07-03,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V768857,2024-07-03,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V760481,2024-07-02,Closed,116,N/A,Unsafe Structures,South Boston,02127,06
+V724076,2024-07-02,Open,116,N/A,Unsafe Structures,Dorchester,02122,15
+V718391,2024-07-02,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V610813,2024-07-02,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V748385,2024-07-02,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V757185,2024-07-02,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V768528,2024-07-02,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V768522,2024-07-02,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V768264,2024-07-01,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02125,13
+V768256,2024-07-01,Closed,3307.1,N/A,Protection of Adj. Property,Roxbury,02118,04
+V767936,2024-06-28,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02108,05
+V767923,2024-06-28,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V767921,2024-06-28,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,16
+V767913,2024-06-28,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V767904,2024-06-28,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V766445,2024-06-26,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,11
+V766421,2024-06-26,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V766251,2024-06-25,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V766227,2024-06-25,Closed,102.8,N/A,Maintenance,Boston,02116,03
+V765948,2024-06-24,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,08
+V765895,2024-06-24,Closed,248 CMR,N/A,Mass State Plumbing Code,South Boston,02127,06
+V757170,2024-06-24,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V765857,2024-06-24,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,09
+V758279,2024-06-20,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V765457,2024-06-20,Closed,107.4,N/A,Failed to comply w permit term,Boston,02116,04
+V765420,2024-06-20,Closed,5110.1,N/A,Failure to secure permit,Boston,02116,04
+V765178,2024-06-18,Closed,116.1,N/A,Unsafe and Dangerous,Dorchester,02121,12
+V765167,2024-06-18,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V765163,2024-06-18,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V765136,2024-06-18,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V764986,2024-06-17,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V764900,2024-06-17,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V764894,2024-06-17,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V764892,2024-06-17,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V764888,2024-06-17,Closed,3307.1,N/A,Protection of Adj. Property,Boston,02111,03
+V764475,2024-06-14,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V764473,2024-06-14,Closed,116,N/A,Unsafe Structures,Dorchester,02124,16
+V764462,2024-06-14,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V764373,2024-06-13,Closed,107.4,N/A,Failed to comply w permit term,Boston,02116,04
+V750741,2024-06-11,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V762907,2024-06-06,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V762892,2024-06-06,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V644305,2024-06-05,Closed,111.1,N/A,Certificate of Occupancy,Roxbury,02119,09
+V755689,2024-06-05,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V762542,2024-06-05,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V762390,2024-06-04,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V762365,2024-06-04,Closed,3310.2,N/A,Maintenance of Means of Egress,Jamaica Plain,02130,19
+V726463,2024-06-04,Closed,107.4,N/A,Failed to comply w permit term,Dorchester,02121,12
+V749816,2024-06-04,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V762167,2024-06-03,Closed,107.4,N/A,Failed to comply w permit term,Brighton,02135,21
+V738744,2024-06-03,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V701929,2024-06-03,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V761190,2024-05-31,Closed,1001.3.2,N/A,Testing & Certification,East Boston,02128,01
+V761184,2024-05-31,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V761173,2024-05-31,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V761168,2024-05-31,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V761163,2024-05-31,Closed,104.6,N/A,Right of Entry,East Boston,02128,01
+V761151,2024-05-31,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V761143,2024-05-31,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V761040,2024-05-30,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V761038,2024-05-30,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V761037,2024-05-30,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,19
+V761036,2024-05-30,Closed,102.8,N/A,Maintenance,Mattapan,02126,14
+V761034,2024-05-30,Closed,102.8,N/A,Maintenance,Mattapan,02126,14
+V761031,2024-05-30,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V760933,2024-05-30,Closed,248 10.04,N/A,Defective Plumbing,Mattapan,02126,18
+V760704,2024-05-29,Closed,4-3,N/A,Building or Use of Premise req,Hyde Park,02136,18
+V760680,2024-05-29,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02114,03
+V760668,2024-05-29,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V760051,2024-05-24,Closed,115.3,N/A,Unlawful Continuance,South End,02118,09
+V760050,2024-05-24,Closed,104.6,N/A,Right of Entry,Boston,02111,03
+V760044,2024-05-24,Closed,102.8,N/A,Maintenance,Brighton,02135,21
+V760017,2024-05-24,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,09
+V760015,2024-05-24,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V760012,2024-05-24,Closed,116,N/A,Unsafe Structures,Roxbury,02119,08
+V759908,2024-05-23,Closed,105.1,N/A,Failure to Obtain Permit,South End,02118,09
+V759386,2024-05-21,Closed,5103.1,N/A,Maintenance,Dorchester,02125,07
+V759330,2024-05-21,Closed,104.6,N/A,Right of Entry,Allston,02134,22
+V759183,2024-05-20,Closed,102.8,N/A,Maintenance,Roxbury,02119,08
+V745166,2024-05-20,Closed,116,N/A,Unsafe Structures,Mattapan,02126,14
+V758815,2024-05-17,Closed,105,N/A,Permits,Dorchester,02122,15
+V758811,2024-05-17,Closed,105,N/A,Permits,Allston,02134,22
+V758802,2024-05-17,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V758796,2024-05-17,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V758779,2024-05-17,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V758763,2024-05-17,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,04
+V758368,2024-05-16,Closed,12.6.4.4,N/A,Inspection of Chimneys,Dorchester,02125,07
+V758476,2024-05-16,Closed,116.1,N/A,Unsafe and Dangerous,Dorchester,02124,16
+V722055,2024-05-15,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V699452,2024-05-15,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V665960,2024-05-15,Closed,116,N/A,Unsafe Structures,Dorchester,02121,12
+V740641,2024-05-15,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,11
+V757320,2024-05-15,Closed,248 CMR,N/A,Mass State Plumbing Code,South Boston,02127,07
+V758366,2024-05-15,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V758264,2024-05-15,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V758240,2024-05-15,Closed,116,N/A,Unsafe Structures,Dorchester,02125,15
+V757991,2024-05-14,Closed,110.1,N/A,Inspections,Roslindale,02131,20
+V757985,2024-05-14,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V757970,2024-05-14,Closed,102.8,N/A,Maintenance,Roslindale,02131,20
+V757698,2024-05-13,Closed,104.6,N/A,Right of Entry,Dorchester,02122,15
+V757687,2024-05-13,Closed,3307.1,N/A,Protection of Adj. Property,Hyde Park,02136,18
+V757667,2024-05-13,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V757659,2024-05-13,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V757652,2024-05-13,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V757400,2024-05-10,Closed,116.1,N/A,Unsafe and Dangerous,Dorchester,02124,14
+V757375,2024-05-10,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V757370,2024-05-10,Closed,107.4,N/A,Failed to comply w permit term,Boston,02115,04
+V757359,2024-05-10,Closed,114.2,N/A,Notice of Violation,Boston,02115,04
+V757351,2024-05-10,Closed,116,N/A,Unsafe Structures,Jamaica Plain,02130,19
+V757334,2024-05-10,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V757311,2024-05-10,Closed,1003.6,N/A,Means of Egress,Mattapan,02126,17
+V757307,2024-05-10,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V757299,2024-05-10,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V757200,2024-05-09,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V757188,2024-05-09,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V757180,2024-05-09,Closed,102.8,N/A,Maintenance,Roxbury,02118,09
+V757179,2024-05-09,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V757174,2024-05-09,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V757144,2024-05-09,Closed,116,N/A,Unsafe Structures,Roslindale,02131,20
+V741771,2024-05-07,Closed,102.8,N/A,Maintenance,Roxbury,02119,09
+V756711,2024-05-07,Closed,107.4,N/A,Failed to comply w permit term,Boston,02215,21
+V756710,2024-05-07,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V756701,2024-05-07,Closed,1001.3.2,N/A,Testing & Certification,Brighton,02135,21
+V756698,2024-05-07,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V756691,2024-05-07,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V756689,2024-05-07,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V756682,2024-05-07,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V756493,2024-05-06,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V756491,2024-05-06,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V756487,2024-05-06,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,10
+V756480,2024-05-06,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V756462,2024-05-06,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V756432,2024-05-06,Closed,102.8,N/A,Maintenance,Boston,02215,05
+V756421,2024-05-06,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V743284,2024-05-03,Closed,1001.3.2,N/A,Testing & Certification,Mission Hill,02120,09
+V742932,2024-05-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V745821,2024-05-03,Closed,102.8,N/A,Maintenance,Boston,02116,05
+V736689,2024-05-03,Closed,1001.3.2,N/A,Testing & Certification,Boston,02108,03
+V699659,2024-05-03,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V692296,2024-05-03,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V673680,2024-05-03,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V673674,2024-05-03,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V756191,2024-05-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V756187,2024-05-03,Open,110.7,N/A,Periodic Inspections,Dorchester,02124,14
+V756185,2024-05-03,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V756131,2024-05-03,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V756120,2024-05-03,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V755735,2024-05-01,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V755733,2024-05-01,Closed,102.8,N/A,Maintenance,Dorchester,02121,13
+V755723,2024-05-01,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V755697,2024-05-01,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V755673,2024-05-01,Closed,116,N/A,Unsafe Structures,Allston,02134,22
+V755665,2024-05-01,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V755653,2024-05-01,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,07
+V755521,2024-04-30,Closed,1001.3.2,N/A,Testing & Certification,Dorchester,02125,07
+V755518,2024-04-30,Closed,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V755511,2024-04-30,Closed,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V755219,2024-04-29,Closed,116.1,N/A,Unsafe and Dangerous,Dorchester,02121,14
+V755213,2024-04-29,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V755206,2024-04-29,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V755200,2024-04-29,Closed,105.1,N/A,Failure to Obtain Permit,Roslindale,02131,18
+V755194,2024-04-29,Closed,110.11,N/A,Deteriorating Agents,Jamaica Plain,02130,19
+V754937,2024-04-26,Closed,107.4,N/A,Failed to comply w permit term,Jamaica Plain,02130,11
+V754931,2024-04-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V754928,2024-04-26,Closed,102.8,N/A,Maintenance,Dorchester,02121,15
+V754921,2024-04-26,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V754502,2024-04-24,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V754497,2024-04-24,Closed,1001.3.2,N/A,Testing & Certification,Roxbury,02119,09
+V725407,2024-04-23,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V754247,2024-04-23,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V754098,2024-04-22,Closed,104.6,N/A,Right of Entry,Boston,02111,03
+V754079,2024-04-22,Closed,102.8,N/A,Maintenance,Boston,02110,03
+V754062,2024-04-22,Closed,MGL Chapter 143 Sec 3L,N/A,Electrical Work w/out a Permit,Dorchester,02124,14
+V754047,2024-04-22,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V754042,2024-04-22,Closed,102.8,N/A,Maintenance,Boston,02108,03
+V753674,2024-04-19,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V753669,2024-04-19,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V753666,2024-04-19,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Dorchester,02124,15
+V753660,2024-04-19,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,15
+V753654,2024-04-19,Closed,102.8,N/A,Maintenance,Dorchester,02124,15
+V753651,2024-04-19,Closed,102.8,N/A,Maintenance,Hyde Park,02136,18
+V753544,2024-04-18,Closed,116.1,N/A,Unsafe and Dangerous,East Boston,02128,01
+V753541,2024-04-18,Closed,116.1,N/A,Unsafe and Dangerous,East Boston,02128,01
+V753523,2024-04-18,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V753521,2024-04-18,Open,3307.1,N/A,Protection of Adj. Property,East Boston,02128,01
+V753516,2024-04-18,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V705096,2024-04-17,Open,102.8,N/A,Maintenance,Dorchester,02124,14
+V705083,2024-04-17,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V484867,2024-04-17,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V692512,2024-04-17,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V668161,2024-04-17,Open,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V672119,2024-04-17,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V658985,2024-04-17,Closed,1030.1,N/A,Emergency Escape & Rescue,Roxbury,02119,12
+V692800,2024-04-17,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Roxbury,02119,12
+V753067,2024-04-16,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V753062,2024-04-16,Closed,102.8,N/A,Maintenance,Allston,02134,21
+V753060,2024-04-16,Closed,116,N/A,Unsafe Structures,Brighton,02135,21
+V753042,2024-04-16,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,15
+V753023,2024-04-16,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,21
+V753021,2024-04-16,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,06
+V753014,2024-04-16,Closed,1003.6,N/A,Means of Egress,Dorchester,02124,14
+V753012,2024-04-16,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V752999,2024-04-16,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V752993,2024-04-16,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V752994,2024-04-16,Closed,210.25 B,N/A,Common area branch circuits,Jamaica Plain,02130,11
+V752989,2024-04-16,Open,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V752983,2024-04-16,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V752968,2024-04-16,Closed,102.8,N/A,Maintenance,Roxbury,02118,08
+V752959,2024-04-16,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V752951,2024-04-16,Closed,116,N/A,Unsafe Structures,Dorchester,02125,15
+V752550,2024-04-11,Closed,104.6,N/A,Right of Entry,Roslindale,02131,19
+V752212,2024-04-10,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V752206,2024-04-10,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V752200,2024-04-10,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V752178,2024-04-10,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V752057,2024-04-10,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V752051,2024-04-09,Open,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V736264,2024-04-09,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V684615,2024-04-09,Closed,107.4,N/A,Failed to comply w permit term,Boston,02113,03
+V736290,2024-04-09,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V673441,2024-04-09,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V742214,2024-04-09,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V743000,2024-04-09,Closed,1001.3.2,N/A,Testing & Certification,Boston,02215,05
+V743131,2024-04-09,Closed,102.8,N/A,Maintenance,Boston,02215,05
+V710690,2024-04-09,Closed,116,N/A,Unsafe Structures,Roslindale,02131,20
+V722063,2024-04-09,Closed,104.6,N/A,Right of Entry,Dorchester,02122,15
+V741117,2024-04-09,Closed,1001.3.3,N/A,,Boston,02115,05
+V739136,2024-04-09,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V751935,2024-04-09,Closed,1020.1,N/A,Exit Passageways,Charlestown,02129,02
+V751946,2024-04-09,Closed,105.1,N/A,Failure to Obtain Permit,Charlestown,02129,02
+V751921,2024-04-09,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V751916,2024-04-09,Open,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V751715,2024-04-08,Closed,116,N/A,Unsafe Structures,Dorchester,02125,07
+V751679,2024-04-08,Closed,102.8,N/A,Maintenance,Mattapan,02136,18
+V751379,2024-04-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V751361,2024-04-05,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,04
+V751360,2024-04-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V751358,2024-04-05,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V751356,2024-04-05,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,04
+V751225,2024-04-04,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V751222,2024-04-04,Closed,116,N/A,Unsafe Structures,Dorchester,02125,15
+V751206,2024-04-04,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V751204,2024-04-04,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V751195,2024-04-04,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V751058,2024-04-03,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,19
+V751057,2024-04-03,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V751051,2024-04-03,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V751029,2024-04-03,Open,1020.1,N/A,Exit Passageways,Charlestown,02129,02
+V751026,2024-04-03,Closed,102.8,N/A,Maintenance,Boston,02108,05
+V751016,2024-04-03,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,05
+V751013,2024-04-03,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V750999,2024-04-03,Closed,Art. 248 CMR,N/A,Permits to perform gas fitting,Allston,02134,21
+V704323,2024-04-01,Closed,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V726166,2024-04-01,Closed,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V741124,2024-04-01,Closed,110.7,N/A,Periodic Inspections,Boston,02115,05
+V750602,2024-04-01,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V750599,2024-04-01,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V750595,2024-04-01,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V750592,2024-04-01,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V750579,2024-04-01,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,12
+V750572,2024-04-01,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V750499,2024-04-01,Closed,116,N/A,Unsafe Structures,Brighton,02135,22
+V750465,2024-04-01,Closed,1012.1,N/A,Handrails/safety,Roxbury,02118,08
+V750459,2024-04-01,Closed,1030.1,N/A,Emergency Escape & Rescue,Roxbury,02118,08
+V750451,2024-04-01,Closed,907.2,N/A,Fire Alarm & Detection Systems,Roxbury,02118,08
+V750144,2024-03-29,Closed,501.3.1,N/A,Location of Exhaust Outlets,East Boston,02128,01
+V750181,2024-03-29,Open,105.1,N/A,Failure to Obtain Permit,Boston,02111,03
+V750171,2024-03-29,Closed,102.8,N/A,Maintenance,Dorchester,02122,15
+V750157,2024-03-29,Closed,705.2,N/A,Projections,East Boston,02128,01
+V750140,2024-03-29,Closed,804.3.3,N/A,Termination,East Boston,02128,01
+V749744,2024-03-27,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V749548,2024-03-27,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V749541,2024-03-26,Closed,143 sec 3L,N/A,Working Without Electrical Permit,Hyde Park,02136,18
+V749453,2024-03-26,Closed,116,N/A,Unsafe Structures,Dorchester,02125,08
+V749441,2024-03-26,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V749433,2024-03-26,Closed,102.8,N/A,Maintenance,Roslindale,02131,20
+V749233,2024-03-25,Closed,248 CMR,N/A,Mass State Plumbing Code,Mission Hill,02120,10
+V749231,2024-03-25,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V749226,2024-03-25,Closed,Chapter 143 Sec L,N/A,Working Without a Permit,Mission Hill,02120,10
+V749221,2024-03-25,Closed,248 CMR,N/A,Mass State Plumbing Code,Mission Hill,02120,10
+V749211,2024-03-25,Closed,248 CMR,N/A,Mass State Plumbing Code,Mission Hill,02120,10
+V749206,2024-03-25,Closed,248 CMR,N/A,Mass State Plumbing Code,Mission Hill,02120,10
+V749202,2024-03-25,Closed,Chapter 143 Sec L,N/A,Working Without a Permit,Mission Hill,02120,10
+V749193,2024-03-25,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V749187,2024-03-25,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,07
+V749178,2024-03-25,Closed,105.1,N/A,Failure to Obtain Permit,Allston,02134,22
+V749140,2024-03-25,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V748894,2024-03-22,Closed,116,N/A,Unsafe Structures,Jamaica Plain,02130,11
+V720749,2024-03-22,Open,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,11
+V748588,2024-03-21,Closed,107.6,N/A,Failure to comply w permits,Dorchester,02124,14
+V748394,2024-03-20,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,08
+V748379,2024-03-20,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02113,03
+V748368,2024-03-20,Closed,104.6,N/A,Right of Entry,Dorchester,02125,13
+V748366,2024-03-20,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V748362,2024-03-20,Closed,102.8,N/A,Maintenance,Boston,02115,05
+V747926,2024-03-18,Closed,5103.1,N/A,Maintenance,Boston,02199,04
+V723737,2024-03-18,Open,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V747810,2024-03-18,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V747803,2024-03-18,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V747551,2024-03-15,Closed,116,N/A,Unsafe Structures,Roxbury,02119,08
+V747547,2024-03-15,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V747513,2024-03-15,Closed,111.1,N/A,Certificate of Occupancy,South Boston,02127,07
+V747502,2024-03-15,Closed,107.4,N/A,Failed to comply w permit term,Mission Hill,02120,10
+V747471,2024-03-15,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V747403,2024-03-14,Closed,116,N/A,Unsafe Structures,Roxbury,02118,08
+V747317,2024-03-14,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V747313,2024-03-14,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,12
+V747302,2024-03-14,Closed,102.8,N/A,Maintenance,Dorchester,02124,16
+V746125,2024-03-13,Closed,102.8,N/A,Maintenance,Boston,02115,04
+V746122,2024-03-13,Closed,116,N/A,Unsafe Structures,Boston,02111,03
+V723752,2024-03-13,Closed,4-3,N/A,Building or Use of Premise req,Dorchester,02125,13
+V701854,2024-03-13,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V723750,2024-03-13,Open,111.1,N/A,Certificate of Occupancy,South Boston,02127,06
+V740633,2024-03-13,Open,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V740634,2024-03-13,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V738821,2024-03-13,Open,116,N/A,Unsafe Structures,Mission Hill,02120,10
+V738788,2024-03-13,Open,105.1,N/A,Failure to Obtain Permit,Mission Hill,02120,10
+V745791,2024-03-12,Closed,102.8,N/A,Maintenance,Boston,02199,04
+V745769,2024-03-12,Closed,116,N/A,Unsafe Structures,Boston,02116,05
+V745742,2024-03-12,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V745727,2024-03-12,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V745681,2024-03-12,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V745486,2024-03-11,Closed,102.8,N/A,Maintenance,Brighton,02135,22
+V745481,2024-03-11,Closed,102.8,N/A,Maintenance,Mission Hill,02120,09
+V745452,2024-03-11,Closed,102.8,N/A,Maintenance,Boston,02114,03
+V745447,2024-03-11,Closed,107.4,N/A,Failed to comply w permit term,East Boston,02128,01
+V745440,2024-03-11,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V745145,2024-03-08,Closed,116,N/A,Unsafe Structures,Roxbury,02119,12
+V744999,2024-03-07,Closed,Article 4 Section 4-3,N/A,No use of premises permit:,Roxbury,02118,09
+V744980,2024-03-07,Closed,116,N/A,Unsafe Structures,Mattapan,02126,17
+V743758,2024-03-05,Closed,102.8,N/A,Maintenance,Boston,02110,03
+V744421,2024-03-05,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,04
+V744275,2024-03-04,Closed,110.7,N/A,Periodic Inspections,Mission Hill,02120,10
+V744185,2024-03-04,Closed,104.6,N/A,Right of Entry,Roxbury,02119,12
+V744156,2024-03-04,Closed,105.6,N/A,Suspension or Revocation,West Roxbury,02132,20
+V743950,2024-03-01,Closed,116,N/A,Unsafe Structures,South Boston,02127,06
+V743752,2024-02-29,Closed,1804.2,N/A,Underpinning,Charlestown,02129,02
+V743693,2024-02-29,Closed,105.1,N/A,Failure to Obtain Permit,Charlestown,02129,02
+V743657,2024-02-29,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V743618,2024-02-29,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V743612,2024-02-29,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V743397,2024-02-28,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V720753,2024-02-27,Closed,102.8,N/A,Maintenance,Boston,02116,05
+V690475,2024-02-27,Closed,1001.3.2,N/A,Testing & Certification,South Boston,02127,07
+V743152,2024-02-27,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V742992,2024-02-26,Closed,102.8,N/A,Maintenance,Charlestown,02129,02
+V742979,2024-02-26,Closed,111.1,N/A,Certificate of Occupancy,Dorchester,02124,14
+V742959,2024-02-26,Closed,116,N/A,Unsafe Structures,Dorchester,02124,14
+V742956,2024-02-26,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V742938,2024-02-26,Closed,102.8,N/A,Maintenance,Boston,02215,05
+V742933,2024-02-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V742564,2024-02-23,Closed,102.8,N/A,Maintenance,Jamaica Plain,02130,19
+V742552,2024-02-23,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V742548,2024-02-23,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V742445,2024-02-22,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V742211,2024-02-21,Closed,102.8,N/A,Maintenance,Dorchester,02122,16
+V742207,2024-02-21,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V699507,2024-02-21,Closed,3307.1,N/A,Protection of Adj. Property,Brighton,02135,22
+V704271,2024-02-21,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V707988,2024-02-21,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V687156,2024-02-21,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V722987,2024-02-21,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V738554,2024-02-21,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V711179,2024-02-21,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V742045,2024-02-21,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V741818,2024-02-20,Closed,102.8,N/A,Maintenance,Dorchester,02125,15
+V741813,2024-02-20,Closed,102.8,N/A,Maintenance,Roxbury,02119,12
+V741807,2024-02-20,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V741793,2024-02-20,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V741427,2024-02-20,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,06
+V741426,2024-02-16,Closed,105.1,N/A,Failure to Obtain Permit,Roxbury,02118,04
+V741307,2024-02-15,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V741298,2024-02-15,Open,102.8,N/A,Maintenance,Dorchester,02121,14
+V741294,2024-02-15,Closed,116,N/A,Unsafe Structures,Dorchester,02121,14
+V741114,2024-02-14,Open,1001.3.2,N/A,Testing & Certification,Boston,02116,05
+V741111,2024-02-14,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V741109,2024-02-14,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V741107,2024-02-14,Closed,1001.3.2,N/A,Testing & Certification,Boston,02114,05
+V741103,2024-02-14,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V741060,2024-02-14,Closed,1001.3.2,N/A,Testing & Certification,Allston,02134,22
+V721438,2024-02-14,Closed,102.8,N/A,Maintenance,Boston,02114,05
+V740589,2024-02-12,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V740581,2024-02-12,Closed,1008.1.9.3,N/A,Locks and Latches,Jamaica Plain,02130,10
+V740577,2024-02-12,Closed,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V740568,2024-02-12,Closed,116,N/A,Unsafe Structures,Hyde Park,02136,18
+V676769,2024-02-12,Open,102.8,N/A,Maintenance,Roxbury,02119,11
+V710430,2024-02-12,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02116,05
+V740254,2024-02-09,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V740251,2024-02-09,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,11
+V739244,2024-02-09,Closed,105,N/A,Permits,Brighton,02135,22
+V739146,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739145,2024-02-08,Open,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739139,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739138,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739137,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739135,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739130,2024-02-08,Open,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739125,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739120,2024-02-08,Closed,1001.3.2,N/A,Testing & Certification,Boston,02115,05
+V739118,2024-02-08,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,05
+V738777,2024-02-07,Closed,105.1,N/A,Failure to Obtain Permit,South Boston,02127,07
+V738752,2024-02-07,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V738749,2024-02-07,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V738748,2024-02-07,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V738740,2024-02-07,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V738735,2024-02-07,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V738723,2024-02-07,Open,105.1,N/A,Failure to Obtain Permit,Hyde Park,02136,18
+V609876,2024-02-06,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V703432,2024-02-06,Closed,116,N/A,Unsafe Structures,Mattapan,02126,18
+V715543,2024-02-06,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V702318,2024-02-06,Closed,3310.2,N/A,Maintenance of Means of Egress,Roslindale,02131,18
+V709432,2024-02-06,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V709441,2024-02-06,Closed,3307.1,N/A,Protection of Adj. Property,Mattapan,02126,18
+V708088,2024-02-06,Closed,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,18
+V716088,2024-02-06,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V716053,2024-02-06,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02121,14
+V588370,2024-02-06,Open,105.1,N/A,Failure to Obtain Permit,Roxbury,02119,11
+V592036,2024-02-06,Open,107.4,N/A,Failed to comply w permit term,Roxbury,02119,11
+V599270,2024-02-06,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V738385,2024-02-06,Closed,102.8,N/A,Maintenance,Mission Hill,02115,10
+V738256,2024-02-05,Closed,105.1,N/A,Failure to Obtain Permit,Brighton,02135,21
+V738250,2024-02-05,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,19
+V679074,2024-02-05,Closed,116,N/A,Unsafe Structures,Dorchester,02122,15
+V709059,2024-02-05,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V691831,2024-02-05,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V721070,2024-02-05,Closed,116,N/A,Unsafe Structures,Dorchester,02125,13
+V718392,2024-02-05,Closed,903.5,N/A,Fire Protection Systems,Dorchester,02121,14
+V658965,2024-02-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V598497,2024-02-05,Closed,104.6,N/A,Right of Entry,Dorchester,02124,17
+V705125,2024-02-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V705110,2024-02-05,Closed,110.5,N/A,Inspections,Dorchester,02124,17
+V674243,2024-02-05,Closed,116,N/A,Unsafe Structures,Dorchester,02122,16
+V708104,2024-02-05,Closed,105.1,N/A,Failure to Obtain Permit,Boston,02115,05
+V737736,2024-02-01,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V737658,2024-02-01,Closed,111.1,N/A,Certificate of Occupancy,Hyde Park,02136,18
+V737653,2024-02-01,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V737651,2024-02-01,Open,105.1,N/A,Failure to Obtain Permit,Mattapan,02126,17
+V737468,2024-01-31,Closed,1001.3.2,N/A,Testing & Certification,Boston,02113,03
+V737465,2024-01-31,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V737243,2024-01-30,Closed,107.4,N/A,Failed to comply w permit term,Jamaica Plain,02130,19
+V737239,2024-01-30,Closed,111.1,N/A,Certificate of Occupancy,Roxbury,02119,08
+V736603,2024-01-30,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V737190,2024-01-30,Closed,102.8,N/A,Maintenance,Dorchester,02125,13
+V737184,2024-01-30,Closed,1001.3.2,N/A,Testing & Certification,Boston,02108,03
+V736700,2024-01-26,Closed,102.8,N/A,Maintenance,Mattapan,02126,17
+V736699,2024-01-26,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,17
+V736697,2024-01-26,Closed,105.1,N/A,Failure to Obtain Permit,West Roxbury,02132,20
+V736605,2024-01-25,Closed,1001.3.2,N/A,Testing & Certification,Boston,02109,03
+V736329,2024-01-24,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02125,13
+V736322,2024-01-24,Open,107.4,N/A,Failed to comply w permit term,Mattapan,02126,18
+V736311,2024-01-24,Open,310.1,N/A,Emergency Openings,Mattapan,02126,18
+V736268,2024-01-24,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V736267,2024-01-24,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V736258,2024-01-24,Closed,1001.3.2,N/A,Testing & Certification,Boston,02111,03
+V736054,2024-01-23,Closed,102.8,N/A,Maintenance,South Boston,02127,07
+V735863,2024-01-22,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V735839,2024-01-22,Closed,4-3,N/A,Building or Use of Premise req,Dorchester,02122,16
+V709083,2024-01-18,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,16
+V727128,2024-01-18,Closed,116,N/A,Unsafe Structures,Boston,02116,04
+V726653,2024-01-17,Closed,110.11,N/A,Deteriorating Agents,West Roxbury,02132,20
+V726631,2024-01-17,Closed,102.8,N/A,Maintenance,West Roxbury,02132,20
+V726456,2024-01-16,Closed,2.04(3),N/A,Permits,Roslindale,02131,18
+V726438,2024-01-16,Closed,110.14,N/A,Electrical Connections,Roslindale,02131,18
+V726405,2024-01-16,Closed,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V726186,2024-01-12,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V726136,2024-01-12,Closed,116,N/A,Unsafe Structures,East Boston,02128,01
+V726017,2024-01-11,Closed,102.8,N/A,Maintenance,Mission Hill,02120,10
+V725724,2024-01-10,Closed,102.8,N/A,Maintenance,Dorchester,02124,17
+V725354,2024-01-09,Closed,116,N/A,Unsafe Structures,Dorchester,02124,17
+V724069,2024-01-08,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V724067,2024-01-08,Closed,102.8,N/A,Maintenance,East Boston,02128,01
+V723795,2024-01-05,Closed,105.1,N/A,Failure to Obtain Permit,Charlestown,02129,02
+V723793,2024-01-05,Closed,102.8,N/A,Maintenance,Dorchester,02126,14
+V723790,2024-01-05,Closed,102.2.2,N/A,Municipal Bylaws or Ordinances,Boston,02108,03
+V723743,2024-01-05,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02122,15
+V667693,2024-01-04,Closed,3307.1,N/A,Protection of Adj. Property,Brighton,02135,22
+V723394,2024-01-03,Closed,102.8,N/A,Maintenance,South Boston,02127,06
+V600357,2024-01-03,Closed,3310.2,N/A,Maintenance of Means of Egress,East Boston,02128,01
+V723260,2024-01-03,Closed,102.8,N/A,Maintenance,Boston,02113,03
+V723255,2024-01-03,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V723249,2024-01-03,Closed,102.8,N/A,Maintenance,Brighton,02135,21
+V723227,2024-01-03,Closed,105.1,N/A,Failure to Obtain Permit,Dorchester,02124,14
+V723093,2024-01-02,Closed,105.1,N/A,Failure to Obtain Permit,Jamaica Plain,02130,10
+V723010,2024-01-02,Closed,102.8,N/A,Maintenance,BOSTON,02116,04
+V723024,2024-01-02,Closed,102.8,N/A,Maintenance,Dorchester,02121,12
+V723003,2024-01-02,Closed,102.8,N/A,Maintenance,Mattapan,02126,18
+V722998,2024-01-02,Closed,102.8,N/A,Maintenance,Dorchester,02121,14
+V722994,2024-01-02,Closed,102.8,N/A,Maintenance,Roxbury,02118,03
+V722982,2024-01-02,Closed,3307.1,N/A,Protection of Adj. Property,Roxbury,02119,08
+V709051,2024-01-02,Open,105.1,N/A,Failure to Obtain Permit,East Boston,02128,01
+V707982,2024-01-02,Closed,501.2.1,N/A,Location of Exhaust Outlets,Charlestown,02129,02
