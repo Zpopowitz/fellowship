@@ -56,8 +56,17 @@ def _passable_for_planning(known: np.ndarray) -> np.ndarray:
     return known != 2
 
 
-def legal_mask(known: np.ndarray, pos: tuple[int, int]) -> np.ndarray:
-    """mask[a] True if action a is legal (on-map and target not known-blocked)."""
+def legal_mask(known: np.ndarray, pos: tuple[int, int],
+               known_fire: np.ndarray | None = None,
+               known_flood: np.ndarray | None = None) -> np.ndarray:
+    """mask[a] True if action a is legal.
+
+    A move is legal if the target is on-map and not known-blocked. Cells the
+    robot KNOWS are on fire or flooded are illegal too — a drone must not choose
+    to step into fire it can see, exactly like a wall. Stay (action 0) is always
+    legal (a drone may hold position; it is only unsafe if it is already in fire,
+    which the env handles).
+    """
     H, W = known.shape
     y, x = pos
     mask = np.zeros(N_ACTIONS, dtype=bool)
@@ -66,8 +75,15 @@ def legal_mask(known: np.ndarray, pos: tuple[int, int]) -> np.ndarray:
         if a == 0:  # stay is always legal
             mask[a] = True
             continue
-        if 0 <= ty < H and 0 <= tx < W and known[ty, tx] != 2:
-            mask[a] = True
+        if not (0 <= ty < H and 0 <= tx < W):
+            continue
+        if known[ty, tx] == 2:
+            continue
+        if known_fire is not None and known_fire[ty, tx]:
+            continue
+        if known_flood is not None and known_flood[ty, tx]:
+            continue
+        mask[a] = True
     return mask
 
 
@@ -76,7 +92,9 @@ def compute_features(known: np.ndarray, pos: tuple[int, int],
                      survivors_known: list[tuple[int, int]],
                      visits: np.ndarray,
                      fire_danger: np.ndarray | None = None,
-                     flood_danger: np.ndarray | None = None):
+                     flood_danger: np.ndarray | None = None,
+                     known_fire: np.ndarray | None = None,
+                     known_flood: np.ndarray | None = None):
     """Return (features[5,9], mask[5]) for a robot.
 
     known: uint8 [H,W] robot's merged knowledge map.
@@ -95,7 +113,7 @@ def compute_features(known: np.ndarray, pos: tuple[int, int],
     """
     H, W = known.shape
     y, x = pos
-    mask = legal_mask(known, pos)
+    mask = legal_mask(known, pos, known_fire=known_fire, known_flood=known_flood)
     feats = np.zeros((N_ACTIONS, N_FEATURES), dtype=np.float64)
 
     passable = _passable_for_planning(known)

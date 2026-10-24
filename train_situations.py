@@ -43,11 +43,11 @@ SITUATION_LAYOUTS = {
 
 SITUATION_ENV = {
     "indoor": dict(hazards=True, sensing="ir_gas", n_fire_seeds=2, flood_frac=0.0,
-                   fire_spread_p=0.08),
+                   fire_spread_p=0.04),
     "outdoor": dict(hazards=True, sensing="ir_gas", n_fire_seeds=3, flood_frac=0.03,
-                    fire_spread_p=0.08),
+                    fire_spread_p=0.04),
     "flood": dict(hazards=True, sensing="ir_gas", n_fire_seeds=1, flood_frac=0.12,
-                  fire_spread_p=0.06),
+                  fire_spread_p=0.04),
 }
 
 WARM_START = {"indoor": "indoor", "outdoor": "outdoor", "flood": "flood"}

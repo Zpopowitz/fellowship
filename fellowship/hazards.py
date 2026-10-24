@@ -177,37 +177,45 @@ def thermal_ir_view(fire: np.ndarray, blocked: np.ndarray, pos, rng=None,
 
 def gas_plume(fire: np.ndarray, pos, wind=(0, 0), gas_range: int = GAS_RANGE,
               rng=None) -> np.ndarray:
-    """Smoke/particulate confidence a drone at ``pos`` would sense per cell.
+    """Smoke/particulate reading a drone at ``pos`` would sense, PER CELL.
 
-    Models diffusion: each cell's reading grows with how much fire is nearby and
-    shrinks with distance, out to ``gas_range``. ``wind`` = (dy, dx) biases the
-    plume downwind, so a drone downwind of a fire smells it from farther. Returns
-    a float grid in [0,1]. Fuzzy by design: it signals 'fire that way', not an
-    exact cell.
+    For every cell within ``gas_range`` of the drone, the reading is set from
+    THAT CELL's wind-shifted distance to the nearest fire — not the drone's.
+    So the field is a real gradient: a cell closer to the fire reads higher, and
+    stepping toward the fire raises the reading. ``wind`` = (dy, dx) is the smoke
+    drift; a cell downwind of a fire (the fire's smoke blows onto it) reads as if
+    it were closer. Returns a float grid in [0,1], 0 where no fire is in reach.
+
+    This fixes the earlier symmetric bug where every contribution was written to
+    the drone's own cell, which made "toward fire" and "away from fire" — and
+    "stay" — all read the same.
     """
     fire = np.asarray(fire, dtype=bool)
     H, W = fire.shape
     out = np.zeros((H, W), dtype=np.float64)
-    if not fire.any():
+    fires = np.argwhere(fire)
+    if len(fires) == 0:
         return out
     y, x = pos
     wy, wx = wind
-    for fy, fx in np.argwhere(fire):
-        fy, fx = int(fy), int(fx)
-        # downwind distance: subtract movement in the wind direction
-        ddy = (fy - y) - wy
-        ddx = (fx - x) - wx
-        dist = max(abs(fy - y), abs(fx - x))
-        if dist > gas_range:
-            continue
-        eff = (abs(ddy) + abs(ddx)) / 2.0  # wind-shifted distance
-        val = max(0.0, 1.0 - eff / (gas_range + 1))
-        # accumulate (more fire nearby -> stronger smell), clamp at 1
-        out[y, x] = min(1.0, out[y, x] + val)
-    # spread the reading as a small local field so the drone has a gradient
-    field = out.copy()
-    reach = out > 0
-    for step in range(1, 4):
-        reach = _dilate(reach)
-        field = np.maximum(field, reach * (out.max() * (1.0 - step / 4.0)))
-    return field
+    # evaluate only cells the drone could sense: within gas_range of the drone
+    y0, y1 = max(0, y - gas_range), min(H, y + gas_range + 1)
+    x0, x1 = max(0, x - gas_range), min(W, x + gas_range + 1)
+    for cy in range(y0, y1):
+        for cx in range(x0, x1):
+            if max(abs(cy - y), abs(cx - x)) > gas_range:
+                continue
+            best = 0.0
+            for fy, fx in fires:
+                fy, fx = int(fy), int(fx)
+                # wind-shifted distance from THIS cell to the fire: smoke drifts
+                # downwind, so subtract the wind vector from the cell->fire offset.
+                ddy = (fy - cy) - wy
+                ddx = (fx - cx) - wx
+                eff = (abs(ddy) + abs(ddx)) / 2.0
+                val = 1.0 - eff / (gas_range + 1)
+                if val > best:
+                    best = val
+            if best > 0.0:
+                out[cy, cx] = min(1.0, best)
+    return out

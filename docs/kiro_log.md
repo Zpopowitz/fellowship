@@ -24,6 +24,13 @@ Config: `.kiro/settings/mcp.json` (no secrets in the file; the GitHub token is r
 - **Test 2 (no false blocked)**: aftershocks turn open cells into walls mid-episode. A robot may legitimately hold a stale "blocked" memory only for a cell that is actually blocked now; the invariant checks against the *current* `open_grid`, so stale knowledge of a now-blocked cell is allowed and real false-blocking is caught.
 - **PettingZoo parallel_api_test**: initially the env kept `self.agents` populated after the terminal step; the API test expects `agents` to empty once all agents are done. Fix: clear `self.agents = []` when `done`.
 
+## Hazard bugs (found while making the gym submission-ready)
+- **Gas plume had no direction** (`hazards.gas_plume`): every fire's contribution was written to the drone's OWN cell, so the field was symmetric — one step toward the fire and one step away read the same, and "stay" looked most dangerous. Fix: each cell now gets its own reading from that cell's wind-shifted distance to the nearest fire. Tests: `test_gas_reading_higher_toward_fire`, `test_gas_wind_toward_drone_raises_reading_at_drone`.
+- **Drones walked into fire they could see**: known-fire cells were still legal moves. Fix: `features.legal_mask` now treats `known_fire` (and `known_flood`) cells as illegal, like walls; stay stays legal. Test: `test_known_fire_cell_is_illegal_move`.
+- **Decisions used stale fire**: fire spread AFTER sensing in `step()`, so the observation handed to the policy missed cells that had just caught fire. Fix: after `spread_fire`, re-sense every active drone and re-`_communicate()` before building observations.
+- **Disabled drones still sensed and relayed**: a drone lost to fire kept sensing, relaying maps, rescuing and counting toward crowding. Fix: `_sense` and `_rescue` skip disabled drones, and `comms.link_components` takes an `active` mask so a dead drone links to no one. Test: `test_disabled_drone_adds_no_new_knowledge`.
+- **Fire spread too fast**: at the old `fire_spread_p=0.15`, ~36% of open cells burned by episode end and the swarm was wiped out every run. Tuned to 0.04 (~17% burned on held-out `sar` maps), documented in `product.md`.
+
 ## Validation so far
 - `parallel_api_test` passes (100 cycles).
 - 10/10 property tests pass; one 160-step, 4-robot episode runs in ~0.35s (target < 1s).

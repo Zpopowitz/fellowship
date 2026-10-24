@@ -1,6 +1,7 @@
 Fellowship is a multi-agent search-and-rescue training environment built from real places: the Boston street grid and procedurally generated damaged buildings (homes, offices, data centers, factory floors). It ships with baselines and a trained swarm policy.
 Robots are decentralized: no global map, no central planner. Each robot knows only what it has sensed itself plus what reached it from teammates within radio range (relayed through chains of robots).
-The world changes during an episode: aftershocks block random cells.
-Every reported result must come from held-out maps the policy never trained on, with the number of episodes and the spread (std) stated.
-Be honest about limits: grid world, not real physics; survivors placed at random; floorplans are procedural, not scanned buildings.
+The world changes during an episode: aftershocks block random cells. Hazards (fire and flood) can also be enabled: fire spreads into neighbouring open cells each step and disables any drone that enters it; flood is static water that blocks movement. Drones sense fire by thermal IR (line of sight, blocked by walls) and smell smoke by a gas/particulate plume that drifts downwind.
+Fire spread rate: the default `fire_spread_p` is 0.04. It was tuned on held-out `sar` maps so that under 25% of open cells are burning at episode end (measured ~17% at p=0.04, versus 36% at the old p=0.15); a faster fire outran the drones and made every episode a near-total loss, which is not a useful training signal.
+Every reported result must come from held-out maps the policy never trained on (seeds 5000 and up), with the number of episodes and the spread (std) stated.
+Be honest about limits: grid world, not real physics; survivors placed at random (or biased toward real fire density on `sar` maps); floorplans are procedural, not scanned buildings; fire incidents are geocoded only to ZIP centroid.
 Data credit: Moving AI Boston_0_256 grid (Sturtevant, "Benchmarks for Grid-Based Pathfinding", IEEE TCIAIG 2012).
