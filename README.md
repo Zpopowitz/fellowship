@@ -1,4 +1,4 @@
-# Fellowship Gym
+# Fellowship Gym (1st Place Hackachussets: Robotics)
 
 ![swarm](results/swarm.gif)
 
